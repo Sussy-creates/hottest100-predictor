@@ -1,83 +1,80 @@
-kaggle Traceback (most recent call last):
-  File "/opt/hostedtoolcache/Python/3.12.16/x64/bin/kaggle", line 3, in <module>
-    from kaggle.cli import main
-  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/kaggle/__init__.py", line 3, in <module>
-    from kaggle.api.kaggle_api_extended import KaggleApi
-  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/kaggle/api/kaggle_api_extended.py", line 266, in <module>
-    from ..models.upload_file import UploadFile
-  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/kaggle/models/upload_file.py", line 22, in <module>
-    import six
-ModuleNotFoundError: No module named 'six'
+kaggle Kaggle CLI 2.2.5
 token present: yes
 
 ### search: spotify charts
-Traceback (most recent call last):
-  File "/opt/hostedtoolcache/Python/3.12.16/x64/bin/kaggle", line 3, in <module>
-    from kaggle.cli import main
-  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/kaggle/__init__.py", line 3, in <module>
-    from kaggle.api.kaggle_api_extended import KaggleApi
-  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/kaggle/api/kaggle_api_extended.py", line 266, in <module>
-    from ..models.upload_file import UploadFile
-  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/kaggle/models/upload_file.py", line 22, in <module>
-    import six
-ModuleNotFoundError: No module named 'six'
+ref,title,size,lastUpdated,downloadCount,voteCount,usabilityRating
+nelgiriyewithana/top-spotify-songs-2023,Most Streamed Spotify Songs 2023 ,48187,2023-08-26 11:04:57.730000,135593,2080,1
+dhruvildave/spotify-charts,Spotify Charts,991225045,2022-02-09 19:49:08.213000,29061,402,1
+abdulszz/spotify-most-streamed-songs,Spotify Most Streamed Songs,61429,2024-09-07 18:23:14.577000,27111,271,1
+arnavvvvv/spotify-music,Top Spotify Songs,48205,2024-03-06 05:20:29.873000,15096,149,1
+sashankpillai/spotify-top-200-charts-20202021,Spotify Top 200 Charts (2020-2021),168465,2021-08-16 05:38:21.057000,13030,147,0.8235294
+joebeachcapital/top-10000-spotify-songs-1960-now,Top 10000 Songs on Spotify 1950-Now,4968137,2024-10-16 05:28:49.703000,20093,117,1
+pepepython/spotify-huge-database-daily-charts-over-3-years,Spotify HUGE database - daily charts over 3 years,200520481,2021-06-27 13:23:37.137000,5947,98,0.85294116
+sunnykakar/spotify-charts-all-audio-data,Spotify Charts (All Audio Data),3050767414,2024-04-15 20:15:15.103000,4687,73,1
+julianoorlandi/spotify-top-songs-and-audio-features,Spotify Top Songs and Audio Features,538361,2024-03-18 12:49:50.560000,4031,64,1
+sveta151/spotify-top-chart-songs-2022,Spotify top chart songs 2022,46391,2022-09-05 07:59:27.923000,4586,63,1
+ranaghulamnabi/spotify-songs-analytics-dataset,Spotify Songs Analytics Dataset,48205,2025-12-03 09:34:57.017000,2957,63,1
+rajatsurana979/most-streamed-spotify-songs-2023,Most Streamed Spotify Songs 2023,48187,2023-10-07 12:25:55.757000,2686,62,1
+jfreyberg/spotify-chart-data,Spotify tracks chart dataset (2014-2022),63851981,2023-04-09 00:08:54.623000,4620,61,1
+aliiihussain/spotify-analysis-and-visualization,Spotify Analysis & Visualization,2369,2025-12-02 19:08:42.523000,2482,61,1
+jfreyberg/spotify-artist-feature-collaboration-network,Spotify Artist Feature Collaboration Network,15330572,2022-10-10 14:11:34.440000,3877,54,0.9705882
+abdullahmeo/spotify-analysis-and-visualization,Spotify Analysis & Visualization,2369,2025-12-02 21:42:29.837000,2161,46,1
+thedevastator/predicting-artists-success,Predicting Artists Success,49850218,2022-11-02 18:16:02.263000,1436,45,1
+thedevastator/popularity-of-spotify-top-tracks-by-genre,Popularity of Spotify Top Tracks by Genre,9324456,2022-10-18 17:55:53.270000,1712,42,0.8235294
+thedevastator/billboard-hot-100-audio-features,Billboard Hot weekly charts,14075422,2023-12-04 04:05:08.157000,2872,42,1
+mashathebear/spotify-top-10-hits-2024,Spotify Top 10 Hits 2024,423,2024-10-27 05:09:40.773000,1743,39,0.8235294
 
 ### search: spotify daily charts
-Traceback (most recent call last):
-  File "/opt/hostedtoolcache/Python/3.12.16/x64/bin/kaggle", line 3, in <module>
-    from kaggle.cli import main
-  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/kaggle/__init__.py", line 3, in <module>
-    from kaggle.api.kaggle_api_extended import KaggleApi
-  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/kaggle/api/kaggle_api_extended.py", line 266, in <module>
-    from ..models.upload_file import UploadFile
-  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/kaggle/models/upload_file.py", line 22, in <module>
-    import six
-ModuleNotFoundError: No module named 'six'
+ref,title,size,lastUpdated,downloadCount,voteCount,usabilityRating
+dhruvildave/spotify-charts,Spotify Charts,991225045,2022-02-09 19:49:08.213000,29061,402,1
+pepepython/spotify-huge-database-daily-charts-over-3-years,Spotify HUGE database - daily charts over 3 years,200520481,2021-06-27 13:23:37.137000,5947,98,0.85294116
+sunnykakar/spotify-charts-all-audio-data,Spotify Charts (All Audio Data),3050767414,2024-04-15 20:15:15.103000,4687,73,1
+samayashar/billboard-top-songs,Billboard Top Songs 🎶,147043,2025-03-19 12:05:49.107000,2379,33,1
+jonassouza872/christmas-hits-daily-streaming-history-2017-2025,Christmas Hits Daily Streaming History (2017-2025),4068,2025-11-29 19:14:33.463000,1607,30,1
+gonzalopezgil/spotify-charts-daily-updated,Spotify Charts Daily Updated,4734864868,2026-11-21 19:55:04.290000,3430,28,1
+davafons/top-100-spotify-songs-with-audio-feat-20172018,Top 100 Spotify songs with audio features (17-18),62827273,2019-05-17 11:34:27.270000,483,6,0.3529412
+krisnarenaldi/spotify-chart-indonesia-2020,Spotify Chart Indonesia 2020,3278320,2021-10-28 06:49:54.797000,188,5,0.2647059
+koraybayso/spotify-charts-but-only-turkish-songs,Spotify Charts Turkish,8226200,2023-03-09 13:10:48.263000,127,5,0.5882353
+sunnykakar/spotify-audio-features,Spotify Audio Features,1007159585,2024-04-22 06:14:42.440000,98,5,0.4117647
+lelynurimah/spotify-huge-database-daily-charts-over-3years,Spotify_database Learning,200520481,2023-07-18 13:08:10.960000,52,3,0.29411766
+zaldyjr/myx-daily-top-10,MYX Daily Top 10,87482,2023-03-20 11:34:45.697000,51,1,1
+emirdm/most-streamed-songs-on-spotify-turkey-top-100,Most Streamed Songs on Spotify Turkey (Top 100),2911,2025-05-29 22:33:04.223000,26,1,0.64705884
+miz100010/spotify-dataset-for-2022-japan-daily-top-200,Spotify Dataset for 2022 Japan Daily Top 200,4425538,2023-12-05 12:40:40.037000,269,1,0.4117647
+julianalbarra547/spotify-daily-charts-optimized-version,Spotify Daily Charts - Optimized Version,1265522927,2026-03-06 20:38:58.860000,30,0,0.5294118
 
 ### search: spotify australia
-Traceback (most recent call last):
-  File "/opt/hostedtoolcache/Python/3.12.16/x64/bin/kaggle", line 3, in <module>
-    from kaggle.cli import main
-  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/kaggle/__init__.py", line 3, in <module>
-    from kaggle.api.kaggle_api_extended import KaggleApi
-  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/kaggle/api/kaggle_api_extended.py", line 266, in <module>
-    from ..models.upload_file import UploadFile
-  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/kaggle/models/upload_file.py", line 22, in <module>
-    import six
-ModuleNotFoundError: No module named 'six'
+ref,title,size,lastUpdated,downloadCount,voteCount,usabilityRating
+pratyushpuri/multilingual-mobile-app-reviews-dataset-2025,Multilingual Mobile App Review Dataset Sept 2025,136331,2025-07-31 03:09:08.217000,8428,310,1
+pepepython/spotify-huge-database-daily-charts-over-3-years,Spotify HUGE database - daily charts over 3 years,200520481,2021-06-27 13:23:37.137000,5947,98,0.85294116
+kailic/bts-lyrics,BTS Lyrics and Spotify Data,417997,2025-07-31 08:47:51.610000,5203,79,1
+bwandowando/daily-spotify-top-50-of-60-countries,(🌇Sunset) Spotify Daily Top 50 Of 63 countries,66287679,2023-08-31 05:21:43.160000,2047,56,0.875
+daniilmiheev/top-spotify-podcasts-daily-updated,Top Spotify Podcast Episodes (Daily Updated),676715140,2026-07-27 20:30:56.053000,4548,55,0.88235295
+sadeghhoushyar/top-200-most-streamed-songs-on-spotify-2020,Top 200 most streamed songs on spotify 2020,8312889,2021-03-21 01:10:27.580000,555,10,0.7058824
+logiover/app-store-data-api-data,"Apple App Store API — Apps, Reviews, Ratings & ASO",83297,2026-05-15 11:58:43.913000,43,0,0.625
 
 ### files: dhruvildave/spotify-charts
-Traceback (most recent call last):
-  File "/opt/hostedtoolcache/Python/3.12.16/x64/bin/kaggle", line 3, in <module>
-    from kaggle.cli import main
-  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/kaggle/__init__.py", line 3, in <module>
-    from kaggle.api.kaggle_api_extended import KaggleApi
-  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/kaggle/api/kaggle_api_extended.py", line 266, in <module>
-    from ..models.upload_file import UploadFile
-  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/kaggle/models/upload_file.py", line 22, in <module>
-    import six
-ModuleNotFoundError: No module named 'six'
+name,size,creationDate
+charts.csv,3483476388,2022-02-09 19:51:07.591000
+subtitle: None
+
 
 ### files: gonzalopezgil/spotify-charts-daily-updated
-Traceback (most recent call last):
-  File "/opt/hostedtoolcache/Python/3.12.16/x64/bin/kaggle", line 3, in <module>
-    from kaggle.cli import main
-  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/kaggle/__init__.py", line 3, in <module>
-    from kaggle.api.kaggle_api_extended import KaggleApi
-  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/kaggle/api/kaggle_api_extended.py", line 266, in <module>
-    from ..models.upload_file import UploadFile
-  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/kaggle/models/upload_file.py", line 22, in <module>
-    import six
-ModuleNotFoundError: No module named 'six'
+name,size,creationDate
+albums.csv,3717045,2026-11-21 19:55:06.930000
+artist_listeners_daily.csv,140980004,2026-11-21 19:55:10.579000
+artists.csv,4424675,2026-11-21 19:55:08.211000
+artwork.csv,36814800,2026-11-21 19:55:08.890000
+charts_albums_weekly.csv,656978517,2026-11-21 19:55:29.134000
+charts_artists_daily.csv,3111654831,2026-11-21 19:56:37.563000
+charts_songs_daily.csv,11145417327,2026-11-21 20:03:49.426000
+links.csv,16529522,2026-11-21 19:55:42.217000
+songs.csv,44268622,2026-11-21 19:55:42.350000
+subtitle: None
+
 
 ### files: pepepython/spotify-huge-database-daily-charts-over-3-years
-Traceback (most recent call last):
-  File "/opt/hostedtoolcache/Python/3.12.16/x64/bin/kaggle", line 3, in <module>
-    from kaggle.cli import main
-  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/kaggle/__init__.py", line 3, in <module>
-    from kaggle.api.kaggle_api_extended import KaggleApi
-  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/kaggle/api/kaggle_api_extended.py", line 266, in <module>
-    from ..models.upload_file import UploadFile
-  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/kaggle/models/upload_file.py", line 22, in <module>
-    import six
-ModuleNotFoundError: No module named 'six'
+name,size,creationDate
+Database to calculate popularity.csv,1526072216,2021-06-27 13:24:04.037000
+Final database.csv,112572644,2021-06-27 13:23:55.130000
+subtitle: None
+
