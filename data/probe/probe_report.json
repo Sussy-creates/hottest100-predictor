@@ -1,0 +1,2867 @@
+{
+  "run_at": "2026-11-23T19:16:32.998733+00:00",
+  "abc_api": {
+    "latest": {
+      "from": "",
+      "to": "",
+      "status": 200,
+      "n_items": 3,
+      "total": 10000,
+      "top_level_keys": [
+        "items",
+        "limit",
+        "offset",
+        "total"
+      ],
+      "first_item": {
+        "summary": {
+          "artist": "triple j Breakfast",
+          "title": "Mix@6",
+          "links": {
+            "Youtube": "https://www.youtube.com/results?search_query=triple%20j%20Breakfast%20Mix%406",
+            "Spotify": "https://open.spotify.com/search/triple%20j%20Breakfast%20Mix%406",
+            "Apple": "https://music.apple.com/au/search?term=triple%20j%20Breakfast%20Mix%406"
+          }
+        },
+        "entity": "Play",
+        "arid": "mprPjBB9AL",
+        "played_time": "2026-11-23T19:06:36+00:00",
+        "service_id": "triplej",
+        "recording": {
+          "entity": "Recording",
+          "arid": "mt9kJN21pk",
+          "title": "Mix@6",
+          "metadata": null,
+          "description": null,
+          "duration": 213,
+          "artists": [
+            {
+              "entity": "Artist",
+              "arid": "maGYJkmZAe",
+              "name": "triple j Breakfast",
+              "artwork": [],
+              "links": [],
+              "is_australian": null,
+              "type": "primary",
+              "role": null
+            }
+          ],
+          "releases": [
+            {
+              "entity": "Release",
+              "arid": "mr45Lw9KNA",
+              "title": "Mix@6",
+              "format": null,
+              "artwork": [
+                {
+                  "entity": "Artwork",
+                  "arid": "mi7go5bD6e",
+                  "url": "https://images.abcradio.net.au/release/mi7go5bD6e/3536655e1579bc9c1462531b0f0f683e.jpg",
+                  "type": "cover",
+                  "title": null,
+                  "mini_synopsis": null,
+                  "short_synopsis": null,
+                  "medium_synopsis": null,
+                  "width": 3000,
+                  "height": 3000,
+                  "sizes": [
+                    {
+                      "url": "https://resize.abcradio.net.au/G7CkBjOTjqCSo0HZcpBXxSwkAtg=/100x100/center/middle/https%3A%2F%2Fimages.abcradio.net.au%2Frelease%2Fmi7go5bD6e%2F3536655e1579bc9c1462531b0f0f683e.jpg",
+                      "width": 100,
+                      "height": 100,
+                      "aspect_ratio": "1x1"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/Vd5vtSzJ_42r2YaRch_UKeH6ICE=/160x160/center/middle/https%3A%2F%2Fimages.abcradio.net.au%2Frelease%2Fmi7go5bD6e%2F3536655e1579bc9c1462531b0f0f683e.jpg",
+                      "width": 160,
+                      "height": 160,
+                      "aspect_ratio": "1x1"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/0RnnTlgcoRlctFnNPCdTPeIBpxc=/340x340/center/middle/https%3A%2F%2Fimages.abcradio.net.au%2Frelease%2Fmi7go5bD6e%2F3536655e1579bc9c1462531b0f0f683e.jpg",
+                      "width": 340,
+                      "height": 340,
+                      "aspect_ratio": "1x1"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/6-acqXXBwcGHwtiiwSc5AZI-KpQ=/580x580/center/middle/https%3A%2F%2Fimages.abcradio.net.au%2Frelease%2Fmi7go5bD6e%2F3536655e1579bc9c1462531b0f0f683e.jpg",
+                      "width": 580,
+                      "height": 580,
+                      "aspect_ratio": "1x1"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/d76533swuEdF8Y8qqaIQTkKrlYk=/940x940/center/middle/https%3A%2F%2Fimages.abcradio.net.au%2Frelease%2Fmi7go5bD6e%2F3536655e1579bc9c1462531b0f0f683e.jpg",
+                      "width": 940,
+                      "height": 940,
+                      "aspect_ratio": "1x1"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/KW_sZw0Jx97HsUYZJmEfOE7oWII=/1300x1300/center/middle/https%3A%2F%2Fimages.abcradio.net.au%2Frelease%2Fmi7go5bD6e%2F3536655e1579bc9c1462531b0f0f683e.jpg",
+                      "width": 1300,
+                      "height": 1300,
+                      "aspect_ratio": "1x1"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/9ACNoXgOGP27LoC0Yf-V3hUZGHI=/100x75/center/middle/https%3A%2F%2Fimages.abcradio.net.au%2Frelease%2Fmi7go5bD6e%2F3536655e1579bc9c1462531b0f0f683e.jpg",
+                      "width": 100,
+                      "height": 75,
+                      "aspect_ratio": "4x3"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/9gyf4Ui7aEkH4TG0UBLOwCw623o=/160x120/center/middle/https%3A%2F%2Fimages.abcradio.net.au%2Frelease%2Fmi7go5bD6e%2F3536655e1579bc9c1462531b0f0f683e.jpg",
+                      "width": 160,
+                      "height": 120,
+                      "aspect_ratio": "4x3"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/9p0jfyX7tBgEdyOGIvzUwtBoXZE=/220x124/center/middle/https%3A%2F%2Fimages.abcradio.net.au%2Frelease%2Fmi7go5bD6e%2F3536655e1579bc9c1462531b0f0f683e.jpg",
+                      "width": 220,
+                      "height": 124,
+                      "aspect_ratio": "16x9"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/7acBYLUizRZmOA6630v8hY0RZcI=/580x326/center/middle/https%3A%2F%2Fimages.abcradio.net.au%2Frelease%2Fmi7go5bD6e%2F3536655e1579bc9c1462531b0f0f683e.jpg",
+                      "width": 580,
+                      "height": 326,
+                      "aspect_ratio": "16x9"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/dpZIUvtl262C_5bPfz3iWJJ9H7w=/940x529/center/middle/https%3A%2F%2Fimages.abcradio.net.au%2Frelease%2Fmi7go5bD6e%2F3536655e1579bc9c1462531b0f0f683e.jpg",
+                      "width": 940,
+                      "height": 529,
+                      "aspect_ratio": "16x9"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/i0nOUJm1yy6fdRxRWArhzOEJiKw=/1300x731/center/middle/https%3A%2F%2Fimages.abcradio.net.au%2Frelease%2Fmi7go5bD6e%2F3536655e1579bc9c1462531b0f0f683e.jpg",
+                      "width": 1300,
+                      "height": 731,
+                      "aspect_ratio": "16x9"
+                    }
+                  ],
+                  "is_primary": true
+                },
+                {
+                  "entity": "Artwork",
+                  "arid": "mi7eMB354P",
+                  "url": "https://www.abc.net.au/triplej/albums/triplejbreakfast-mix6.png",
+                  "type": "cover",
+                  "title": null,
+                  "mini_synopsis": null,
+                  "short_synopsis": null,
+                  "medium_synopsis": null,
+                  "width": 1352,
+                  "height": 1352,
+                  "sizes": [
+                    {
+                      "url": "https://resize.abcradio.net.au/sDaHUPkHwieT6KblN1L5yRMbMmU=/100x100/center/middle/https%3A%2F%2Fwww.abc.net.au%2Ftriplej%2Falbums%2Ftriplejbreakfast-mix6.png",
+                      "width": 100,
+                      "height": 100,
+                      "aspect_ratio": "1x1"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/AYARVmHn7nu2x0s6fMBkOqASUTU=/160x160/center/middle/https%3A%2F%2Fwww.abc.net.au%2Ftriplej%2Falbums%2Ftriplejbreakfast-mix6.png",
+                      "width": 160,
+                      "height": 160,
+                      "aspect_ratio": "1x1"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/ZiRjpALkP5efhLvr4NH_fRUcIi8=/340x340/center/middle/https%3A%2F%2Fwww.abc.net.au%2Ftriplej%2Falbums%2Ftriplejbreakfast-mix6.png",
+                      "width": 340,
+                      "height": 340,
+                      "aspect_ratio": "1x1"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/8jR8Im49xXbI8CD6gjVhjnrRfrE=/580x580/center/middle/https%3A%2F%2Fwww.abc.net.au%2Ftriplej%2Falbums%2Ftriplejbreakfast-mix6.png",
+                      "width": 580,
+                      "height": 580,
+                      "aspect_ratio": "1x1"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/Eusd_Cb0DtADkXMWkGk4Ojscwbk=/940x940/center/middle/https%3A%2F%2Fwww.abc.net.au%2Ftriplej%2Falbums%2Ftriplejbreakfast-mix6.png",
+                      "width": 940,
+                      "height": 940,
+                      "aspect_ratio": "1x1"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/alsInuFnuPEQ5GMdvT3IYM8ZjFM=/1300x1300/center/middle/https%3A%2F%2Fwww.abc.net.au%2Ftriplej%2Falbums%2Ftriplejbreakfast-mix6.png",
+                      "width": 1300,
+                      "height": 1300,
+                      "aspect_ratio": "1x1"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/sDITZhw3JZqwqG8j9BRhqpw5Ios=/100x75/center/middle/https%3A%2F%2Fwww.abc.net.au%2Ftriplej%2Falbums%2Ftriplejbreakfast-mix6.png",
+                      "width": 100,
+                      "height": 75,
+                      "aspect_ratio": "4x3"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/MoMjprW7a7R81FL5Rfdw9iTIATQ=/160x120/center/middle/https%3A%2F%2Fwww.abc.net.au%2Ftriplej%2Falbums%2Ftriplejbreakfast-mix6.png",
+                      "width": 160,
+                      "height": 120,
+                      "aspect_ratio": "4x3"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/FXNLedJpTVvA-MeLBrCdwRECltg=/220x124/center/middle/https%3A%2F%2Fwww.abc.net.au%2Ftriplej%2Falbums%2Ftriplejbreakfast-mix6.png",
+                      "width": 220,
+                      "height": 124,
+                      "aspect_ratio": "16x9"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/xyVI-W4dbxVKjo8VacqlFELqb4g=/580x326/center/middle/https%3A%2F%2Fwww.abc.net.au%2Ftriplej%2Falbums%2Ftriplejbreakfast-mix6.png",
+                      "width": 580,
+                      "height": 326,
+                      "aspect_ratio": "16x9"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/YP80LWu3c7ZnfxTVgDho2hJj5J4=/940x529/center/middle/https%3A%2F%2Fwww.abc.net.au%2Ftriplej%2Falbums%2Ftriplejbreakfast-mix6.png",
+                      "width": 940,
+                      "height": 529,
+                      "aspect_ratio": "16x9"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/DKoxb4vW8JyjfXI6Y9uEMDz03F4=/1300x731/center/middle/https%3A%2F%2Fwww.abc.net.au%2Ftriplej%2Falbums%2Ftriplejbreakfast-mix6.png",
+                      "width": 1300,
+                      "height": 731,
+                      "aspect_ratio": "16x9"
+                    }
+                  ],
+                  "is_primary": null
+                }
+              ],
+              "links": [],
+              "artists": [
+                {
+                  "entity": "Artist",
+                  "arid": "maGYJkmZAe",
+                  "name": "triple j Breakfast",
+                  "artwork": [],
+                  "links": [],
+                  "is_australian": null,
+                  "type": "primary",
+                  "role": null
+                }
+              ],
+              "record_label": null,
+              "release_year": "2026",
+              "release_album_id": null,
+              "is_primary": null
+            }
+          ],
+          "artwork": [
+            {
+              "entity": "Artwork",
+              "arid": "mix9dD5WR9",
+              "url": "https://images.abcradio.net.au/recording/mix9dD5WR9/c9540fed73b021a275b956622df9d261.png",
+              "type": "cover",
+              "title": null,
+              "mini_synopsis": null,
+              "short_synopsis": null,
+              "medium_synopsis": null,
+              "width": 1352,
+              "height": 1352,
+              "sizes": [
+                {
+                  "url": "https://resize.abcradio.net.au/88iSmy0sj9OHH3TgxWm3g02xlXE=/100x100/center/middle/https%3A%2F%2Fimages.abcradio.net.au%2Frecording%2Fmix9dD5WR9%2Fc9540fed73b021a275b956622df9d261.png",
+                  "width": 100,
+                  "height": 100,
+                  "aspect_ratio": "1x1"
+                },
+                {
+                  "url": "https://resize.abcradio.net.au/esBT9w59wN8SoiPNQDiMEjrxvKM=/160x160/center/middle/https%3A%2F%2Fimages.abcradio.net.au%2Frecording%2Fmix9dD5WR9%2Fc9540fed73b021a275b956622df9d261.png",
+                  "width": 160,
+                  "height": 160,
+                  "aspect_ratio": "1x1"
+                },
+                {
+                  "url": "https://resize.abcradio.net.au/kFJNSCKhycqQZySmzH_ElYc0URE=/340x340/center/middle/https%3A%2F%2Fimages.abcradio.net.au%2Frecording%2Fmix9dD5WR9%2Fc9540fed73b021a275b956622df9d261.png",
+                  "width": 340,
+                  "height": 340,
+                  "aspect_ratio": "1x1"
+                },
+                {
+                  "url": "https://resize.abcradio.net.au/9j4U8l44AmfzitoaXQeiK99zn4M=/580x580/center/middle/https%3A%2F%2Fimages.abcradio.net.au%2Frecording%2Fmix9dD5WR9%2Fc9540fed73b021a275b956622df9d261.png",
+                  "width": 580,
+                  "height": 580,
+                  "aspect_ratio": "1x1"
+                },
+                {
+                  "url": "https://resize.abcradio.net.au/t6m9JuskUjLrsM1VCk4C6HahCic=/940x940/center/middle/https%3A%2F%2Fimages.abcradio.net.au%2Frecording%2Fmix9dD5WR9%2Fc9540fed73b021a275b956622df9d261.png",
+                  "width": 940,
+                  "height": 940,
+                  "aspect_ratio": "1x1"
+                },
+                {
+                  "url": "https://resize.abcradio.net.au/hAoK7crjOhKbtUNq3CfxaJ-jHRs=/1300x1300/center/middle/https%3A%2F%2Fimages.abcradio.net.au%2Frecording%2Fmix9dD5WR9%2Fc9540fed73b021a275b956622df9d261.png",
+                  "width": 1300,
+                  "height": 1300,
+                  "aspect_ratio": "1x1"
+                },
+                {
+                  "url": "https://resize.abcradio.net.au/orXQMzJsYiiDeqFU0UUA6c1FeBo=/100x75/center/middle/https%3A%2F%2Fimages.abcradio.net.au%2Frecording%2Fmix9dD5WR9%2Fc9540fed73b021a275b956622df9d261.png",
+                  "width": 100,
+                  "height": 75,
+                  "aspect_ratio": "4x3"
+                },
+                {
+                  "url": "https://resize.abcradio.net.au/60yrGqcW9QXwoypa8WCkS92BdZc=/160x120/center/middle/https%3A%2F%2Fimages.abcradio.net.au%2Frecording%2Fmix9dD5WR9%2Fc9540fed73b021a275b956622df9d261.png",
+                  "width": 160,
+                  "height": 120,
+                  "aspect_ratio": "4x3"
+                },
+                {
+                  "url": "https://resize.abcradio.net.au/KxZmUAgG8DKP8PDIKCLwijoLE6g=/220x124/center/middle/https%3A%2F%2Fimages.abcradio.net.au%2Frecording%2Fmix9dD5WR9%2Fc9540fed73b021a275b956622df9d261.png",
+                  "width": 220,
+                  "height": 124,
+                  "aspect_ratio": "16x9"
+                },
+                {
+                  "url": "https://resize.abcradio.net.au/ywKJByqxSiQaUUo1AvDxnw8O6i0=/580x326/center/middle/https%3A%2F%2Fimages.abcradio.net.au%2Frecording%2Fmix9dD5WR9%2Fc9540fed73b021a275b956622df9d261.png",
+                  "width": 580,
+                  "height": 326,
+                  "aspect_ratio": "16x9"
+                },
+                {
+                  "url": "https://resize.abcradio.net.au/9qeP5lLsypfpcJ2rFTQZlb7gie8=/940x529/center/middle/https%3A%2F%2Fimages.abcradio.net.au%2Frecording%2Fmix9dD5WR9%2Fc9540fed73b021a275b956622df9d261.png",
+                  "width": 940,
+                  "height": 529,
+                  "aspect_ratio": "16x9"
+                },
+                {
+                  "url": "https://resize.abcradio.net.au/bNNQeffSQXLUc7Z_81xGFkyQfqY=/1300x731/center/middle/https%3A%2F%2Fimages.abcradio.net.au%2Frecording%2Fmix9dD5WR9%2Fc9540fed73b021a275b956622df9d261.png",
+                  "width": 1300,
+                  "height": 731,
+                  "aspect_ratio": "16x9"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
+          "links": []
+        },
+        "release": {
+          "entity": "Release",
+          "arid": "mr45Lw9KNA",
+          "title": "Mix@6",
+          "format": null,
+          "artwork": [
+            {
+              "entity": "Artwork",
+              "arid": "mi7go5bD6e",
+              "url": "https://images.abcradio.net.au/release/mi7go5bD6e/3536655e1579bc9c1462531b0f0f683e.jpg",
+              "type": "cover",
+              "title": null,
+              "mini_synopsis": null,
+              "short_synopsis": null,
+              "medium_synopsis": null,
+              "width": 3000,
+              "height": 3000,
+              "sizes": [
+                {
+                  "url": "https://resize.abcradio.net.au/G7CkBjOTjqCSo0HZcpBXxSwkAtg=/100x100/center/middle/https%3A%2F%2Fimages.abcradio.net.au%2Frelease%2Fmi7go5bD6e%2F3536655e1579bc9c1462531b0f0f683e.jpg",
+                  "width": 100,
+                  "height": 100,
+                  "aspect_ratio": "1x1"
+                },
+                {
+                  "url": "https://resize.abcradio.net.au/Vd5vtSzJ_42r2YaRch_UKeH6ICE=/160x160/center/middle/https%3A%2F%2Fimages.abcradio.net.au%2Frelease%2Fmi7go5bD6e%2F3536655e1579bc9c1462531b0f0f683e.jpg",
+                  "width": 160,
+                  "height": 160,
+                  "aspect_ratio": "1x1"
+                },
+                {
+                  "url": "https://resize.abcradio.net.au/0RnnTlgcoRlctFnNPCdTPeIBpxc=/340x340/center/middle/https%3A%2F%2Fimages.abcradio.net.au%2Frelease%2Fmi7go5bD6e%2F3536655e1579bc9c1462531b0f0f683e.jpg",
+                  "width": 340,
+                  "height": 340,
+                  "aspect_ratio": "1x1"
+                },
+                {
+                  "url": "https://resize.abcradio.net.au/6-acqXXBwcGHwtiiwSc5AZI-KpQ=/580x580/center/middle/https%3A%2F%2Fimages.abcradio.net.au%2Frelease%2Fmi7go5bD6e%2F3536655e1579bc9c1462531b0f0f683e.jpg",
+                  "width": 580,
+                  "height": 580,
+                  "aspect_ratio": "1x1"
+                },
+                {
+                  "url": "https://resize.abcradio.net.au/d76533swuEdF8Y8qqaIQTkKrlYk=/940x940/center/middle/https%3A%2F%2Fimages.abcradio.net.au%2Frelease%2Fmi7go5bD6e%2F3536655e1579bc9c1462531b0f0f683e.jpg",
+                  "width": 940,
+                  "height": 940,
+                  "aspect_ratio": "1x1"
+                },
+                {
+                  "url": "https://resize.abcradio.net.au/KW_sZw0Jx97HsUYZJmEfOE7oWII=/1300x1300/center/middle/https%3A%2F%2Fimages.abcradio.net.au%2Frelease%2Fmi7go5bD6e%2F3536655e1579bc9c1462531b0f0f683e.jpg",
+                  "width": 1300,
+                  "height": 1300,
+                  "aspect_ratio": "1x1"
+                },
+                {
+                  "url": "https://resize.abcradio.net.au/9ACNoXgOGP27LoC0Yf-V3hUZGHI=/100x75/center/middle/https%3A%2F%2Fimages.abcradio.net.au%2Frelease%2Fmi7go5bD6e%2F3536655e1579bc9c1462531b0f0f683e.jpg",
+                  "width": 100,
+                  "height": 75,
+                  "aspect_ratio": "4x3"
+                },
+                {
+                  "url": "https://resize.abcradio.net.au/9gyf4Ui7aEkH4TG0UBLOwCw623o=/160x120/center/middle/https%3A%2F%2Fimages.abcradio.net.au%2Frelease%2Fmi7go5bD6e%2F3536655e1579bc9c1462531b0f0f683e.jpg",
+                  "width": 160,
+                  "height": 120,
+                  "aspect_ratio": "4x3"
+                },
+                {
+                  "url": "https://resize.abcradio.net.au/9p0jfyX7tBgEdyOGIvzUwtBoXZE=/220x124/center/middle/https%3A%2F%2Fimages.abcradio.net.au%2Frelease%2Fmi7go5bD6e%2F3536655e1579bc9c1462531b0f0f683e.jpg",
+                  "width": 220,
+                  "height": 124,
+                  "aspect_ratio": "16x9"
+                },
+                {
+                  "url": "https://resize.abcradio.net.au/7acBYLUizRZmOA6630v8hY0RZcI=/580x326/center/middle/https%3A%2F%2Fimages.abcradio.net.au%2Frelease%2Fmi7go5bD6e%2F3536655e1579bc9c1462531b0f0f683e.jpg",
+                  "width": 580,
+                  "height": 326,
+                  "aspect_ratio": "16x9"
+                },
+                {
+                  "url": "https://resize.abcradio.net.au/dpZIUvtl262C_5bPfz3iWJJ9H7w=/940x529/center/middle/https%3A%2F%2Fimages.abcradio.net.au%2Frelease%2Fmi7go5bD6e%2F3536655e1579bc9c1462531b0f0f683e.jpg",
+                  "width": 940,
+                  "height": 529,
+                  "aspect_ratio": "16x9"
+                },
+                {
+                  "url": "https://resize.abcradio.net.au/i0nOUJm1yy6fdRxRWArhzOEJiKw=/1300x731/center/middle/https%3A%2F%2Fimages.abcradio.net.au%2Frelease%2Fmi7go5bD6e%2F3536655e1579bc9c1462531b0f0f683e.jpg",
+                  "width": 1300,
+                  "height": 731,
+                  "aspect_ratio": "16x9"
+                }
+              ],
+              "is_primary": true
+            },
+            {
+              "entity": "Artwork",
+              "arid": "mi7eMB354P",
+              "url": "https://www.abc.net.au/triplej/albums/triplejbreakfast-mix6.png",
+              "type": "cover",
+              "title": null,
+              "mini_synopsis": null,
+              "short_synopsis": null,
+              "medium_synopsis": null,
+              "width": 1352,
+              "height": 1352,
+              "sizes": [
+                {
+                  "url": "https://resize.abcradio.net.au/sDaHUPkHwieT6KblN1L5yRMbMmU=/100x100/center/middle/https%3A%2F%2Fwww.abc.net.au%2Ftriplej%2Falbums%2Ftriplejbreakfast-mix6.png",
+                  "width": 100,
+                  "height": 100,
+                  "aspect_ratio": "1x1"
+                },
+                {
+                  "url": "https://resize.abcradio.net.au/AYARVmHn7nu2x0s6fMBkOqASUTU=/160x160/center/middle/https%3A%2F%2Fwww.abc.net.au%2Ftriplej%2Falbums%2Ftriplejbreakfast-mix6.png",
+                  "width": 160,
+                  "height": 160,
+                  "aspect_ratio": "1x1"
+                },
+                {
+                  "url": "https://resize.abcradio.net.au/ZiRjpALkP5efhLvr4NH_fRUcIi8=/340x340/center/middle/https%3A%2F%2Fwww.abc.net.au%2Ftriplej%2Falbums%2Ftriplejbreakfast-mix6.png",
+                  "width": 340,
+                  "height": 340,
+                  "aspect_ratio": "1x1"
+                },
+                {
+                  "url": "https://resize.abcradio.net.au/8jR8Im49xXbI8CD6gjVhjnrRfrE=/580x580/center/middle/https%3A%2F%2Fwww.abc.net.au%2Ftriplej%2Falbums%2Ftriplejbreakfast-mix6.png",
+                  "width": 580,
+                  "height": 580,
+                  "aspect_ratio": "1x1"
+                },
+                {
+                  "url": "https://resize.abcradio.net.au/Eusd_Cb0DtADkXMWkGk4Ojscwbk=/940x940/center/middle/https%3A%2F%2Fwww.abc.net.au%2Ftriplej%2Falbums%2Ftriplejbreakfast-mix6.png",
+                  "width": 940,
+                  "height": 940,
+                  "aspect_ratio": "1x1"
+                },
+                {
+                  "url": "https://resize.abcradio.net.au/alsInuFnuPEQ5GMdvT3IYM8ZjFM=/1300x1300/center/middle/https%3A%2F%2Fwww.abc.net.au%2Ftriplej%2Falbums%2Ftriplejbreakfast-mix6.png",
+                  "width": 1300,
+                  "height": 1300,
+                  "aspect_ratio": "1x1"
+                },
+                {
+                  "url": "https://resize.abcradio.net.au/sDITZhw3JZqwqG8j9BRhqpw5Ios=/100x75/center/middle/https%3A%2F%2Fwww.abc.net.au%2Ftriplej%2Falbums%2Ftriplejbreakfast-mix6.png",
+                  "width": 100,
+                  "height": 75,
+                  "aspect_ratio": "4x3"
+                },
+                {
+                  "url": "https://resize.abcradio.net.au/MoMjprW7a7R81FL5Rfdw9iTIATQ=/160x120/center/middle/https%3A%2F%2Fwww.abc.net.au%2Ftriplej%2Falbums%2Ftriplejbreakfast-mix6.png",
+                  "width": 160,
+                  "height": 120,
+                  "aspect_ratio": "4x3"
+                },
+                {
+                  "url": "https://resize.abcradio.net.au/FXNLedJpTVvA-MeLBrCdwRECltg=/220x124/center/middle/https%3A%2F%2Fwww.abc.net.au%2Ftriplej%2Falbums%2Ftriplejbreakfast-mix6.png",
+                  "width": 220,
+                  "height": 124,
+                  "aspect_ratio": "16x9"
+                },
+                {
+                  "url": "https://resize.abcradio.net.au/xyVI-W4dbxVKjo8VacqlFELqb4g=/580x326/center/middle/https%3A%2F%2Fwww.abc.net.au%2Ftriplej%2Falbums%2Ftriplejbreakfast-mix6.png",
+                  "width": 580,
+                  "height": 326,
+                  "aspect_ratio": "16x9"
+                },
+                {
+                  "url": "https://resize.abcradio.net.au/YP80LWu3c7ZnfxTVgDho2hJj5J4=/940x529/center/middle/https%3A%2F%2Fwww.abc.net.au%2Ftriplej%2Falbums%2Ftriplejbreakfast-mix6.png",
+                  "width": 940,
+                  "height": 529,
+                  "aspect_ratio": "16x9"
+                },
+                {
+                  "url": "https://resize.abcradio.net.au/DKoxb4vW8JyjfXI6Y9uEMDz03F4=/1300x731/center/middle/https%3A%2F%2Fwww.abc.net.au%2Ftriplej%2Falbums%2Ftriplejbreakfast-mix6.png",
+                  "width": 1300,
+                  "height": 731,
+                  "aspect_ratio": "16x9"
+                }
+              ],
+              "is_primary": null
+            }
+          ],
+          "links": [],
+          "artists": [
+            {
+              "entity": "Artist",
+              "arid": "maGYJkmZAe",
+              "name": "triple j Breakfast",
+              "artwork": [],
+              "links": [],
+              "is_australian": null,
+              "type": "primary",
+              "role": null
+            }
+          ],
+          "record_label": null,
+          "release_year": "2026",
+          "release_album_id": null
+        }
+      }
+    },
+    "2024_daytime_3h": {
+      "from": "2024-06-04T00:00:00Z",
+      "to": "2024-06-04T03:00:00Z",
+      "status": 200,
+      "n_items": 46,
+      "total": 46,
+      "top_level_keys": [
+        "items",
+        "limit",
+        "offset",
+        "total"
+      ],
+      "first_item": {
+        "entity": "Play",
+        "arid": "mpnvROgJXn",
+        "played_time": "2024-06-04T02:56:42+00:00",
+        "service_id": "triplej",
+        "summary": {
+          "artist": "Jai Wolf",
+          "title": "Don't Look Down [Ft. BANKS]",
+          "links": {
+            "Youtube": "https://www.youtube.com/results?search_query=Jai%20Wolf%20Don%27t%20Look%20Down%20%5BFt.%20BANKS%5D",
+            "Spotify": "https://open.spotify.com/search/Jai%20Wolf%20Don%27t%20Look%20Down%20%5BFt.%20BANKS%5D",
+            "Apple": "https://music.apple.com/au/search?term=Jai%20Wolf%20Don%27t%20Look%20Down%20%5BFt.%20BANKS%5D"
+          }
+        },
+        "recording": {
+          "entity": "Recording",
+          "arid": "mtOKjmleNg",
+          "title": "Don't Look Down",
+          "metadata": null,
+          "description": null,
+          "duration": 200,
+          "artists": [
+            {
+              "entity": "Artist",
+              "arid": "maZzwQL8YG",
+              "name": "Jai Wolf",
+              "artwork": [],
+              "links": [],
+              "is_australian": null,
+              "type": "primary",
+              "role": null
+            },
+            {
+              "entity": "Artist",
+              "arid": "man0eQ6Vz1",
+              "name": "BANKS",
+              "artwork": [],
+              "links": [],
+              "is_australian": null,
+              "type": "featured",
+              "role": null
+            }
+          ],
+          "releases": [
+            {
+              "entity": "Release",
+              "arid": "mr4X8jl6v5",
+              "title": "Don't Look Down",
+              "format": "Single",
+              "artwork": [
+                {
+                  "entity": "Artwork",
+                  "arid": "miQeRQVMm9",
+                  "url": "https://www.abc.net.au/triplej/albums/jaiwolf-dontlookdownsingle.jpg",
+                  "is_primary": null,
+                  "type": "cover",
+                  "title": null,
+                  "mini_synopsis": null,
+                  "short_synopsis": null,
+                  "medium_synopsis": null,
+                  "width": 1000,
+                  "height": 1000,
+                  "sizes": [
+                    {
+                      "url": "https://resize.abcradio.net.au/alJ1YKRpEjKubIRDz70_OR2-04c=/100x100/center/middle/https%3A%2F%2Fwww.abc.net.au%2Ftriplej%2Falbums%2Fjaiwolf-dontlookdownsingle.jpg",
+                      "width": 100,
+                      "height": 100,
+                      "aspect_ratio": "1x1"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/jSpYQhjcCdXnKzBNUEoUoJap46s=/160x160/center/middle/https%3A%2F%2Fwww.abc.net.au%2Ftriplej%2Falbums%2Fjaiwolf-dontlookdownsingle.jpg",
+                      "width": 160,
+                      "height": 160,
+                      "aspect_ratio": "1x1"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/IBFmwBsEx6uQnDZC8jzcoPRPwFk=/340x340/center/middle/https%3A%2F%2Fwww.abc.net.au%2Ftriplej%2Falbums%2Fjaiwolf-dontlookdownsingle.jpg",
+                      "width": 340,
+                      "height": 340,
+                      "aspect_ratio": "1x1"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/CPUc3DlWYlBS5CPQ0v8jonqVsos=/580x580/center/middle/https%3A%2F%2Fwww.abc.net.au%2Ftriplej%2Falbums%2Fjaiwolf-dontlookdownsingle.jpg",
+                      "width": 580,
+                      "height": 580,
+                      "aspect_ratio": "1x1"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/8wZus1I8cV6YyXKEAf8WzdnQ5gE=/940x940/center/middle/https%3A%2F%2Fwww.abc.net.au%2Ftriplej%2Falbums%2Fjaiwolf-dontlookdownsingle.jpg",
+                      "width": 940,
+                      "height": 940,
+                      "aspect_ratio": "1x1"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/i3lOfradA0Mu9KgfCDhzk8E73kA=/100x75/center/middle/https%3A%2F%2Fwww.abc.net.au%2Ftriplej%2Falbums%2Fjaiwolf-dontlookdownsingle.jpg",
+                      "width": 100,
+                      "height": 75,
+                      "aspect_ratio": "4x3"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/JpHecLpz8NjAxXIfChmgIMRtMp4=/160x120/center/middle/https%3A%2F%2Fwww.abc.net.au%2Ftriplej%2Falbums%2Fjaiwolf-dontlookdownsingle.jpg",
+                      "width": 160,
+                      "height": 120,
+                      "aspect_ratio": "4x3"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/W4wFcxowafHSJLePHh3MqCf-tPQ=/220x124/center/middle/https%3A%2F%2Fwww.abc.net.au%2Ftriplej%2Falbums%2Fjaiwolf-dontlookdownsingle.jpg",
+                      "width": 220,
+                      "height": 124,
+                      "aspect_ratio": "16x9"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/aDhlI8asrXlfHDwnsQygE1RIFP0=/580x326/center/middle/https%3A%2F%2Fwww.abc.net.au%2Ftriplej%2Falbums%2Fjaiwolf-dontlookdownsingle.jpg",
+                      "width": 580,
+                      "height": 326,
+                      "aspect_ratio": "16x9"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/8DWco2wmJPLsGi1KyIUsCQEdrFE=/940x529/center/middle/https%3A%2F%2Fwww.abc.net.au%2Ftriplej%2Falbums%2Fjaiwolf-dontlookdownsingle.jpg",
+                      "width": 940,
+                      "height": 529,
+                      "aspect_ratio": "16x9"
+                    }
+                  ]
+                }
+              ],
+              "links": [],
+              "artists": [
+                {
+                  "entity": "Artist",
+                  "arid": "maZzwQL8YG",
+                  "name": "Jai Wolf",
+                  "artwork": [],
+                  "links": [],
+                  "is_australian": null,
+                  "type": "primary",
+                  "role": null
+                }
+              ],
+              "record_label": null,
+              "release_year": "2023",
+              "release_album_id": "70367",
+              "is_primary": null
+            }
+          ],
+          "artwork": [],
+          "links": []
+        },
+        "release": {
+          "entity": "Release",
+          "arid": "mr4X8jl6v5",
+          "title": "Don't Look Down",
+          "format": "Single",
+          "artwork": [
+            {
+              "entity": "Artwork",
+              "arid": "miQeRQVMm9",
+              "url": "https://www.abc.net.au/triplej/albums/jaiwolf-dontlookdownsingle.jpg",
+              "is_primary": null,
+              "type": "cover",
+              "title": null,
+              "mini_synopsis": null,
+              "short_synopsis": null,
+              "medium_synopsis": null,
+              "width": 1000,
+              "height": 1000,
+              "sizes": [
+                {
+                  "url": "https://resize.abcradio.net.au/alJ1YKRpEjKubIRDz70_OR2-04c=/100x100/center/middle/https%3A%2F%2Fwww.abc.net.au%2Ftriplej%2Falbums%2Fjaiwolf-dontlookdownsingle.jpg",
+                  "width": 100,
+                  "height": 100,
+                  "aspect_ratio": "1x1"
+                },
+                {
+                  "url": "https://resize.abcradio.net.au/jSpYQhjcCdXnKzBNUEoUoJap46s=/160x160/center/middle/https%3A%2F%2Fwww.abc.net.au%2Ftriplej%2Falbums%2Fjaiwolf-dontlookdownsingle.jpg",
+                  "width": 160,
+                  "height": 160,
+                  "aspect_ratio": "1x1"
+                },
+                {
+                  "url": "https://resize.abcradio.net.au/IBFmwBsEx6uQnDZC8jzcoPRPwFk=/340x340/center/middle/https%3A%2F%2Fwww.abc.net.au%2Ftriplej%2Falbums%2Fjaiwolf-dontlookdownsingle.jpg",
+                  "width": 340,
+                  "height": 340,
+                  "aspect_ratio": "1x1"
+                },
+                {
+                  "url": "https://resize.abcradio.net.au/CPUc3DlWYlBS5CPQ0v8jonqVsos=/580x580/center/middle/https%3A%2F%2Fwww.abc.net.au%2Ftriplej%2Falbums%2Fjaiwolf-dontlookdownsingle.jpg",
+                  "width": 580,
+                  "height": 580,
+                  "aspect_ratio": "1x1"
+                },
+                {
+                  "url": "https://resize.abcradio.net.au/8wZus1I8cV6YyXKEAf8WzdnQ5gE=/940x940/center/middle/https%3A%2F%2Fwww.abc.net.au%2Ftriplej%2Falbums%2Fjaiwolf-dontlookdownsingle.jpg",
+                  "width": 940,
+                  "height": 940,
+                  "aspect_ratio": "1x1"
+                },
+                {
+                  "url": "https://resize.abcradio.net.au/i3lOfradA0Mu9KgfCDhzk8E73kA=/100x75/center/middle/https%3A%2F%2Fwww.abc.net.au%2Ftriplej%2Falbums%2Fjaiwolf-dontlookdownsingle.jpg",
+                  "width": 100,
+                  "height": 75,
+                  "aspect_ratio": "4x3"
+                },
+                {
+                  "url": "https://resize.abcradio.net.au/JpHecLpz8NjAxXIfChmgIMRtMp4=/160x120/center/middle/https%3A%2F%2Fwww.abc.net.au%2Ftriplej%2Falbums%2Fjaiwolf-dontlookdownsingle.jpg",
+                  "width": 160,
+                  "height": 120,
+                  "aspect_ratio": "4x3"
+                },
+                {
+                  "url": "https://resize.abcradio.net.au/W4wFcxowafHSJLePHh3MqCf-tPQ=/220x124/center/middle/https%3A%2F%2Fwww.abc.net.au%2Ftriplej%2Falbums%2Fjaiwolf-dontlookdownsingle.jpg",
+                  "width": 220,
+                  "height": 124,
+                  "aspect_ratio": "16x9"
+                },
+                {
+                  "url": "https://resize.abcradio.net.au/aDhlI8asrXlfHDwnsQygE1RIFP0=/580x326/center/middle/https%3A%2F%2Fwww.abc.net.au%2Ftriplej%2Falbums%2Fjaiwolf-dontlookdownsingle.jpg",
+                  "width": 580,
+                  "height": 326,
+                  "aspect_ratio": "16x9"
+                },
+                {
+                  "url": "https://resize.abcradio.net.au/8DWco2wmJPLsGi1KyIUsCQEdrFE=/940x529/center/middle/https%3A%2F%2Fwww.abc.net.au%2Ftriplej%2Falbums%2Fjaiwolf-dontlookdownsingle.jpg",
+                  "width": 940,
+                  "height": 529,
+                  "aspect_ratio": "16x9"
+                }
+              ]
+            }
+          ],
+          "links": [],
+          "artists": [
+            {
+              "entity": "Artist",
+              "arid": "maZzwQL8YG",
+              "name": "Jai Wolf",
+              "artwork": [],
+              "links": [],
+              "is_australian": null,
+              "type": "primary",
+              "role": null
+            }
+          ],
+          "record_label": null,
+          "release_year": "2023",
+          "release_album_id": "70367"
+        }
+      }
+    },
+    "2024_busiest_check_6h": {
+      "from": "2024-06-04T00:00:00Z",
+      "to": "2024-06-04T06:00:00Z",
+      "status": 200,
+      "n_items": 91,
+      "total": 91,
+      "top_level_keys": [
+        "items",
+        "limit",
+        "offset",
+        "total"
+      ],
+      "first_item": {
+        "entity": "Play",
+        "arid": "mpr1e0wK3r",
+        "played_time": "2024-06-04T05:56:41+00:00",
+        "service_id": "triplej",
+        "summary": {
+          "artist": "Amber Mark",
+          "title": "Space &Time",
+          "links": {
+            "Youtube": "https://www.youtube.com/results?search_query=Amber%20Mark%20Space%20%26Time",
+            "Spotify": "https://open.spotify.com/search/Amber%20Mark%20Space%20%26Time",
+            "Apple": "https://music.apple.com/au/search?term=Amber%20Mark%20Space%20%26Time"
+          }
+        },
+        "recording": {
+          "entity": "Recording",
+          "arid": "mtOKjmJLBg",
+          "title": "Space &Time",
+          "metadata": null,
+          "description": null,
+          "duration": 181,
+          "artists": [
+            {
+              "entity": "Artist",
+              "arid": "maBebvw4en",
+              "name": "Amber Mark",
+              "artwork": [],
+              "links": [],
+              "is_australian": null,
+              "type": "primary",
+              "role": null
+            }
+          ],
+          "releases": [
+            {
+              "entity": "Release",
+              "arid": "mr9y32GOw5",
+              "title": "Space & Time",
+              "format": "Single",
+              "artwork": [
+                {
+                  "entity": "Artwork",
+                  "arid": "milPOAk7m9",
+                  "url": "https://www.abc.net.au/triplej/albums/ambermark-spacetimesingle.jpg",
+                  "is_primary": null,
+                  "type": "cover",
+                  "title": null,
+                  "mini_synopsis": null,
+                  "short_synopsis": null,
+                  "medium_synopsis": null,
+                  "width": 1000,
+                  "height": 1000,
+                  "sizes": [
+                    {
+                      "url": "https://resize.abcradio.net.au/bTPTISYV6rvvZ77AIL0uB80Dv6M=/100x100/center/middle/https%3A%2F%2Fwww.abc.net.au%2Ftriplej%2Falbums%2Fambermark-spacetimesingle.jpg",
+                      "width": 100,
+                      "height": 100,
+                      "aspect_ratio": "1x1"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/ERnz5siaAK7Cxusw-DPItDvabW0=/160x160/center/middle/https%3A%2F%2Fwww.abc.net.au%2Ftriplej%2Falbums%2Fambermark-spacetimesingle.jpg",
+                      "width": 160,
+                      "height": 160,
+                      "aspect_ratio": "1x1"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/1JJlIVRL7_7X1b62V7tHrvJoGWI=/340x340/center/middle/https%3A%2F%2Fwww.abc.net.au%2Ftriplej%2Falbums%2Fambermark-spacetimesingle.jpg",
+                      "width": 340,
+                      "height": 340,
+                      "aspect_ratio": "1x1"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/BPPQ_n1OVJNki3dVcM-qdjACIxM=/580x580/center/middle/https%3A%2F%2Fwww.abc.net.au%2Ftriplej%2Falbums%2Fambermark-spacetimesingle.jpg",
+                      "width": 580,
+                      "height": 580,
+                      "aspect_ratio": "1x1"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/SFeow59v4fY8JUeEVL0lyOA-tUs=/940x940/center/middle/https%3A%2F%2Fwww.abc.net.au%2Ftriplej%2Falbums%2Fambermark-spacetimesingle.jpg",
+                      "width": 940,
+                      "height": 940,
+                      "aspect_ratio": "1x1"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/VskSrjNG1Z8Ui73-VAjxQZQWPWk=/100x75/center/middle/https%3A%2F%2Fwww.abc.net.au%2Ftriplej%2Falbums%2Fambermark-spacetimesingle.jpg",
+                      "width": 100,
+                      "height": 75,
+                      "aspect_ratio": "4x3"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/xMeapmopUnYbng1fYWgBKyOWRnE=/160x120/center/middle/https%3A%2F%2Fwww.abc.net.au%2Ftriplej%2Falbums%2Fambermark-spacetimesingle.jpg",
+                      "width": 160,
+                      "height": 120,
+                      "aspect_ratio": "4x3"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/esotKtAXsfbzi1eMywsDfE3aRxM=/220x124/center/middle/https%3A%2F%2Fwww.abc.net.au%2Ftriplej%2Falbums%2Fambermark-spacetimesingle.jpg",
+                      "width": 220,
+                      "height": 124,
+                      "aspect_ratio": "16x9"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/aUGCO5eFZY8waZjde6U53-61BoA=/580x326/center/middle/https%3A%2F%2Fwww.abc.net.au%2Ftriplej%2Falbums%2Fambermark-spacetimesingle.jpg",
+                      "width": 580,
+                      "height": 326,
+                      "aspect_ratio": "16x9"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/DB45utzKhkOy8hX2I1ELT1QydFA=/940x529/center/middle/https%3A%2F%2Fwww.abc.net.au%2Ftriplej%2Falbums%2Fambermark-spacetimesingle.jpg",
+                      "width": 940,
+                      "height": 529,
+                      "aspect_ratio": "16x9"
+                    }
+                  ]
+                }
+              ],
+              "links": [],
+              "artists": [
+                {
+                  "entity": "Artist",
+                  "arid": "maBebvw4en",
+                  "name": "Amber Mark",
+                  "artwork": [],
+                  "links": [],
+                  "is_australian": null,
+                  "type": "primary",
+                  "role": null
+                }
+              ],
+              "record_label": null,
+              "release_year": "2024",
+              "release_album_id": null,
+              "is_primary": null
+            }
+          ],
+          "artwork": [],
+          "links": []
+        },
+        "release": {
+          "entity": "Release",
+          "arid": "mr9y32GOw5",
+          "title": "Space & Time",
+          "format": "Single",
+          "artwork": [
+            {
+              "entity": "Artwork",
+              "arid": "milPOAk7m9",
+              "url": "https://www.abc.net.au/triplej/albums/ambermark-spacetimesingle.jpg",
+              "is_primary": null,
+              "type": "cover",
+              "title": null,
+              "mini_synopsis": null,
+              "short_synopsis": null,
+              "medium_synopsis": null,
+              "width": 1000,
+              "height": 1000,
+              "sizes": [
+                {
+                  "url": "https://resize.abcradio.net.au/bTPTISYV6rvvZ77AIL0uB80Dv6M=/100x100/center/middle/https%3A%2F%2Fwww.abc.net.au%2Ftriplej%2Falbums%2Fambermark-spacetimesingle.jpg",
+                  "width": 100,
+                  "height": 100,
+                  "aspect_ratio": "1x1"
+                },
+                {
+                  "url": "https://resize.abcradio.net.au/ERnz5siaAK7Cxusw-DPItDvabW0=/160x160/center/middle/https%3A%2F%2Fwww.abc.net.au%2Ftriplej%2Falbums%2Fambermark-spacetimesingle.jpg",
+                  "width": 160,
+                  "height": 160,
+                  "aspect_ratio": "1x1"
+                },
+                {
+                  "url": "https://resize.abcradio.net.au/1JJlIVRL7_7X1b62V7tHrvJoGWI=/340x340/center/middle/https%3A%2F%2Fwww.abc.net.au%2Ftriplej%2Falbums%2Fambermark-spacetimesingle.jpg",
+                  "width": 340,
+                  "height": 340,
+                  "aspect_ratio": "1x1"
+                },
+                {
+                  "url": "https://resize.abcradio.net.au/BPPQ_n1OVJNki3dVcM-qdjACIxM=/580x580/center/middle/https%3A%2F%2Fwww.abc.net.au%2Ftriplej%2Falbums%2Fambermark-spacetimesingle.jpg",
+                  "width": 580,
+                  "height": 580,
+                  "aspect_ratio": "1x1"
+                },
+                {
+                  "url": "https://resize.abcradio.net.au/SFeow59v4fY8JUeEVL0lyOA-tUs=/940x940/center/middle/https%3A%2F%2Fwww.abc.net.au%2Ftriplej%2Falbums%2Fambermark-spacetimesingle.jpg",
+                  "width": 940,
+                  "height": 940,
+                  "aspect_ratio": "1x1"
+                },
+                {
+                  "url": "https://resize.abcradio.net.au/VskSrjNG1Z8Ui73-VAjxQZQWPWk=/100x75/center/middle/https%3A%2F%2Fwww.abc.net.au%2Ftriplej%2Falbums%2Fambermark-spacetimesingle.jpg",
+                  "width": 100,
+                  "height": 75,
+                  "aspect_ratio": "4x3"
+                },
+                {
+                  "url": "https://resize.abcradio.net.au/xMeapmopUnYbng1fYWgBKyOWRnE=/160x120/center/middle/https%3A%2F%2Fwww.abc.net.au%2Ftriplej%2Falbums%2Fambermark-spacetimesingle.jpg",
+                  "width": 160,
+                  "height": 120,
+                  "aspect_ratio": "4x3"
+                },
+                {
+                  "url": "https://resize.abcradio.net.au/esotKtAXsfbzi1eMywsDfE3aRxM=/220x124/center/middle/https%3A%2F%2Fwww.abc.net.au%2Ftriplej%2Falbums%2Fambermark-spacetimesingle.jpg",
+                  "width": 220,
+                  "height": 124,
+                  "aspect_ratio": "16x9"
+                },
+                {
+                  "url": "https://resize.abcradio.net.au/aUGCO5eFZY8waZjde6U53-61BoA=/580x326/center/middle/https%3A%2F%2Fwww.abc.net.au%2Ftriplej%2Falbums%2Fambermark-spacetimesingle.jpg",
+                  "width": 580,
+                  "height": 326,
+                  "aspect_ratio": "16x9"
+                },
+                {
+                  "url": "https://resize.abcradio.net.au/DB45utzKhkOy8hX2I1ELT1QydFA=/940x529/center/middle/https%3A%2F%2Fwww.abc.net.au%2Ftriplej%2Falbums%2Fambermark-spacetimesingle.jpg",
+                  "width": 940,
+                  "height": 529,
+                  "aspect_ratio": "16x9"
+                }
+              ]
+            }
+          ],
+          "links": [],
+          "artists": [
+            {
+              "entity": "Artist",
+              "arid": "maBebvw4en",
+              "name": "Amber Mark",
+              "artwork": [],
+              "links": [],
+              "is_australian": null,
+              "type": "primary",
+              "role": null
+            }
+          ],
+          "record_label": null,
+          "release_year": "2024",
+          "release_album_id": null
+        }
+      }
+    },
+    "2019_3h": {
+      "from": "2019-06-04T00:00:00Z",
+      "to": "2019-06-04T03:00:00Z",
+      "status": 200,
+      "n_items": 40,
+      "total": 40,
+      "top_level_keys": [
+        "items",
+        "limit",
+        "offset",
+        "total"
+      ],
+      "first_item": {
+        "entity": "Play",
+        "arid": "mpdVzz4ggd",
+        "played_time": "2019-06-04T02:55:53+00:00",
+        "service_id": "triplej",
+        "summary": {
+          "artist": "SAFIA",
+          "title": "Starlight",
+          "links": {
+            "Unearthed": "https://www.abc.net.au/triplejunearthed/artist/safia/",
+            "Youtube": "https://www.youtube.com/results?search_query=SAFIA%20Starlight",
+            "Spotify": "https://open.spotify.com/search/SAFIA%20Starlight",
+            "Apple": "https://music.apple.com/au/search?term=SAFIA%20Starlight"
+          }
+        },
+        "recording": {
+          "entity": "Recording",
+          "arid": "mtZK2bX2rK",
+          "title": "Starlight",
+          "metadata": null,
+          "description": null,
+          "duration": 241,
+          "artists": [
+            {
+              "entity": "Artist",
+              "arid": "makGYJ76e7",
+              "name": "SAFIA",
+              "artwork": [
+                {
+                  "entity": "Artwork",
+                  "arid": "midPbNJppP",
+                  "url": "https://www.triplejunearthed.com/sites/default/files/artists/public/2/1/0/2/6/6/0afe878d-1271-426d-b9be-e3a150dc5aa6.jpg",
+                  "is_primary": null,
+                  "type": "press",
+                  "title": null,
+                  "mini_synopsis": null,
+                  "short_synopsis": null,
+                  "medium_synopsis": null,
+                  "width": 300,
+                  "height": 300,
+                  "sizes": [
+                    {
+                      "url": "https://resize.abcradio.net.au/QLLMQkvbrBIob8McLX3ZvfzqjK0=/100x100/center/middle/https%3A%2F%2Fwww.triplejunearthed.com%2Fsites%2Fdefault%2Ffiles%2Fartists%2Fpublic%2F2%2F1%2F0%2F2%2F6%2F6%2F0afe878d-1271-426d-b9be-e3a150dc5aa6.jpg",
+                      "width": 100,
+                      "height": 100,
+                      "aspect_ratio": "1x1"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/uBqD6_hUQtiIRLktPqewOPzSZRY=/160x160/center/middle/https%3A%2F%2Fwww.triplejunearthed.com%2Fsites%2Fdefault%2Ffiles%2Fartists%2Fpublic%2F2%2F1%2F0%2F2%2F6%2F6%2F0afe878d-1271-426d-b9be-e3a150dc5aa6.jpg",
+                      "width": 160,
+                      "height": 160,
+                      "aspect_ratio": "1x1"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/o_tUWU2m7SOEGYl7KVWHCR6FXPI=/100x75/center/middle/https%3A%2F%2Fwww.triplejunearthed.com%2Fsites%2Fdefault%2Ffiles%2Fartists%2Fpublic%2F2%2F1%2F0%2F2%2F6%2F6%2F0afe878d-1271-426d-b9be-e3a150dc5aa6.jpg",
+                      "width": 100,
+                      "height": 75,
+                      "aspect_ratio": "4x3"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/FOZVItvEUP4av6yZiYt_-tUZikc=/160x120/center/middle/https%3A%2F%2Fwww.triplejunearthed.com%2Fsites%2Fdefault%2Ffiles%2Fartists%2Fpublic%2F2%2F1%2F0%2F2%2F6%2F6%2F0afe878d-1271-426d-b9be-e3a150dc5aa6.jpg",
+                      "width": 160,
+                      "height": 120,
+                      "aspect_ratio": "4x3"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/msiWhStrleAg7wVCjmNTEK3kgyY=/220x124/center/middle/https%3A%2F%2Fwww.triplejunearthed.com%2Fsites%2Fdefault%2Ffiles%2Fartists%2Fpublic%2F2%2F1%2F0%2F2%2F6%2F6%2F0afe878d-1271-426d-b9be-e3a150dc5aa6.jpg",
+                      "width": 220,
+                      "height": 124,
+                      "aspect_ratio": "16x9"
+                    }
+                  ]
+                }
+              ],
+              "links": [
+                {
+                  "entity": "Link",
+                  "arid": "mllkrLDoyJ",
+                  "url": "https://www.abc.net.au/triplejunearthed/artist/safia/",
+                  "id_component": "210266",
+                  "title": "Unearthed artist",
+                  "mini_synopsis": null,
+                  "short_synopsis": null,
+                  "medium_synopsis": null,
+                  "type": "service",
+                  "provider": "unearthed",
+                  "external": false
+                },
+                {
+                  "entity": "Link",
+                  "arid": "mlb5bljDX0",
+                  "url": "https://www.abc.net.au/triplejunearthed/artist/young-franco/",
+                  "id_component": "288971",
+                  "service_id": "unearthed",
+                  "title": "Unearthed artist",
+                  "mini_synopsis": null,
+                  "short_synopsis": null,
+                  "medium_synopsis": null,
+                  "type": "service",
+                  "provider": "unearthed",
+                  "external": false
+                }
+              ],
+              "is_australian": true,
+              "type": "primary",
+              "role": null
+            }
+          ],
+          "releases": [
+            {
+              "entity": "Release",
+              "arid": "mrq5YBJRyL",
+              "title": "Starlight",
+              "format": "Single",
+              "artwork": [
+                {
+                  "entity": "Artwork",
+                  "arid": "miQeRQW3j9",
+                  "url": "https://www.abc.net.au/triplej/albums/57086/covers/original.jpg",
+                  "is_primary": null,
+                  "type": "cover",
+                  "title": null,
+                  "mini_synopsis": null,
+                  "short_synopsis": null,
+                  "medium_synopsis": null,
+                  "width": 1425,
+                  "height": 1425,
+                  "sizes": [
+                    {
+                      "url": "https://resize.abcradio.net.au/6USKYbB5qgSKOURS4KQ3mTs-JCI=/100x100/center/middle/https%3A%2F%2Fwww.abc.net.au%2Ftriplej%2Falbums%2F57086%2Fcovers%2Foriginal.jpg",
+                      "width": 100,
+                      "height": 100,
+                      "aspect_ratio": "1x1"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/tLcZJZTgQCLjPJBTC1K3odT5PyQ=/160x160/center/middle/https%3A%2F%2Fwww.abc.net.au%2Ftriplej%2Falbums%2F57086%2Fcovers%2Foriginal.jpg",
+                      "width": 160,
+                      "height": 160,
+                      "aspect_ratio": "1x1"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/iRHHJnXy0qnjqaRIVTrL2AtWcqA=/340x340/center/middle/https%3A%2F%2Fwww.abc.net.au%2Ftriplej%2Falbums%2F57086%2Fcovers%2Foriginal.jpg",
+                      "width": 340,
+                      "height": 340,
+                      "aspect_ratio": "1x1"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/4hOSNNfOdO7YoyDhBS-q8XGYkpQ=/580x580/center/middle/https%3A%2F%2Fwww.abc.net.au%2Ftriplej%2Falbums%2F57086%2Fcovers%2Foriginal.jpg",
+                      "width": 580,
+                      "height": 580,
+                      "aspect_ratio": "1x1"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/jiuqyyVhEvZanjBKq62U8N__pnk=/940x940/center/middle/https%3A%2F%2Fwww.abc.net.au%2Ftriplej%2Falbums%2F57086%2Fcovers%2Foriginal.jpg",
+                      "width": 940,
+                      "height": 940,
+                      "aspect_ratio": "1x1"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/v2sxWUG0wUHt4Vegm4ZdRXphuIc=/1300x1300/center/middle/https%3A%2F%2Fwww.abc.net.au%2Ftriplej%2Falbums%2F57086%2Fcovers%2Foriginal.jpg",
+                      "width": 1300,
+                      "height": 1300,
+                      "aspect_ratio": "1x1"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/DQGBE-dvWn7q_HocSNj268D8XKw=/100x75/center/middle/https%3A%2F%2Fwww.abc.net.au%2Ftriplej%2Falbums%2F57086%2Fcovers%2Foriginal.jpg",
+                      "width": 100,
+                      "height": 75,
+                      "aspect_ratio": "4x3"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/HeIVaqjriLAWau6ywGUyEReoCPs=/160x120/center/middle/https%3A%2F%2Fwww.abc.net.au%2Ftriplej%2Falbums%2F57086%2Fcovers%2Foriginal.jpg",
+                      "width": 160,
+                      "height": 120,
+                      "aspect_ratio": "4x3"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/kiA8NUSm_ZudbfzWtI-0pMLACAc=/220x124/center/middle/https%3A%2F%2Fwww.abc.net.au%2Ftriplej%2Falbums%2F57086%2Fcovers%2Foriginal.jpg",
+                      "width": 220,
+                      "height": 124,
+                      "aspect_ratio": "16x9"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/KJO5QgOAaveUNVSH9_oyad5bRcE=/580x326/center/middle/https%3A%2F%2Fwww.abc.net.au%2Ftriplej%2Falbums%2F57086%2Fcovers%2Foriginal.jpg",
+                      "width": 580,
+                      "height": 326,
+                      "aspect_ratio": "16x9"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/HI2YBEBM9gExe2uiD0lgrJ34Q_w=/940x529/center/middle/https%3A%2F%2Fwww.abc.net.au%2Ftriplej%2Falbums%2F57086%2Fcovers%2Foriginal.jpg",
+                      "width": 940,
+                      "height": 529,
+                      "aspect_ratio": "16x9"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/3BN4IXlSv3hTWyHGOvA6p-4tbJU=/1300x731/center/middle/https%3A%2F%2Fwww.abc.net.au%2Ftriplej%2Falbums%2F57086%2Fcovers%2Foriginal.jpg",
+                      "width": 1300,
+                      "height": 731,
+                      "aspect_ratio": "16x9"
+                    }
+                  ]
+                }
+              ],
+              "links": [],
+              "artists": [
+                {
+                  "entity": "Artist",
+                  "arid": "makGYJ76e7",
+                  "name": "SAFIA",
+                  "artwork": [
+                    {
+                      "entity": "Artwork",
+                      "arid": "midPbNJppP",
+                      "url": "https://www.triplejunearthed.com/sites/default/files/artists/public/2/1/0/2/6/6/0afe878d-1271-426d-b9be-e3a150dc5aa6.jpg",
+                      "is_primary": null,
+                      "type": "press",
+                      "title": null,
+                      "mini_synopsis": null,
+                      "short_synopsis": null,
+                      "medium_synopsis": null,
+                      "width": 300,
+                      "height": 300,
+                      "sizes": [
+                        {
+                          "url": "https://resize.abcradio.net.au/QLLMQkvbrBIob8McLX3ZvfzqjK0=/100x100/center/middle/https%3A%2F%2Fwww.triplejunearthed.com%2Fsites%2Fdefault%2Ffiles%2Fartists%2Fpublic%2F2%2F1%2F0%2F2%2F6%2F6%2F0afe878d-1271-426d-b9be-e3a150dc5aa6.jpg",
+                          "width": 100,
+                          "height": 100,
+                          "aspect_ratio": "1x1"
+                        },
+                        {
+                          "url": "https://resize.abcradio.net.au/uBqD6_hUQtiIRLktPqewOPzSZRY=/160x160/center/middle/https%3A%2F%2Fwww.triplejunearthed.com%2Fsites%2Fdefault%2Ffiles%2Fartists%2Fpublic%2F2%2F1%2F0%2F2%2F6%2F6%2F0afe878d-1271-426d-b9be-e3a150dc5aa6.jpg",
+                          "width": 160,
+                          "height": 160,
+                          "aspect_ratio": "1x1"
+                        },
+                        {
+                          "url": "https://resize.abcradio.net.au/o_tUWU2m7SOEGYl7KVWHCR6FXPI=/100x75/center/middle/https%3A%2F%2Fwww.triplejunearthed.com%2Fsites%2Fdefault%2Ffiles%2Fartists%2Fpublic%2F2%2F1%2F0%2F2%2F6%2F6%2F0afe878d-1271-426d-b9be-e3a150dc5aa6.jpg",
+                          "width": 100,
+                          "height": 75,
+                          "aspect_ratio": "4x3"
+                        },
+                        {
+                          "url": "https://resize.abcradio.net.au/FOZVItvEUP4av6yZiYt_-tUZikc=/160x120/center/middle/https%3A%2F%2Fwww.triplejunearthed.com%2Fsites%2Fdefault%2Ffiles%2Fartists%2Fpublic%2F2%2F1%2F0%2F2%2F6%2F6%2F0afe878d-1271-426d-b9be-e3a150dc5aa6.jpg",
+                          "width": 160,
+                          "height": 120,
+                          "aspect_ratio": "4x3"
+                        },
+                        {
+                          "url": "https://resize.abcradio.net.au/msiWhStrleAg7wVCjmNTEK3kgyY=/220x124/center/middle/https%3A%2F%2Fwww.triplejunearthed.com%2Fsites%2Fdefault%2Ffiles%2Fartists%2Fpublic%2F2%2F1%2F0%2F2%2F6%2F6%2F0afe878d-1271-426d-b9be-e3a150dc5aa6.jpg",
+                          "width": 220,
+                          "height": 124,
+                          "aspect_ratio": "16x9"
+                        }
+                      ]
+                    }
+                  ],
+                  "links": [
+                    {
+                      "entity": "Link",
+                      "arid": "mllkrLDoyJ",
+                      "url": "https://www.abc.net.au/triplejunearthed/artist/safia/",
+                      "id_component": "210266",
+                      "title": "Unearthed artist",
+                      "mini_synopsis": null,
+                      "short_synopsis": null,
+                      "medium_synopsis": null,
+                      "type": "service",
+                      "provider": "unearthed",
+                      "external": false
+                    },
+                    {
+                      "entity": "Link",
+                      "arid": "mlb5bljDX0",
+                      "url": "https://www.abc.net.au/triplejunearthed/artist/young-franco/",
+                      "id_component": "288971",
+                      "service_id": "unearthed",
+                      "title": "Unearthed artist",
+                      "mini_synopsis": null,
+                      "short_synopsis": null,
+                      "medium_synopsis": null,
+                      "type": "service",
+                      "provider": "unearthed",
+                      "external": false
+                    }
+                  ],
+                  "is_australian": true,
+                  "type": "primary",
+                  "role": null
+                }
+              ],
+              "record_label": null,
+              "release_year": "2018",
+              "release_album_id": "57086",
+              "is_primary": null
+            }
+          ],
+          "artwork": [],
+          "links": []
+        },
+        "release": {
+          "entity": "Release",
+          "arid": "mrq5YBJRyL",
+          "title": "Starlight",
+          "format": "Single",
+          "artwork": [
+            {
+              "entity": "Artwork",
+              "arid": "miQeRQW3j9",
+              "url": "https://www.abc.net.au/triplej/albums/57086/covers/original.jpg",
+              "is_primary": null,
+              "type": "cover",
+              "title": null,
+              "mini_synopsis": null,
+              "short_synopsis": null,
+              "medium_synopsis": null,
+              "width": 1425,
+              "height": 1425,
+              "sizes": [
+                {
+                  "url": "https://resize.abcradio.net.au/6USKYbB5qgSKOURS4KQ3mTs-JCI=/100x100/center/middle/https%3A%2F%2Fwww.abc.net.au%2Ftriplej%2Falbums%2F57086%2Fcovers%2Foriginal.jpg",
+                  "width": 100,
+                  "height": 100,
+                  "aspect_ratio": "1x1"
+                },
+                {
+                  "url": "https://resize.abcradio.net.au/tLcZJZTgQCLjPJBTC1K3odT5PyQ=/160x160/center/middle/https%3A%2F%2Fwww.abc.net.au%2Ftriplej%2Falbums%2F57086%2Fcovers%2Foriginal.jpg",
+                  "width": 160,
+                  "height": 160,
+                  "aspect_ratio": "1x1"
+                },
+                {
+                  "url": "https://resize.abcradio.net.au/iRHHJnXy0qnjqaRIVTrL2AtWcqA=/340x340/center/middle/https%3A%2F%2Fwww.abc.net.au%2Ftriplej%2Falbums%2F57086%2Fcovers%2Foriginal.jpg",
+                  "width": 340,
+                  "height": 340,
+                  "aspect_ratio": "1x1"
+                },
+                {
+                  "url": "https://resize.abcradio.net.au/4hOSNNfOdO7YoyDhBS-q8XGYkpQ=/580x580/center/middle/https%3A%2F%2Fwww.abc.net.au%2Ftriplej%2Falbums%2F57086%2Fcovers%2Foriginal.jpg",
+                  "width": 580,
+                  "height": 580,
+                  "aspect_ratio": "1x1"
+                },
+                {
+                  "url": "https://resize.abcradio.net.au/jiuqyyVhEvZanjBKq62U8N__pnk=/940x940/center/middle/https%3A%2F%2Fwww.abc.net.au%2Ftriplej%2Falbums%2F57086%2Fcovers%2Foriginal.jpg",
+                  "width": 940,
+                  "height": 940,
+                  "aspect_ratio": "1x1"
+                },
+                {
+                  "url": "https://resize.abcradio.net.au/v2sxWUG0wUHt4Vegm4ZdRXphuIc=/1300x1300/center/middle/https%3A%2F%2Fwww.abc.net.au%2Ftriplej%2Falbums%2F57086%2Fcovers%2Foriginal.jpg",
+                  "width": 1300,
+                  "height": 1300,
+                  "aspect_ratio": "1x1"
+                },
+                {
+                  "url": "https://resize.abcradio.net.au/DQGBE-dvWn7q_HocSNj268D8XKw=/100x75/center/middle/https%3A%2F%2Fwww.abc.net.au%2Ftriplej%2Falbums%2F57086%2Fcovers%2Foriginal.jpg",
+                  "width": 100,
+                  "height": 75,
+                  "aspect_ratio": "4x3"
+                },
+                {
+                  "url": "https://resize.abcradio.net.au/HeIVaqjriLAWau6ywGUyEReoCPs=/160x120/center/middle/https%3A%2F%2Fwww.abc.net.au%2Ftriplej%2Falbums%2F57086%2Fcovers%2Foriginal.jpg",
+                  "width": 160,
+                  "height": 120,
+                  "aspect_ratio": "4x3"
+                },
+                {
+                  "url": "https://resize.abcradio.net.au/kiA8NUSm_ZudbfzWtI-0pMLACAc=/220x124/center/middle/https%3A%2F%2Fwww.abc.net.au%2Ftriplej%2Falbums%2F57086%2Fcovers%2Foriginal.jpg",
+                  "width": 220,
+                  "height": 124,
+                  "aspect_ratio": "16x9"
+                },
+                {
+                  "url": "https://resize.abcradio.net.au/KJO5QgOAaveUNVSH9_oyad5bRcE=/580x326/center/middle/https%3A%2F%2Fwww.abc.net.au%2Ftriplej%2Falbums%2F57086%2Fcovers%2Foriginal.jpg",
+                  "width": 580,
+                  "height": 326,
+                  "aspect_ratio": "16x9"
+                },
+                {
+                  "url": "https://resize.abcradio.net.au/HI2YBEBM9gExe2uiD0lgrJ34Q_w=/940x529/center/middle/https%3A%2F%2Fwww.abc.net.au%2Ftriplej%2Falbums%2F57086%2Fcovers%2Foriginal.jpg",
+                  "width": 940,
+                  "height": 529,
+                  "aspect_ratio": "16x9"
+                },
+                {
+                  "url": "https://resize.abcradio.net.au/3BN4IXlSv3hTWyHGOvA6p-4tbJU=/1300x731/center/middle/https%3A%2F%2Fwww.abc.net.au%2Ftriplej%2Falbums%2F57086%2Fcovers%2Foriginal.jpg",
+                  "width": 1300,
+                  "height": 731,
+                  "aspect_ratio": "16x9"
+                }
+              ]
+            }
+          ],
+          "links": [],
+          "artists": [
+            {
+              "entity": "Artist",
+              "arid": "makGYJ76e7",
+              "name": "SAFIA",
+              "artwork": [
+                {
+                  "entity": "Artwork",
+                  "arid": "midPbNJppP",
+                  "url": "https://www.triplejunearthed.com/sites/default/files/artists/public/2/1/0/2/6/6/0afe878d-1271-426d-b9be-e3a150dc5aa6.jpg",
+                  "is_primary": null,
+                  "type": "press",
+                  "title": null,
+                  "mini_synopsis": null,
+                  "short_synopsis": null,
+                  "medium_synopsis": null,
+                  "width": 300,
+                  "height": 300,
+                  "sizes": [
+                    {
+                      "url": "https://resize.abcradio.net.au/QLLMQkvbrBIob8McLX3ZvfzqjK0=/100x100/center/middle/https%3A%2F%2Fwww.triplejunearthed.com%2Fsites%2Fdefault%2Ffiles%2Fartists%2Fpublic%2F2%2F1%2F0%2F2%2F6%2F6%2F0afe878d-1271-426d-b9be-e3a150dc5aa6.jpg",
+                      "width": 100,
+                      "height": 100,
+                      "aspect_ratio": "1x1"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/uBqD6_hUQtiIRLktPqewOPzSZRY=/160x160/center/middle/https%3A%2F%2Fwww.triplejunearthed.com%2Fsites%2Fdefault%2Ffiles%2Fartists%2Fpublic%2F2%2F1%2F0%2F2%2F6%2F6%2F0afe878d-1271-426d-b9be-e3a150dc5aa6.jpg",
+                      "width": 160,
+                      "height": 160,
+                      "aspect_ratio": "1x1"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/o_tUWU2m7SOEGYl7KVWHCR6FXPI=/100x75/center/middle/https%3A%2F%2Fwww.triplejunearthed.com%2Fsites%2Fdefault%2Ffiles%2Fartists%2Fpublic%2F2%2F1%2F0%2F2%2F6%2F6%2F0afe878d-1271-426d-b9be-e3a150dc5aa6.jpg",
+                      "width": 100,
+                      "height": 75,
+                      "aspect_ratio": "4x3"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/FOZVItvEUP4av6yZiYt_-tUZikc=/160x120/center/middle/https%3A%2F%2Fwww.triplejunearthed.com%2Fsites%2Fdefault%2Ffiles%2Fartists%2Fpublic%2F2%2F1%2F0%2F2%2F6%2F6%2F0afe878d-1271-426d-b9be-e3a150dc5aa6.jpg",
+                      "width": 160,
+                      "height": 120,
+                      "aspect_ratio": "4x3"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/msiWhStrleAg7wVCjmNTEK3kgyY=/220x124/center/middle/https%3A%2F%2Fwww.triplejunearthed.com%2Fsites%2Fdefault%2Ffiles%2Fartists%2Fpublic%2F2%2F1%2F0%2F2%2F6%2F6%2F0afe878d-1271-426d-b9be-e3a150dc5aa6.jpg",
+                      "width": 220,
+                      "height": 124,
+                      "aspect_ratio": "16x9"
+                    }
+                  ]
+                }
+              ],
+              "links": [
+                {
+                  "entity": "Link",
+                  "arid": "mllkrLDoyJ",
+                  "url": "https://www.abc.net.au/triplejunearthed/artist/safia/",
+                  "id_component": "210266",
+                  "title": "Unearthed artist",
+                  "mini_synopsis": null,
+                  "short_synopsis": null,
+                  "medium_synopsis": null,
+                  "type": "service",
+                  "provider": "unearthed",
+                  "external": false
+                },
+                {
+                  "entity": "Link",
+                  "arid": "mlb5bljDX0",
+                  "url": "https://www.abc.net.au/triplejunearthed/artist/young-franco/",
+                  "id_component": "288971",
+                  "service_id": "unearthed",
+                  "title": "Unearthed artist",
+                  "mini_synopsis": null,
+                  "short_synopsis": null,
+                  "medium_synopsis": null,
+                  "type": "service",
+                  "provider": "unearthed",
+                  "external": false
+                }
+              ],
+              "is_australian": true,
+              "type": "primary",
+              "role": null
+            }
+          ],
+          "record_label": null,
+          "release_year": "2018",
+          "release_album_id": "57086"
+        }
+      }
+    },
+    "2015_3h": {
+      "from": "2015-06-02T00:00:00Z",
+      "to": "2015-06-02T03:00:00Z",
+      "status": 200,
+      "n_items": 40,
+      "total": 40,
+      "top_level_keys": [
+        "items",
+        "limit",
+        "offset",
+        "total"
+      ],
+      "first_item": {
+        "entity": "Play",
+        "arid": "mpQrxlqpXr",
+        "played_time": "2015-06-02T02:56:24+00:00",
+        "service_id": "triplej",
+        "summary": {
+          "artist": "Ainslie Wills",
+          "title": "Drive",
+          "links": {
+            "Unearthed": "https://www.abc.net.au/triplejunearthed/artist/ainslie-wills/",
+            "Youtube": "https://www.youtube.com/results?search_query=Ainslie%20Wills%20Drive",
+            "Spotify": "https://open.spotify.com/search/Ainslie%20Wills%20Drive",
+            "Apple": "https://music.apple.com/au/search?term=Ainslie%20Wills%20Drive"
+          }
+        },
+        "recording": {
+          "entity": "Recording",
+          "arid": "mtwY4erEkb",
+          "title": "Drive",
+          "metadata": null,
+          "description": null,
+          "duration": 298,
+          "artists": [
+            {
+              "entity": "Artist",
+              "arid": "mayMYmENYJ",
+              "name": "Ainslie Wills",
+              "artwork": [
+                {
+                  "entity": "Artwork",
+                  "arid": "mi5gGldL09",
+                  "url": "https://www.triplejunearthed.com/sites/default/files/artists/public/3/3/8/6/e2745339-24c6-4fb9-9a27-0aa3c1633d24.png",
+                  "is_primary": null,
+                  "type": "press",
+                  "title": null,
+                  "mini_synopsis": null,
+                  "short_synopsis": null,
+                  "medium_synopsis": null,
+                  "width": 356,
+                  "height": 278,
+                  "sizes": [
+                    {
+                      "url": "https://resize.abcradio.net.au/8nFrYOF3AwC45eXjOYVfZRDL99Y=/100x100/center/middle/https%3A%2F%2Fwww.triplejunearthed.com%2Fsites%2Fdefault%2Ffiles%2Fartists%2Fpublic%2F3%2F3%2F8%2F6%2Fe2745339-24c6-4fb9-9a27-0aa3c1633d24.png",
+                      "width": 100,
+                      "height": 100,
+                      "aspect_ratio": "1x1"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/Okdos6a5zmxopqaqE1FK8vl_JE0=/160x160/center/middle/https%3A%2F%2Fwww.triplejunearthed.com%2Fsites%2Fdefault%2Ffiles%2Fartists%2Fpublic%2F3%2F3%2F8%2F6%2Fe2745339-24c6-4fb9-9a27-0aa3c1633d24.png",
+                      "width": 160,
+                      "height": 160,
+                      "aspect_ratio": "1x1"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/HSP16zaP-6mUqJoasimBGTFp7jY=/100x75/center/middle/https%3A%2F%2Fwww.triplejunearthed.com%2Fsites%2Fdefault%2Ffiles%2Fartists%2Fpublic%2F3%2F3%2F8%2F6%2Fe2745339-24c6-4fb9-9a27-0aa3c1633d24.png",
+                      "width": 100,
+                      "height": 75,
+                      "aspect_ratio": "4x3"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/BMLNQyhJx7vQXFknnZ8XbMHaeCo=/160x120/center/middle/https%3A%2F%2Fwww.triplejunearthed.com%2Fsites%2Fdefault%2Ffiles%2Fartists%2Fpublic%2F3%2F3%2F8%2F6%2Fe2745339-24c6-4fb9-9a27-0aa3c1633d24.png",
+                      "width": 160,
+                      "height": 120,
+                      "aspect_ratio": "4x3"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/dyM--MeQ148eT4K5c5W6zHYc-1U=/220x124/center/middle/https%3A%2F%2Fwww.triplejunearthed.com%2Fsites%2Fdefault%2Ffiles%2Fartists%2Fpublic%2F3%2F3%2F8%2F6%2Fe2745339-24c6-4fb9-9a27-0aa3c1633d24.png",
+                      "width": 220,
+                      "height": 124,
+                      "aspect_ratio": "16x9"
+                    }
+                  ]
+                }
+              ],
+              "links": [
+                {
+                  "entity": "Link",
+                  "arid": "mlGyQaBWyD",
+                  "url": "https://www.abc.net.au/triplejunearthed/artist/ainslie-wills/",
+                  "id_component": "3386",
+                  "title": "Unearthed artist",
+                  "mini_synopsis": null,
+                  "short_synopsis": null,
+                  "medium_synopsis": null,
+                  "type": "service",
+                  "provider": "unearthed",
+                  "external": false
+                }
+              ],
+              "is_australian": true,
+              "type": "primary",
+              "role": null
+            }
+          ],
+          "releases": [
+            {
+              "entity": "Release",
+              "arid": "mro5b7Ley2",
+              "title": "Oh The Gold EP",
+              "format": null,
+              "artwork": [
+                {
+                  "entity": "Artwork",
+                  "arid": "miQ9vkZye6",
+                  "url": "https://images.abcradio.net.au/abc-music-api-triplej-production/release/miQ9vkZye6/b8f6351aa972dfaeba28bb7ea31b4cc6.jpg",
+                  "is_primary": null,
+                  "type": "cover",
+                  "title": null,
+                  "mini_synopsis": null,
+                  "short_synopsis": null,
+                  "medium_synopsis": null,
+                  "width": 700,
+                  "height": 700,
+                  "sizes": [
+                    {
+                      "url": "https://resize.abcradio.net.au/lE4A1MC55EVjQuivrA5y8il10yY=/100x100/center/middle/https%3A%2F%2Fimages.abcradio.net.au%2Fabc-music-api-triplej-production%2Frelease%2FmiQ9vkZye6%2Fb8f6351aa972dfaeba28bb7ea31b4cc6.jpg",
+                      "width": 100,
+                      "height": 100,
+                      "aspect_ratio": "1x1"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/tLy4_j2j4hOfNlAgJUf4e53OF4w=/160x160/center/middle/https%3A%2F%2Fimages.abcradio.net.au%2Fabc-music-api-triplej-production%2Frelease%2FmiQ9vkZye6%2Fb8f6351aa972dfaeba28bb7ea31b4cc6.jpg",
+                      "width": 160,
+                      "height": 160,
+                      "aspect_ratio": "1x1"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/c2IQbOs4NU4he5K_ekEbhuQWeY8=/340x340/center/middle/https%3A%2F%2Fimages.abcradio.net.au%2Fabc-music-api-triplej-production%2Frelease%2FmiQ9vkZye6%2Fb8f6351aa972dfaeba28bb7ea31b4cc6.jpg",
+                      "width": 340,
+                      "height": 340,
+                      "aspect_ratio": "1x1"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/IeJOSwVWlU1ck9jaT6ctOcuOquc=/580x580/center/middle/https%3A%2F%2Fimages.abcradio.net.au%2Fabc-music-api-triplej-production%2Frelease%2FmiQ9vkZye6%2Fb8f6351aa972dfaeba28bb7ea31b4cc6.jpg",
+                      "width": 580,
+                      "height": 580,
+                      "aspect_ratio": "1x1"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/vgXOiSUc3tgYso4-Sdc-pTntY2A=/100x75/center/middle/https%3A%2F%2Fimages.abcradio.net.au%2Fabc-music-api-triplej-production%2Frelease%2FmiQ9vkZye6%2Fb8f6351aa972dfaeba28bb7ea31b4cc6.jpg",
+                      "width": 100,
+                      "height": 75,
+                      "aspect_ratio": "4x3"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/qY9XdnOEilaMCqrk4p4AnZsYa4g=/160x120/center/middle/https%3A%2F%2Fimages.abcradio.net.au%2Fabc-music-api-triplej-production%2Frelease%2FmiQ9vkZye6%2Fb8f6351aa972dfaeba28bb7ea31b4cc6.jpg",
+                      "width": 160,
+                      "height": 120,
+                      "aspect_ratio": "4x3"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/4qPe_BomW8pzKjjGoqHMTUwsTpM=/220x124/center/middle/https%3A%2F%2Fimages.abcradio.net.au%2Fabc-music-api-triplej-production%2Frelease%2FmiQ9vkZye6%2Fb8f6351aa972dfaeba28bb7ea31b4cc6.jpg",
+                      "width": 220,
+                      "height": 124,
+                      "aspect_ratio": "16x9"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/jgWwJT--z34sO7St6EHAUMc4scY=/580x326/center/middle/https%3A%2F%2Fimages.abcradio.net.au%2Fabc-music-api-triplej-production%2Frelease%2FmiQ9vkZye6%2Fb8f6351aa972dfaeba28bb7ea31b4cc6.jpg",
+                      "width": 580,
+                      "height": 326,
+                      "aspect_ratio": "16x9"
+                    }
+                  ]
+                }
+              ],
+              "links": [],
+              "artists": [
+                {
+                  "entity": "Artist",
+                  "arid": "mayMYmENYJ",
+                  "name": "Ainslie Wills",
+                  "artwork": [
+                    {
+                      "entity": "Artwork",
+                      "arid": "mi5gGldL09",
+                      "url": "https://www.triplejunearthed.com/sites/default/files/artists/public/3/3/8/6/e2745339-24c6-4fb9-9a27-0aa3c1633d24.png",
+                      "is_primary": null,
+                      "type": "press",
+                      "title": null,
+                      "mini_synopsis": null,
+                      "short_synopsis": null,
+                      "medium_synopsis": null,
+                      "width": 356,
+                      "height": 278,
+                      "sizes": [
+                        {
+                          "url": "https://resize.abcradio.net.au/8nFrYOF3AwC45eXjOYVfZRDL99Y=/100x100/center/middle/https%3A%2F%2Fwww.triplejunearthed.com%2Fsites%2Fdefault%2Ffiles%2Fartists%2Fpublic%2F3%2F3%2F8%2F6%2Fe2745339-24c6-4fb9-9a27-0aa3c1633d24.png",
+                          "width": 100,
+                          "height": 100,
+                          "aspect_ratio": "1x1"
+                        },
+                        {
+                          "url": "https://resize.abcradio.net.au/Okdos6a5zmxopqaqE1FK8vl_JE0=/160x160/center/middle/https%3A%2F%2Fwww.triplejunearthed.com%2Fsites%2Fdefault%2Ffiles%2Fartists%2Fpublic%2F3%2F3%2F8%2F6%2Fe2745339-24c6-4fb9-9a27-0aa3c1633d24.png",
+                          "width": 160,
+                          "height": 160,
+                          "aspect_ratio": "1x1"
+                        },
+                        {
+                          "url": "https://resize.abcradio.net.au/HSP16zaP-6mUqJoasimBGTFp7jY=/100x75/center/middle/https%3A%2F%2Fwww.triplejunearthed.com%2Fsites%2Fdefault%2Ffiles%2Fartists%2Fpublic%2F3%2F3%2F8%2F6%2Fe2745339-24c6-4fb9-9a27-0aa3c1633d24.png",
+                          "width": 100,
+                          "height": 75,
+                          "aspect_ratio": "4x3"
+                        },
+                        {
+                          "url": "https://resize.abcradio.net.au/BMLNQyhJx7vQXFknnZ8XbMHaeCo=/160x120/center/middle/https%3A%2F%2Fwww.triplejunearthed.com%2Fsites%2Fdefault%2Ffiles%2Fartists%2Fpublic%2F3%2F3%2F8%2F6%2Fe2745339-24c6-4fb9-9a27-0aa3c1633d24.png",
+                          "width": 160,
+                          "height": 120,
+                          "aspect_ratio": "4x3"
+                        },
+                        {
+                          "url": "https://resize.abcradio.net.au/dyM--MeQ148eT4K5c5W6zHYc-1U=/220x124/center/middle/https%3A%2F%2Fwww.triplejunearthed.com%2Fsites%2Fdefault%2Ffiles%2Fartists%2Fpublic%2F3%2F3%2F8%2F6%2Fe2745339-24c6-4fb9-9a27-0aa3c1633d24.png",
+                          "width": 220,
+                          "height": 124,
+                          "aspect_ratio": "16x9"
+                        }
+                      ]
+                    }
+                  ],
+                  "links": [
+                    {
+                      "entity": "Link",
+                      "arid": "mlGyQaBWyD",
+                      "url": "https://www.abc.net.au/triplejunearthed/artist/ainslie-wills/",
+                      "id_component": "3386",
+                      "title": "Unearthed artist",
+                      "mini_synopsis": null,
+                      "short_synopsis": null,
+                      "medium_synopsis": null,
+                      "type": "service",
+                      "provider": "unearthed",
+                      "external": false
+                    }
+                  ],
+                  "is_australian": true,
+                  "type": "primary",
+                  "role": null
+                }
+              ],
+              "record_label": null,
+              "release_year": null,
+              "release_album_id": null,
+              "is_primary": null
+            },
+            {
+              "entity": "Release",
+              "arid": "mrKyQwYBA9",
+              "title": "Drive",
+              "format": "Single",
+              "artwork": [
+                {
+                  "entity": "Artwork",
+                  "arid": "miRPWAzr9G",
+                  "url": "https://www.abc.net.au/dig/covers/wills_drive.jpg",
+                  "is_primary": null,
+                  "type": "cover",
+                  "title": null,
+                  "mini_synopsis": null,
+                  "short_synopsis": null,
+                  "medium_synopsis": null,
+                  "width": 800,
+                  "height": 800,
+                  "sizes": [
+                    {
+                      "url": "https://resize.abcradio.net.au/jJ5OGeLBJWBfC26vZFDpaJb1B4s=/100x100/center/middle/http%3A%2F%2Fwww.abc.net.au%2Fdig%2Fcovers%2Fwills_drive.jpg",
+                      "width": 100,
+                      "height": 100,
+                      "aspect_ratio": "1x1"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/T5-wyuq69SbqVbR1AweVEL70-XM=/160x160/center/middle/http%3A%2F%2Fwww.abc.net.au%2Fdig%2Fcovers%2Fwills_drive.jpg",
+                      "width": 160,
+                      "height": 160,
+                      "aspect_ratio": "1x1"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/G2ZZL40d27Yx9gqPGi_fs4rtkns=/340x340/center/middle/http%3A%2F%2Fwww.abc.net.au%2Fdig%2Fcovers%2Fwills_drive.jpg",
+                      "width": 340,
+                      "height": 340,
+                      "aspect_ratio": "1x1"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/9L4oTL_RNiGWIvyroG11dNJBiUE=/580x580/center/middle/http%3A%2F%2Fwww.abc.net.au%2Fdig%2Fcovers%2Fwills_drive.jpg",
+                      "width": 580,
+                      "height": 580,
+                      "aspect_ratio": "1x1"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/d5r9Nr8mC9hMoyZE0J9MFB8Rfis=/100x75/center/middle/http%3A%2F%2Fwww.abc.net.au%2Fdig%2Fcovers%2Fwills_drive.jpg",
+                      "width": 100,
+                      "height": 75,
+                      "aspect_ratio": "4x3"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/3F8hkruSYv0wUHUHUiahz4XBw2A=/160x120/center/middle/http%3A%2F%2Fwww.abc.net.au%2Fdig%2Fcovers%2Fwills_drive.jpg",
+                      "width": 160,
+                      "height": 120,
+                      "aspect_ratio": "4x3"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/d_pVZcvHeSIfNyvqu8p89jLQi4s=/220x124/center/middle/http%3A%2F%2Fwww.abc.net.au%2Fdig%2Fcovers%2Fwills_drive.jpg",
+                      "width": 220,
+                      "height": 124,
+                      "aspect_ratio": "16x9"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/XpGvJDuL8XX6JrJ8Vzx-SR8HHAs=/580x326/center/middle/http%3A%2F%2Fwww.abc.net.au%2Fdig%2Fcovers%2Fwills_drive.jpg",
+                      "width": 580,
+                      "height": 326,
+                      "aspect_ratio": "16x9"
+                    }
+                  ]
+                }
+              ],
+              "links": [],
+              "artists": [
+                {
+                  "entity": "Artist",
+                  "arid": "mayMYmENYJ",
+                  "name": "Ainslie Wills",
+                  "artwork": [
+                    {
+                      "entity": "Artwork",
+                      "arid": "mi5gGldL09",
+                      "url": "https://www.triplejunearthed.com/sites/default/files/artists/public/3/3/8/6/e2745339-24c6-4fb9-9a27-0aa3c1633d24.png",
+                      "is_primary": null,
+                      "type": "press",
+                      "title": null,
+                      "mini_synopsis": null,
+                      "short_synopsis": null,
+                      "medium_synopsis": null,
+                      "width": 356,
+                      "height": 278,
+                      "sizes": [
+                        {
+                          "url": "https://resize.abcradio.net.au/8nFrYOF3AwC45eXjOYVfZRDL99Y=/100x100/center/middle/https%3A%2F%2Fwww.triplejunearthed.com%2Fsites%2Fdefault%2Ffiles%2Fartists%2Fpublic%2F3%2F3%2F8%2F6%2Fe2745339-24c6-4fb9-9a27-0aa3c1633d24.png",
+                          "width": 100,
+                          "height": 100,
+                          "aspect_ratio": "1x1"
+                        },
+                        {
+                          "url": "https://resize.abcradio.net.au/Okdos6a5zmxopqaqE1FK8vl_JE0=/160x160/center/middle/https%3A%2F%2Fwww.triplejunearthed.com%2Fsites%2Fdefault%2Ffiles%2Fartists%2Fpublic%2F3%2F3%2F8%2F6%2Fe2745339-24c6-4fb9-9a27-0aa3c1633d24.png",
+                          "width": 160,
+                          "height": 160,
+                          "aspect_ratio": "1x1"
+                        },
+                        {
+                          "url": "https://resize.abcradio.net.au/HSP16zaP-6mUqJoasimBGTFp7jY=/100x75/center/middle/https%3A%2F%2Fwww.triplejunearthed.com%2Fsites%2Fdefault%2Ffiles%2Fartists%2Fpublic%2F3%2F3%2F8%2F6%2Fe2745339-24c6-4fb9-9a27-0aa3c1633d24.png",
+                          "width": 100,
+                          "height": 75,
+                          "aspect_ratio": "4x3"
+                        },
+                        {
+                          "url": "https://resize.abcradio.net.au/BMLNQyhJx7vQXFknnZ8XbMHaeCo=/160x120/center/middle/https%3A%2F%2Fwww.triplejunearthed.com%2Fsites%2Fdefault%2Ffiles%2Fartists%2Fpublic%2F3%2F3%2F8%2F6%2Fe2745339-24c6-4fb9-9a27-0aa3c1633d24.png",
+                          "width": 160,
+                          "height": 120,
+                          "aspect_ratio": "4x3"
+                        },
+                        {
+                          "url": "https://resize.abcradio.net.au/dyM--MeQ148eT4K5c5W6zHYc-1U=/220x124/center/middle/https%3A%2F%2Fwww.triplejunearthed.com%2Fsites%2Fdefault%2Ffiles%2Fartists%2Fpublic%2F3%2F3%2F8%2F6%2Fe2745339-24c6-4fb9-9a27-0aa3c1633d24.png",
+                          "width": 220,
+                          "height": 124,
+                          "aspect_ratio": "16x9"
+                        }
+                      ]
+                    }
+                  ],
+                  "links": [
+                    {
+                      "entity": "Link",
+                      "arid": "mlGyQaBWyD",
+                      "url": "https://www.abc.net.au/triplejunearthed/artist/ainslie-wills/",
+                      "id_component": "3386",
+                      "title": "Unearthed artist",
+                      "mini_synopsis": null,
+                      "short_synopsis": null,
+                      "medium_synopsis": null,
+                      "type": "service",
+                      "provider": "unearthed",
+                      "external": false
+                    }
+                  ],
+                  "is_australian": true,
+                  "type": "primary",
+                  "role": null
+                }
+              ],
+              "record_label": null,
+              "release_year": "2015",
+              "release_album_id": null,
+              "is_primary": null
+            },
+            {
+              "entity": "Release",
+              "arid": "mrPXVMGoyW",
+              "title": "Oh The Gold",
+              "format": "EP",
+              "artwork": [
+                {
+                  "entity": "Artwork",
+                  "arid": "mi6gmYwGgn",
+                  "url": "https://www.abc.net.au/dig/covers/wills_drive.jpg",
+                  "is_primary": null,
+                  "type": "cover",
+                  "title": null,
+                  "mini_synopsis": null,
+                  "short_synopsis": null,
+                  "medium_synopsis": null,
+                  "width": 800,
+                  "height": 800,
+                  "sizes": [
+                    {
+                      "url": "https://resize.abcradio.net.au/jJ5OGeLBJWBfC26vZFDpaJb1B4s=/100x100/center/middle/http%3A%2F%2Fwww.abc.net.au%2Fdig%2Fcovers%2Fwills_drive.jpg",
+                      "width": 100,
+                      "height": 100,
+                      "aspect_ratio": "1x1"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/T5-wyuq69SbqVbR1AweVEL70-XM=/160x160/center/middle/http%3A%2F%2Fwww.abc.net.au%2Fdig%2Fcovers%2Fwills_drive.jpg",
+                      "width": 160,
+                      "height": 160,
+                      "aspect_ratio": "1x1"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/G2ZZL40d27Yx9gqPGi_fs4rtkns=/340x340/center/middle/http%3A%2F%2Fwww.abc.net.au%2Fdig%2Fcovers%2Fwills_drive.jpg",
+                      "width": 340,
+                      "height": 340,
+                      "aspect_ratio": "1x1"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/9L4oTL_RNiGWIvyroG11dNJBiUE=/580x580/center/middle/http%3A%2F%2Fwww.abc.net.au%2Fdig%2Fcovers%2Fwills_drive.jpg",
+                      "width": 580,
+                      "height": 580,
+                      "aspect_ratio": "1x1"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/d5r9Nr8mC9hMoyZE0J9MFB8Rfis=/100x75/center/middle/http%3A%2F%2Fwww.abc.net.au%2Fdig%2Fcovers%2Fwills_drive.jpg",
+                      "width": 100,
+                      "height": 75,
+                      "aspect_ratio": "4x3"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/3F8hkruSYv0wUHUHUiahz4XBw2A=/160x120/center/middle/http%3A%2F%2Fwww.abc.net.au%2Fdig%2Fcovers%2Fwills_drive.jpg",
+                      "width": 160,
+                      "height": 120,
+                      "aspect_ratio": "4x3"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/d_pVZcvHeSIfNyvqu8p89jLQi4s=/220x124/center/middle/http%3A%2F%2Fwww.abc.net.au%2Fdig%2Fcovers%2Fwills_drive.jpg",
+                      "width": 220,
+                      "height": 124,
+                      "aspect_ratio": "16x9"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/XpGvJDuL8XX6JrJ8Vzx-SR8HHAs=/580x326/center/middle/http%3A%2F%2Fwww.abc.net.au%2Fdig%2Fcovers%2Fwills_drive.jpg",
+                      "width": 580,
+                      "height": 326,
+                      "aspect_ratio": "16x9"
+                    }
+                  ]
+                },
+                {
+                  "entity": "Artwork",
+                  "arid": "mix9dDZZ69",
+                  "url": "https://www.abc.net.au/dig/covers/doublej_100x100_logo.png",
+                  "is_primary": null,
+                  "type": "cover",
+                  "title": null,
+                  "mini_synopsis": null,
+                  "short_synopsis": null,
+                  "medium_synopsis": null,
+                  "width": 100,
+                  "height": 100,
+                  "sizes": []
+                }
+              ],
+              "links": [],
+              "artists": [
+                {
+                  "entity": "Artist",
+                  "arid": "mayMYmENYJ",
+                  "name": "Ainslie Wills",
+                  "artwork": [
+                    {
+                      "entity": "Artwork",
+                      "arid": "mi5gGldL09",
+                      "url": "https://www.triplejunearthed.com/sites/default/files/artists/public/3/3/8/6/e2745339-24c6-4fb9-9a27-0aa3c1633d24.png",
+                      "is_primary": null,
+                      "type": "press",
+                      "title": null,
+                      "mini_synopsis": null,
+                      "short_synopsis": null,
+                      "medium_synopsis": null,
+                      "width": 356,
+                      "height": 278,
+                      "sizes": [
+                        {
+                          "url": "https://resize.abcradio.net.au/8nFrYOF3AwC45eXjOYVfZRDL99Y=/100x100/center/middle/https%3A%2F%2Fwww.triplejunearthed.com%2Fsites%2Fdefault%2Ffiles%2Fartists%2Fpublic%2F3%2F3%2F8%2F6%2Fe2745339-24c6-4fb9-9a27-0aa3c1633d24.png",
+                          "width": 100,
+                          "height": 100,
+                          "aspect_ratio": "1x1"
+                        },
+                        {
+                          "url": "https://resize.abcradio.net.au/Okdos6a5zmxopqaqE1FK8vl_JE0=/160x160/center/middle/https%3A%2F%2Fwww.triplejunearthed.com%2Fsites%2Fdefault%2Ffiles%2Fartists%2Fpublic%2F3%2F3%2F8%2F6%2Fe2745339-24c6-4fb9-9a27-0aa3c1633d24.png",
+                          "width": 160,
+                          "height": 160,
+                          "aspect_ratio": "1x1"
+                        },
+                        {
+                          "url": "https://resize.abcradio.net.au/HSP16zaP-6mUqJoasimBGTFp7jY=/100x75/center/middle/https%3A%2F%2Fwww.triplejunearthed.com%2Fsites%2Fdefault%2Ffiles%2Fartists%2Fpublic%2F3%2F3%2F8%2F6%2Fe2745339-24c6-4fb9-9a27-0aa3c1633d24.png",
+                          "width": 100,
+                          "height": 75,
+                          "aspect_ratio": "4x3"
+                        },
+                        {
+                          "url": "https://resize.abcradio.net.au/BMLNQyhJx7vQXFknnZ8XbMHaeCo=/160x120/center/middle/https%3A%2F%2Fwww.triplejunearthed.com%2Fsites%2Fdefault%2Ffiles%2Fartists%2Fpublic%2F3%2F3%2F8%2F6%2Fe2745339-24c6-4fb9-9a27-0aa3c1633d24.png",
+                          "width": 160,
+                          "height": 120,
+                          "aspect_ratio": "4x3"
+                        },
+                        {
+                          "url": "https://resize.abcradio.net.au/dyM--MeQ148eT4K5c5W6zHYc-1U=/220x124/center/middle/https%3A%2F%2Fwww.triplejunearthed.com%2Fsites%2Fdefault%2Ffiles%2Fartists%2Fpublic%2F3%2F3%2F8%2F6%2Fe2745339-24c6-4fb9-9a27-0aa3c1633d24.png",
+                          "width": 220,
+                          "height": 124,
+                          "aspect_ratio": "16x9"
+                        }
+                      ]
+                    }
+                  ],
+                  "links": [
+                    {
+                      "entity": "Link",
+                      "arid": "mlGyQaBWyD",
+                      "url": "https://www.abc.net.au/triplejunearthed/artist/ainslie-wills/",
+                      "id_component": "3386",
+                      "title": "Unearthed artist",
+                      "mini_synopsis": null,
+                      "short_synopsis": null,
+                      "medium_synopsis": null,
+                      "type": "service",
+                      "provider": "unearthed",
+                      "external": false
+                    }
+                  ],
+                  "is_australian": true,
+                  "type": "primary",
+                  "role": null
+                }
+              ],
+              "record_label": null,
+              "release_year": "2015",
+              "release_album_id": null,
+              "is_primary": null
+            },
+            {
+              "entity": "Release",
+              "arid": "mr1AvB6pAB",
+              "title": "Oh The Gold {EP}",
+              "format": null,
+              "artwork": [
+                {
+                  "entity": "Artwork",
+                  "arid": "miOea3RrgJ",
+                  "url": "https://www.abc.net.au/dig/covers/wills_drive.jpg",
+                  "is_primary": null,
+                  "type": "cover",
+                  "title": null,
+                  "mini_synopsis": null,
+                  "short_synopsis": null,
+                  "medium_synopsis": null,
+                  "width": 800,
+                  "height": 800,
+                  "sizes": [
+                    {
+                      "url": "https://resize.abcradio.net.au/jJ5OGeLBJWBfC26vZFDpaJb1B4s=/100x100/center/middle/http%3A%2F%2Fwww.abc.net.au%2Fdig%2Fcovers%2Fwills_drive.jpg",
+                      "width": 100,
+                      "height": 100,
+                      "aspect_ratio": "1x1"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/T5-wyuq69SbqVbR1AweVEL70-XM=/160x160/center/middle/http%3A%2F%2Fwww.abc.net.au%2Fdig%2Fcovers%2Fwills_drive.jpg",
+                      "width": 160,
+                      "height": 160,
+                      "aspect_ratio": "1x1"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/G2ZZL40d27Yx9gqPGi_fs4rtkns=/340x340/center/middle/http%3A%2F%2Fwww.abc.net.au%2Fdig%2Fcovers%2Fwills_drive.jpg",
+                      "width": 340,
+                      "height": 340,
+                      "aspect_ratio": "1x1"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/9L4oTL_RNiGWIvyroG11dNJBiUE=/580x580/center/middle/http%3A%2F%2Fwww.abc.net.au%2Fdig%2Fcovers%2Fwills_drive.jpg",
+                      "width": 580,
+                      "height": 580,
+                      "aspect_ratio": "1x1"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/d5r9Nr8mC9hMoyZE0J9MFB8Rfis=/100x75/center/middle/http%3A%2F%2Fwww.abc.net.au%2Fdig%2Fcovers%2Fwills_drive.jpg",
+                      "width": 100,
+                      "height": 75,
+                      "aspect_ratio": "4x3"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/3F8hkruSYv0wUHUHUiahz4XBw2A=/160x120/center/middle/http%3A%2F%2Fwww.abc.net.au%2Fdig%2Fcovers%2Fwills_drive.jpg",
+                      "width": 160,
+                      "height": 120,
+                      "aspect_ratio": "4x3"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/d_pVZcvHeSIfNyvqu8p89jLQi4s=/220x124/center/middle/http%3A%2F%2Fwww.abc.net.au%2Fdig%2Fcovers%2Fwills_drive.jpg",
+                      "width": 220,
+                      "height": 124,
+                      "aspect_ratio": "16x9"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/XpGvJDuL8XX6JrJ8Vzx-SR8HHAs=/580x326/center/middle/http%3A%2F%2Fwww.abc.net.au%2Fdig%2Fcovers%2Fwills_drive.jpg",
+                      "width": 580,
+                      "height": 326,
+                      "aspect_ratio": "16x9"
+                    }
+                  ]
+                }
+              ],
+              "links": [],
+              "artists": [
+                {
+                  "entity": "Artist",
+                  "arid": "mayMYmENYJ",
+                  "name": "Ainslie Wills",
+                  "artwork": [
+                    {
+                      "entity": "Artwork",
+                      "arid": "mi5gGldL09",
+                      "url": "https://www.triplejunearthed.com/sites/default/files/artists/public/3/3/8/6/e2745339-24c6-4fb9-9a27-0aa3c1633d24.png",
+                      "is_primary": null,
+                      "type": "press",
+                      "title": null,
+                      "mini_synopsis": null,
+                      "short_synopsis": null,
+                      "medium_synopsis": null,
+                      "width": 356,
+                      "height": 278,
+                      "sizes": [
+                        {
+                          "url": "https://resize.abcradio.net.au/8nFrYOF3AwC45eXjOYVfZRDL99Y=/100x100/center/middle/https%3A%2F%2Fwww.triplejunearthed.com%2Fsites%2Fdefault%2Ffiles%2Fartists%2Fpublic%2F3%2F3%2F8%2F6%2Fe2745339-24c6-4fb9-9a27-0aa3c1633d24.png",
+                          "width": 100,
+                          "height": 100,
+                          "aspect_ratio": "1x1"
+                        },
+                        {
+                          "url": "https://resize.abcradio.net.au/Okdos6a5zmxopqaqE1FK8vl_JE0=/160x160/center/middle/https%3A%2F%2Fwww.triplejunearthed.com%2Fsites%2Fdefault%2Ffiles%2Fartists%2Fpublic%2F3%2F3%2F8%2F6%2Fe2745339-24c6-4fb9-9a27-0aa3c1633d24.png",
+                          "width": 160,
+                          "height": 160,
+                          "aspect_ratio": "1x1"
+                        },
+                        {
+                          "url": "https://resize.abcradio.net.au/HSP16zaP-6mUqJoasimBGTFp7jY=/100x75/center/middle/https%3A%2F%2Fwww.triplejunearthed.com%2Fsites%2Fdefault%2Ffiles%2Fartists%2Fpublic%2F3%2F3%2F8%2F6%2Fe2745339-24c6-4fb9-9a27-0aa3c1633d24.png",
+                          "width": 100,
+                          "height": 75,
+                          "aspect_ratio": "4x3"
+                        },
+                        {
+                          "url": "https://resize.abcradio.net.au/BMLNQyhJx7vQXFknnZ8XbMHaeCo=/160x120/center/middle/https%3A%2F%2Fwww.triplejunearthed.com%2Fsites%2Fdefault%2Ffiles%2Fartists%2Fpublic%2F3%2F3%2F8%2F6%2Fe2745339-24c6-4fb9-9a27-0aa3c1633d24.png",
+                          "width": 160,
+                          "height": 120,
+                          "aspect_ratio": "4x3"
+                        },
+                        {
+                          "url": "https://resize.abcradio.net.au/dyM--MeQ148eT4K5c5W6zHYc-1U=/220x124/center/middle/https%3A%2F%2Fwww.triplejunearthed.com%2Fsites%2Fdefault%2Ffiles%2Fartists%2Fpublic%2F3%2F3%2F8%2F6%2Fe2745339-24c6-4fb9-9a27-0aa3c1633d24.png",
+                          "width": 220,
+                          "height": 124,
+                          "aspect_ratio": "16x9"
+                        }
+                      ]
+                    }
+                  ],
+                  "links": [
+                    {
+                      "entity": "Link",
+                      "arid": "mlGyQaBWyD",
+                      "url": "https://www.abc.net.au/triplejunearthed/artist/ainslie-wills/",
+                      "id_component": "3386",
+                      "title": "Unearthed artist",
+                      "mini_synopsis": null,
+                      "short_synopsis": null,
+                      "medium_synopsis": null,
+                      "type": "service",
+                      "provider": "unearthed",
+                      "external": false
+                    }
+                  ],
+                  "is_australian": true,
+                  "type": "primary",
+                  "role": null
+                }
+              ],
+              "record_label": null,
+              "release_year": null,
+              "release_album_id": null,
+              "is_primary": null
+            },
+            {
+              "entity": "Release",
+              "arid": "mr2A9x9rXO",
+              "title": "Drive {Single}",
+              "format": null,
+              "artwork": [
+                {
+                  "entity": "Artwork",
+                  "arid": "mive6L5Zg8",
+                  "url": "https://images.abcradio.net.au/abc-music-api-triplej-production/release/mive6L5Zg8/b5d565823f5f4e881022591280898d22.jpg",
+                  "is_primary": null,
+                  "type": "cover",
+                  "title": null,
+                  "mini_synopsis": null,
+                  "short_synopsis": null,
+                  "medium_synopsis": null,
+                  "width": 600,
+                  "height": 600,
+                  "sizes": [
+                    {
+                      "url": "https://resize.abcradio.net.au/tCb4tRG6HCCDGpkvsoqKaX_dIoQ=/100x100/center/middle/https%3A%2F%2Fimages.abcradio.net.au%2Fabc-music-api-triplej-production%2Frelease%2Fmive6L5Zg8%2Fb5d565823f5f4e881022591280898d22.jpg",
+                      "width": 100,
+                      "height": 100,
+                      "aspect_ratio": "1x1"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/hzA7AbTfLpwfqGJWnetZyiWFFxk=/160x160/center/middle/https%3A%2F%2Fimages.abcradio.net.au%2Fabc-music-api-triplej-production%2Frelease%2Fmive6L5Zg8%2Fb5d565823f5f4e881022591280898d22.jpg",
+                      "width": 160,
+                      "height": 160,
+                      "aspect_ratio": "1x1"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/41NLnNb4ZDDq8pJL001xOBsJhJY=/340x340/center/middle/https%3A%2F%2Fimages.abcradio.net.au%2Fabc-music-api-triplej-production%2Frelease%2Fmive6L5Zg8%2Fb5d565823f5f4e881022591280898d22.jpg",
+                      "width": 340,
+                      "height": 340,
+                      "aspect_ratio": "1x1"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/O3c2YUFrjSDJHLMm0RXYjLdPBks=/580x580/center/middle/https%3A%2F%2Fimages.abcradio.net.au%2Fabc-music-api-triplej-production%2Frelease%2Fmive6L5Zg8%2Fb5d565823f5f4e881022591280898d22.jpg",
+                      "width": 580,
+                      "height": 580,
+                      "aspect_ratio": "1x1"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/iIaYvk1MWC8sNnPmQpKKbHmn9lI=/100x75/center/middle/https%3A%2F%2Fimages.abcradio.net.au%2Fabc-music-api-triplej-production%2Frelease%2Fmive6L5Zg8%2Fb5d565823f5f4e881022591280898d22.jpg",
+                      "width": 100,
+                      "height": 75,
+                      "aspect_ratio": "4x3"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/kQSiVI17OxAHqBkaVmiH5FeZmSQ=/160x120/center/middle/https%3A%2F%2Fimages.abcradio.net.au%2Fabc-music-api-triplej-production%2Frelease%2Fmive6L5Zg8%2Fb5d565823f5f4e881022591280898d22.jpg",
+                      "width": 160,
+                      "height": 120,
+                      "aspect_ratio": "4x3"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/ZZlgeTj8296r6p8waTUOdXIlFPQ=/220x124/center/middle/https%3A%2F%2Fimages.abcradio.net.au%2Fabc-music-api-triplej-production%2Frelease%2Fmive6L5Zg8%2Fb5d565823f5f4e881022591280898d22.jpg",
+                      "width": 220,
+                      "height": 124,
+                      "aspect_ratio": "16x9"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/LlP7nT0YalOryyrHVrKAda9zeH0=/580x326/center/middle/https%3A%2F%2Fimages.abcradio.net.au%2Fabc-music-api-triplej-production%2Frelease%2Fmive6L5Zg8%2Fb5d565823f5f4e881022591280898d22.jpg",
+                      "width": 580,
+                      "height": 326,
+                      "aspect_ratio": "16x9"
+                    }
+                  ]
+                }
+              ],
+              "links": [],
+              "artists": [
+                {
+                  "entity": "Artist",
+                  "arid": "mayMYmENYJ",
+                  "name": "Ainslie Wills",
+                  "artwork": [
+                    {
+                      "entity": "Artwork",
+                      "arid": "mi5gGldL09",
+                      "url": "https://www.triplejunearthed.com/sites/default/files/artists/public/3/3/8/6/e2745339-24c6-4fb9-9a27-0aa3c1633d24.png",
+                      "is_primary": null,
+                      "type": "press",
+                      "title": null,
+                      "mini_synopsis": null,
+                      "short_synopsis": null,
+                      "medium_synopsis": null,
+                      "width": 356,
+                      "height": 278,
+                      "sizes": [
+                        {
+                          "url": "https://resize.abcradio.net.au/8nFrYOF3AwC45eXjOYVfZRDL99Y=/100x100/center/middle/https%3A%2F%2Fwww.triplejunearthed.com%2Fsites%2Fdefault%2Ffiles%2Fartists%2Fpublic%2F3%2F3%2F8%2F6%2Fe2745339-24c6-4fb9-9a27-0aa3c1633d24.png",
+                          "width": 100,
+                          "height": 100,
+                          "aspect_ratio": "1x1"
+                        },
+                        {
+                          "url": "https://resize.abcradio.net.au/Okdos6a5zmxopqaqE1FK8vl_JE0=/160x160/center/middle/https%3A%2F%2Fwww.triplejunearthed.com%2Fsites%2Fdefault%2Ffiles%2Fartists%2Fpublic%2F3%2F3%2F8%2F6%2Fe2745339-24c6-4fb9-9a27-0aa3c1633d24.png",
+                          "width": 160,
+                          "height": 160,
+                          "aspect_ratio": "1x1"
+                        },
+                        {
+                          "url": "https://resize.abcradio.net.au/HSP16zaP-6mUqJoasimBGTFp7jY=/100x75/center/middle/https%3A%2F%2Fwww.triplejunearthed.com%2Fsites%2Fdefault%2Ffiles%2Fartists%2Fpublic%2F3%2F3%2F8%2F6%2Fe2745339-24c6-4fb9-9a27-0aa3c1633d24.png",
+                          "width": 100,
+                          "height": 75,
+                          "aspect_ratio": "4x3"
+                        },
+                        {
+                          "url": "https://resize.abcradio.net.au/BMLNQyhJx7vQXFknnZ8XbMHaeCo=/160x120/center/middle/https%3A%2F%2Fwww.triplejunearthed.com%2Fsites%2Fdefault%2Ffiles%2Fartists%2Fpublic%2F3%2F3%2F8%2F6%2Fe2745339-24c6-4fb9-9a27-0aa3c1633d24.png",
+                          "width": 160,
+                          "height": 120,
+                          "aspect_ratio": "4x3"
+                        },
+                        {
+                          "url": "https://resize.abcradio.net.au/dyM--MeQ148eT4K5c5W6zHYc-1U=/220x124/center/middle/https%3A%2F%2Fwww.triplejunearthed.com%2Fsites%2Fdefault%2Ffiles%2Fartists%2Fpublic%2F3%2F3%2F8%2F6%2Fe2745339-24c6-4fb9-9a27-0aa3c1633d24.png",
+                          "width": 220,
+                          "height": 124,
+                          "aspect_ratio": "16x9"
+                        }
+                      ]
+                    }
+                  ],
+                  "links": [
+                    {
+                      "entity": "Link",
+                      "arid": "mlGyQaBWyD",
+                      "url": "https://www.abc.net.au/triplejunearthed/artist/ainslie-wills/",
+                      "id_component": "3386",
+                      "title": "Unearthed artist",
+                      "mini_synopsis": null,
+                      "short_synopsis": null,
+                      "medium_synopsis": null,
+                      "type": "service",
+                      "provider": "unearthed",
+                      "external": false
+                    }
+                  ],
+                  "is_australian": true,
+                  "type": "primary",
+                  "role": null
+                }
+              ],
+              "record_label": null,
+              "release_year": null,
+              "release_album_id": null,
+              "is_primary": null
+            }
+          ],
+          "artwork": [],
+          "links": []
+        },
+        "release": null
+      }
+    },
+    "2014_3h": {
+      "from": "2014-12-02T00:00:00Z",
+      "to": "2014-12-02T03:00:00Z",
+      "status": 200,
+      "n_items": 43,
+      "total": 43,
+      "top_level_keys": [
+        "items",
+        "limit",
+        "offset",
+        "total"
+      ],
+      "first_item": {
+        "entity": "Play",
+        "arid": "mpMn343vQL",
+        "played_time": "2014-12-02T02:55:47+00:00",
+        "service_id": "triplej",
+        "summary": {
+          "artist": "Augie March",
+          "title": "After The Crack Up",
+          "links": {
+            "Youtube": "https://www.youtube.com/results?search_query=Augie%20March%20After%20The%20Crack%20Up",
+            "Spotify": "https://open.spotify.com/search/Augie%20March%20After%20The%20Crack%20Up",
+            "Apple": "https://music.apple.com/au/search?term=Augie%20March%20After%20The%20Crack%20Up"
+          }
+        },
+        "recording": {
+          "entity": "Recording",
+          "arid": "mtVgn75dKL",
+          "title": "After The Crack Up",
+          "metadata": null,
+          "description": null,
+          "duration": 238,
+          "artists": [
+            {
+              "entity": "Artist",
+              "arid": "maAzkmPrYJ",
+              "name": "Augie March",
+              "artwork": [],
+              "links": [],
+              "is_australian": true,
+              "type": "primary",
+              "role": null
+            }
+          ],
+          "releases": [
+            {
+              "entity": "Release",
+              "arid": "mrOXKlOYAp",
+              "title": "Havens Dumb",
+              "format": null,
+              "artwork": [
+                {
+                  "entity": "Artwork",
+                  "arid": "miZP1rXBg4",
+                  "url": "https://images.abcradio.net.au/abc-music-api-triplej-production/release/miZP1rXBg4/3608096f81246f4ee7e4ea28f72950eb.jpg",
+                  "is_primary": null,
+                  "type": "cover",
+                  "title": null,
+                  "mini_synopsis": null,
+                  "short_synopsis": null,
+                  "medium_synopsis": null,
+                  "width": 1600,
+                  "height": 1600,
+                  "sizes": [
+                    {
+                      "url": "https://resize.abcradio.net.au/JB67h53Wa4g_StMuy2y5En-Ih8I=/100x100/center/middle/https%3A%2F%2Fimages.abcradio.net.au%2Fabc-music-api-triplej-production%2Frelease%2FmiZP1rXBg4%2F3608096f81246f4ee7e4ea28f72950eb.jpg",
+                      "width": 100,
+                      "height": 100,
+                      "aspect_ratio": "1x1"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/tP6-txru2ys5yTw29B8mEhCoJ2Q=/160x160/center/middle/https%3A%2F%2Fimages.abcradio.net.au%2Fabc-music-api-triplej-production%2Frelease%2FmiZP1rXBg4%2F3608096f81246f4ee7e4ea28f72950eb.jpg",
+                      "width": 160,
+                      "height": 160,
+                      "aspect_ratio": "1x1"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/r9XWCTJuPrthU_2ZHMPFTWjzFyA=/340x340/center/middle/https%3A%2F%2Fimages.abcradio.net.au%2Fabc-music-api-triplej-production%2Frelease%2FmiZP1rXBg4%2F3608096f81246f4ee7e4ea28f72950eb.jpg",
+                      "width": 340,
+                      "height": 340,
+                      "aspect_ratio": "1x1"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/ABldG9YwANSgf4cQ2KW5MIjMFmY=/580x580/center/middle/https%3A%2F%2Fimages.abcradio.net.au%2Fabc-music-api-triplej-production%2Frelease%2FmiZP1rXBg4%2F3608096f81246f4ee7e4ea28f72950eb.jpg",
+                      "width": 580,
+                      "height": 580,
+                      "aspect_ratio": "1x1"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/ViOIZA2TCUej-uyC2N_931fz0Hc=/940x940/center/middle/https%3A%2F%2Fimages.abcradio.net.au%2Fabc-music-api-triplej-production%2Frelease%2FmiZP1rXBg4%2F3608096f81246f4ee7e4ea28f72950eb.jpg",
+                      "width": 940,
+                      "height": 940,
+                      "aspect_ratio": "1x1"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/S-7KK355J_Fkgd21l-qgFgi8S3Q=/1300x1300/center/middle/https%3A%2F%2Fimages.abcradio.net.au%2Fabc-music-api-triplej-production%2Frelease%2FmiZP1rXBg4%2F3608096f81246f4ee7e4ea28f72950eb.jpg",
+                      "width": 1300,
+                      "height": 1300,
+                      "aspect_ratio": "1x1"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/BXBlP4_Jx8K2l_vpGOU4id2bJRo=/100x75/center/middle/https%3A%2F%2Fimages.abcradio.net.au%2Fabc-music-api-triplej-production%2Frelease%2FmiZP1rXBg4%2F3608096f81246f4ee7e4ea28f72950eb.jpg",
+                      "width": 100,
+                      "height": 75,
+                      "aspect_ratio": "4x3"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/A88bXrsGgYqRlVoek7D0dZJYl9s=/160x120/center/middle/https%3A%2F%2Fimages.abcradio.net.au%2Fabc-music-api-triplej-production%2Frelease%2FmiZP1rXBg4%2F3608096f81246f4ee7e4ea28f72950eb.jpg",
+                      "width": 160,
+                      "height": 120,
+                      "aspect_ratio": "4x3"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/nku1HYSb9pWxpy7TkIGRsGV0V28=/220x124/center/middle/https%3A%2F%2Fimages.abcradio.net.au%2Fabc-music-api-triplej-production%2Frelease%2FmiZP1rXBg4%2F3608096f81246f4ee7e4ea28f72950eb.jpg",
+                      "width": 220,
+                      "height": 124,
+                      "aspect_ratio": "16x9"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/sL9WLDqnJ52w5sZ_BgzEDK69YGo=/580x326/center/middle/https%3A%2F%2Fimages.abcradio.net.au%2Fabc-music-api-triplej-production%2Frelease%2FmiZP1rXBg4%2F3608096f81246f4ee7e4ea28f72950eb.jpg",
+                      "width": 580,
+                      "height": 326,
+                      "aspect_ratio": "16x9"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/xCmdB4Y1pRZ5ab4G-K4vkSQf-vo=/940x529/center/middle/https%3A%2F%2Fimages.abcradio.net.au%2Fabc-music-api-triplej-production%2Frelease%2FmiZP1rXBg4%2F3608096f81246f4ee7e4ea28f72950eb.jpg",
+                      "width": 940,
+                      "height": 529,
+                      "aspect_ratio": "16x9"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/MnPkr66LKxLAYfnQMR351wR1Qjo=/1300x731/center/middle/https%3A%2F%2Fimages.abcradio.net.au%2Fabc-music-api-triplej-production%2Frelease%2FmiZP1rXBg4%2F3608096f81246f4ee7e4ea28f72950eb.jpg",
+                      "width": 1300,
+                      "height": 731,
+                      "aspect_ratio": "16x9"
+                    }
+                  ]
+                },
+                {
+                  "entity": "Artwork",
+                  "arid": "mi8PDdpAPb",
+                  "url": "https://www.abc.net.au/dig/covers/augie_havens.jpg",
+                  "is_primary": null,
+                  "type": "cover",
+                  "title": null,
+                  "mini_synopsis": null,
+                  "short_synopsis": null,
+                  "medium_synopsis": null,
+                  "width": 100,
+                  "height": 100,
+                  "sizes": []
+                }
+              ],
+              "links": [],
+              "artists": [
+                {
+                  "entity": "Artist",
+                  "arid": "maAzkmPrYJ",
+                  "name": "Augie March",
+                  "artwork": [],
+                  "links": [],
+                  "is_australian": true,
+                  "type": "primary",
+                  "role": null
+                }
+              ],
+              "record_label": null,
+              "release_year": "2014",
+              "release_album_id": null,
+              "is_primary": null
+            },
+            {
+              "entity": "Release",
+              "arid": "mr6Azgm05O",
+              "title": "After The Crack Up",
+              "format": "Single",
+              "artwork": [
+                {
+                  "entity": "Artwork",
+                  "arid": "mi2ew4lMPN",
+                  "url": "https://images.abcradio.net.au/abc-music-api-triplej-production/release/mi2ew4lMPN/8ad9a2b93917682c6f97acbaa85c733e.jpg",
+                  "is_primary": null,
+                  "type": "cover",
+                  "title": null,
+                  "mini_synopsis": null,
+                  "short_synopsis": null,
+                  "medium_synopsis": null,
+                  "width": 1701,
+                  "height": 1701,
+                  "sizes": [
+                    {
+                      "url": "https://resize.abcradio.net.au/0kJSCWL3-8GIaiBOTslrwNzUvLc=/100x100/center/middle/https%3A%2F%2Fimages.abcradio.net.au%2Fabc-music-api-triplej-production%2Frelease%2Fmi2ew4lMPN%2F8ad9a2b93917682c6f97acbaa85c733e.jpg",
+                      "width": 100,
+                      "height": 100,
+                      "aspect_ratio": "1x1"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/6cB1M4dvOeTPLwwKijfsSly78hY=/160x160/center/middle/https%3A%2F%2Fimages.abcradio.net.au%2Fabc-music-api-triplej-production%2Frelease%2Fmi2ew4lMPN%2F8ad9a2b93917682c6f97acbaa85c733e.jpg",
+                      "width": 160,
+                      "height": 160,
+                      "aspect_ratio": "1x1"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/WQEaqI7vPXfN4JdePcv4_YLOdac=/340x340/center/middle/https%3A%2F%2Fimages.abcradio.net.au%2Fabc-music-api-triplej-production%2Frelease%2Fmi2ew4lMPN%2F8ad9a2b93917682c6f97acbaa85c733e.jpg",
+                      "width": 340,
+                      "height": 340,
+                      "aspect_ratio": "1x1"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/CfdJsy45QEPF-wL1KQa7Lec8rKk=/580x580/center/middle/https%3A%2F%2Fimages.abcradio.net.au%2Fabc-music-api-triplej-production%2Frelease%2Fmi2ew4lMPN%2F8ad9a2b93917682c6f97acbaa85c733e.jpg",
+                      "width": 580,
+                      "height": 580,
+                      "aspect_ratio": "1x1"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/hFyOE4qSH4qe7lADiz-2Hk6qzJU=/940x940/center/middle/https%3A%2F%2Fimages.abcradio.net.au%2Fabc-music-api-triplej-production%2Frelease%2Fmi2ew4lMPN%2F8ad9a2b93917682c6f97acbaa85c733e.jpg",
+                      "width": 940,
+                      "height": 940,
+                      "aspect_ratio": "1x1"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/LEkf4ctvJWDQIhFykQeFjBWexE0=/1300x1300/center/middle/https%3A%2F%2Fimages.abcradio.net.au%2Fabc-music-api-triplej-production%2Frelease%2Fmi2ew4lMPN%2F8ad9a2b93917682c6f97acbaa85c733e.jpg",
+                      "width": 1300,
+                      "height": 1300,
+                      "aspect_ratio": "1x1"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/Xh0XLosxypiQlSXruryGETH5nHY=/100x75/center/middle/https%3A%2F%2Fimages.abcradio.net.au%2Fabc-music-api-triplej-production%2Frelease%2Fmi2ew4lMPN%2F8ad9a2b93917682c6f97acbaa85c733e.jpg",
+                      "width": 100,
+                      "height": 75,
+                      "aspect_ratio": "4x3"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/vf9_LPHhHxSV1bC2Y2dpPizyn_4=/160x120/center/middle/https%3A%2F%2Fimages.abcradio.net.au%2Fabc-music-api-triplej-production%2Frelease%2Fmi2ew4lMPN%2F8ad9a2b93917682c6f97acbaa85c733e.jpg",
+                      "width": 160,
+                      "height": 120,
+                      "aspect_ratio": "4x3"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/zU6UtzElZwsdMdzdY4ilbGmLWa0=/220x124/center/middle/https%3A%2F%2Fimages.abcradio.net.au%2Fabc-music-api-triplej-production%2Frelease%2Fmi2ew4lMPN%2F8ad9a2b93917682c6f97acbaa85c733e.jpg",
+                      "width": 220,
+                      "height": 124,
+                      "aspect_ratio": "16x9"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/0dPNi2yAeyU3FIcxvNPTlJB_t9A=/580x326/center/middle/https%3A%2F%2Fimages.abcradio.net.au%2Fabc-music-api-triplej-production%2Frelease%2Fmi2ew4lMPN%2F8ad9a2b93917682c6f97acbaa85c733e.jpg",
+                      "width": 580,
+                      "height": 326,
+                      "aspect_ratio": "16x9"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/ngnZCx6c7KYCQaC-vVdjck-RQg4=/940x529/center/middle/https%3A%2F%2Fimages.abcradio.net.au%2Fabc-music-api-triplej-production%2Frelease%2Fmi2ew4lMPN%2F8ad9a2b93917682c6f97acbaa85c733e.jpg",
+                      "width": 940,
+                      "height": 529,
+                      "aspect_ratio": "16x9"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/-drURoYbnow222ELzcpbmLHTPQs=/1300x731/center/middle/https%3A%2F%2Fimages.abcradio.net.au%2Fabc-music-api-triplej-production%2Frelease%2Fmi2ew4lMPN%2F8ad9a2b93917682c6f97acbaa85c733e.jpg",
+                      "width": 1300,
+                      "height": 731,
+                      "aspect_ratio": "16x9"
+                    }
+                  ]
+                },
+                {
+                  "entity": "Artwork",
+                  "arid": "miZP1xBke4",
+                  "url": "https://www.abc.net.au/triplej/albums/52517/covers/320.jpg",
+                  "is_primary": null,
+                  "type": "cover",
+                  "title": null,
+                  "mini_synopsis": null,
+                  "short_synopsis": null,
+                  "medium_synopsis": null,
+                  "width": 320,
+                  "height": 320,
+                  "sizes": [
+                    {
+                      "url": "https://resize.abcradio.net.au/sgB5xtiQO3okpU7jlOcIcIe6K1g=/100x100/center/middle/http%3A%2F%2Fwww.abc.net.au%2Ftriplej%2Falbums%2F52517%2Fcovers%2F320.jpg",
+                      "width": 100,
+                      "height": 100,
+                      "aspect_ratio": "1x1"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/VGHpZq0uEWYb0waXCBDS4UV1fbc=/160x160/center/middle/http%3A%2F%2Fwww.abc.net.au%2Ftriplej%2Falbums%2F52517%2Fcovers%2F320.jpg",
+                      "width": 160,
+                      "height": 160,
+                      "aspect_ratio": "1x1"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/Y-svGiDBwKvUE7rsBkxEOvOR-oo=/100x75/center/middle/http%3A%2F%2Fwww.abc.net.au%2Ftriplej%2Falbums%2F52517%2Fcovers%2F320.jpg",
+                      "width": 100,
+                      "height": 75,
+                      "aspect_ratio": "4x3"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/8u3aUxi_tjAd8w2wfyCzn8wSyjA=/160x120/center/middle/http%3A%2F%2Fwww.abc.net.au%2Ftriplej%2Falbums%2F52517%2Fcovers%2F320.jpg",
+                      "width": 160,
+                      "height": 120,
+                      "aspect_ratio": "4x3"
+                    },
+                    {
+                      "url": "https://resize.abcradio.net.au/XxprV1Axm8AYqsVkNHr8R9-j2gg=/220x124/center/middle/http%3A%2F%2Fwww.abc.net.au%2Ftriplej%2Falbums%2F52517%2Fcovers%2F320.jpg",
+                      "width": 220,
+                      "height": 124,
+                      "aspect_ratio": "16x9"
+                    }
+                  ]
+                }
+              ],
+              "links": [],
+              "artists": [
+                {
+                  "entity": "Artist",
+                  "arid": "maAzkmPrYJ",
+                  "name": "Augie March",
+                  "artwork": [],
+                  "links": [],
+                  "is_australian": true,
+                  "type": "primary",
+                  "role": null
+                }
+              ],
+              "record_label": null,
+              "release_year": null,
+              "release_album_id": null,
+              "is_primary": null
+            }
+          ],
+          "artwork": [],
+          "links": []
+        },
+        "release": null
+      }
+    },
+    "2012_3h": {
+      "from": "2012-06-05T00:00:00Z",
+      "to": "2012-06-05T03:00:00Z",
+      "status": 200,
+      "n_items": 0,
+      "total": 0,
+      "top_level_keys": [
+        "items",
+        "limit",
+        "offset",
+        "total"
+      ],
+      "first_item": null
+    }
+  },
+  "live_pages": {
+    "kworb_spotify_au_daily": {
+      "status": 200,
+      "bytes": 86012,
+      "date_snippet": "Chart - Australia</title>\n<link rel=\"stylesheet\" type=\"text/css\" href=\"/css/standard0002.css\" />\n<link rel=\"stylesheet\" "
+    },
+    "kworb_spotify_au_totals": {
+      "status": 200,
+      "bytes": 2493042,
+      "date_snippet": "Covers charts from 2014/08/10 to 2026/11/22.<br>Totals do not include time spent outside the daily chart.<br><br>\n<table"
+    },
+    "kworb_shazam_au": {
+      "status": 200,
+      "bytes": 23510,
+      "date_snippet": "Top Songs - Australia</title>\n<link rel=\"stylesheet\" type=\"text/css\" href=\"/css/standard0002.css\" />\n<link rel=\"styleshe"
+    }
+  },
+  "wayback": {
+    "kworb_shazam_au": {
+      "url": "kworb.net/charts/shazam/au.html",
+      "status": 200,
+      "n_days_captured": 454,
+      "first": "20170710",
+      "last": "20261101",
+      "days_by_year": {
+        "2017": 1,
+        "2019": 5,
+        "2020": 4,
+        "2021": 15,
+        "2022": 98,
+        "2023": 127,
+        "2024": 106,
+        "2025": 74,
+        "2026": 24
+      },
+      "months_with_capture_by_year": {
+        "2017": 1,
+        "2019": 5,
+        "2020": 4,
+        "2021": 6,
+        "2022": 12,
+        "2023": 12,
+        "2024": 10,
+        "2025": 12,
+        "2026": 11
+      }
+    },
+    "shazam_top200_au": {
+      "url": "shazam.com/charts/top-200/australia",
+      "status": 200,
+      "n_days_captured": 19,
+      "first": "20190512",
+      "last": "20261030",
+      "days_by_year": {
+        "2019": 2,
+        "2021": 1,
+        "2022": 1,
+        "2023": 2,
+        "2024": 2,
+        "2025": 3,
+        "2026": 8
+      },
+      "months_with_capture_by_year": {
+        "2019": 1,
+        "2021": 1,
+        "2022": 1,
+        "2023": 2,
+        "2024": 1,
+        "2025": 3,
+        "2026": 7
+      }
+    },
+    "shazam_top100_au_old": {
+      "url": "shazam.com/charts/top-100/australia",
+      "status": 200,
+      "n_days_captured": 84,
+      "first": "20150320",
+      "last": "20231002",
+      "days_by_year": {
+        "2015": 19,
+        "2016": 63,
+        "2020": 1,
+        "2023": 1
+      },
+      "months_with_capture_by_year": {
+        "2015": 9,
+        "2016": 12,
+        "2020": 1,
+        "2023": 1
+      }
+    },
+    "kworb_spotify_au_daily": {
+      "url": "kworb.net/spotify/country/au_daily.html",
+      "status": -1,
+      "error": "Expecting value: line 1 column 1 (char 0): b'<urlopen error [Errno 111] Connection refused>'"
+    }
+  }
+}
