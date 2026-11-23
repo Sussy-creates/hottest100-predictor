@@ -7,3 +7,6 @@
 - Snapshots are anchored to each year's voting close (T−120/−90/−60/−30/0 days), never calendar months.
 - Normalise features as within-year percentiles among that year's candidates.
 - Keep raw data immutable in `data/raw/`; derived tables go in `data/derived/`.
+- Spotify AU sources (`data/raw/spotify_au/`): `gonzalopezgil` = daily top 200 with streams, 2017-01-01 onward, every day present (primary). `jfreyberg__charts` = weekly top 200, 2013–2023 (the only source for the 2015–16 countdowns). `dhruvildave` = daily 2017–2021, cross-check only.
+- Compute Spotify features on weekly aggregates for every year, so 2015–16 (weekly-only) and later years are comparable.
+- triple j airplay (`data/raw/abc_plays/`): one slimmed play per line, Dec 2014 onward; `recording_id` and artist `id` are stable ABC IDs.
