@@ -1,0 +1,52 @@
+name: probe-kaggle
+
+# Lists candidate Spotify chart datasets and their files, without downloading them.
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - triggers/probe_kaggle.txt
+
+permissions:
+  contents: write
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      KAGGLE_API_TOKEN: ${{ secrets.KAGGLE_API_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install --quiet --upgrade kaggle
+      - name: List datasets and files
+        run: |
+          mkdir -p data/probe
+          out=data/probe/kaggle.txt
+          {
+            echo "kaggle $(kaggle --version 2>&1)"
+            echo "token present: $([ -n "$KAGGLE_API_TOKEN" ] && echo yes || echo no)"
+            for q in "spotify charts" "spotify daily charts" "spotify australia"; do
+              echo; echo "### search: $q"
+              kaggle datasets list -s "$q" --sort-by votes --csv 2>&1 | head -25
+            done
+            for ref in dhruvildave/spotify-charts gonzalopezgil/spotify-charts-daily-updated pepepython/spotify-huge-database-daily-charts-over-3-years; do
+              echo; echo "### files: $ref"
+              kaggle datasets files "$ref" --csv 2>&1 | head -40
+              kaggle datasets metadata "$ref" -p /tmp/meta_$$ >/dev/null 2>&1 && \
+                python -c "import json,sys;m=json.load(open('/tmp/meta_$$/dataset-metadata.json'));print('subtitle:',m.get('subtitle'));print((m.get('description') or '')[:1500])" 2>&1
+            done
+          } > "$out" 2>&1
+          cat "$out"
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/probe
+          git diff --cached --quiet || git commit -m "probe: kaggle dataset listing"
+          git pull --rebase
+          git push
