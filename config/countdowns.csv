@@ -1,0 +1,13 @@
+countdown_year,voting_close_aedt,eligibility_start,eligibility_end,set,source
+2015,,,,train,
+2016,,,,train,
+2017,,,,train,
+2018,,,,train,
+2019,,,,train,
+2020,,,,train,
+2021,,,,train,
+2022,,,,train,
+2023,,,,train,
+2024,,,,train,
+2025,2026-01-15T17:00,,,holdout,news reports of voting dates
+2026,,,,live,
