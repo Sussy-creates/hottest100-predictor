@@ -1,0 +1,150 @@
+{
+  "source_file": "charts.csv",
+  "rows_scanned": 26173514,
+  "columns": [
+    "title",
+    "rank",
+    "date",
+    "artist",
+    "url",
+    "region",
+    "chart",
+    "trend",
+    "streams"
+  ],
+  "country_col": "region",
+  "date_col": "date",
+  "sample_rows": [
+    {
+      "title": "Chantaje (feat. Maluma)",
+      "rank": "1",
+      "date": "2017-01-01",
+      "artist": "Shakira",
+      "url": "https://open.spotify.com/track/6mICuAdrwEjh6Y6lroV2Kg",
+      "region": "Argentina",
+      "chart": "top200",
+      "trend": "SAME_POSITION",
+      "streams": "253019"
+    },
+    {
+      "title": "Vente Pa' Ca (feat. Maluma)",
+      "rank": "2",
+      "date": "2017-01-01",
+      "artist": "Ricky Martin",
+      "url": "https://open.spotify.com/track/7DM4BPaS7uofFul3ywMe46",
+      "region": "Argentina",
+      "chart": "top200",
+      "trend": "MOVE_UP",
+      "streams": "223988"
+    },
+    {
+      "title": "Reggaet\u00f3n Lento (Bailemos)",
+      "rank": "3",
+      "date": "2017-01-01",
+      "artist": "CNCO",
+      "url": "https://open.spotify.com/track/3AEZUABDXNtecAOSC1qTfo",
+      "region": "Argentina",
+      "chart": "top200",
+      "trend": "MOVE_DOWN",
+      "streams": "210943"
+    },
+    {
+      "title": "Safari",
+      "rank": "4",
+      "date": "2017-01-01",
+      "artist": "J Balvin, Pharrell Williams, BIA, Sky",
+      "url": "https://open.spotify.com/track/6rQSrBHf7HlZjtcMZ4S4bO",
+      "region": "Argentina",
+      "chart": "top200",
+      "trend": "SAME_POSITION",
+      "streams": "173865"
+    },
+    {
+      "title": "Shaky Shaky",
+      "rank": "5",
+      "date": "2017-01-01",
+      "artist": "Daddy Yankee",
+      "url": "https://open.spotify.com/track/58IL315gMSTD37DOZPJ2hf",
+      "region": "Argentina",
+      "chart": "top200",
+      "trend": "MOVE_UP",
+      "streams": "153956"
+    }
+  ],
+  "top_country_values": [
+    [
+      "argentina",
+      455308
+    ],
+    [
+      "united states",
+      455057
+    ],
+    [
+      "austria",
+      454593
+    ],
+    [
+      "brazil",
+      454439
+    ],
+    [
+      "australia",
+      453103
+    ],
+    [
+      "canada",
+      452279
+    ],
+    [
+      "global",
+      451793
+    ],
+    [
+      "united kingdom",
+      450721
+    ],
+    [
+      "switzerland",
+      449611
+    ],
+    [
+      "philippines",
+      449335
+    ],
+    [
+      "malaysia",
+      449333
+    ],
+    [
+      "indonesia",
+      449332
+    ],
+    [
+      "belgium",
+      449319
+    ],
+    [
+      "denmark",
+      449319
+    ],
+    [
+      "france",
+      449311
+    ]
+  ],
+  "au_rows": 453103,
+  "au_date_min": "2017-01-01",
+  "au_date_max": "2021-12-31",
+  "au_days_by_year": {
+    "2017": 365,
+    "2018": 365,
+    "2019": 365,
+    "2020": 366,
+    "2021": 365
+  },
+  "au_chart_values": {
+    "top200": 362189,
+    "viral50": 90914
+  }
+}

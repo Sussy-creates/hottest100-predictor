@@ -1,0 +1,217 @@
+{
+  "source_file": "charts_songs_daily.csv",
+  "rows_scanned": 45331702,
+  "columns": [
+    "date",
+    "country",
+    "rank",
+    "uri",
+    "artist_names",
+    "track_name",
+    "label",
+    "peak_rank",
+    "previous_rank",
+    "days_on_chart",
+    "streams",
+    "consecutive_days",
+    "entry_status",
+    "peak_date",
+    "entry_rank",
+    "entry_date",
+    "release_date",
+    "artist_uris"
+  ],
+  "country_col": "country",
+  "date_col": "date",
+  "sample_rows": [
+    {
+      "date": "2017-01-01",
+      "country": "ar",
+      "rank": "1",
+      "uri": "spotify:track:6mICuAdrwEjh6Y6lroV2Kg",
+      "artist_names": "Shakira|Maluma",
+      "track_name": "Chantaje (feat. Maluma)",
+      "label": "Sony Music Latin",
+      "peak_rank": "1",
+      "previous_rank": "-1",
+      "days_on_chart": "1",
+      "streams": "253019",
+      "consecutive_days": "1",
+      "entry_status": "NEW_ENTRY",
+      "peak_date": "2017-01-01",
+      "entry_rank": "1",
+      "entry_date": "2017-01-01",
+      "release_date": "2017-05-26",
+      "artist_uris": "spotify:artist:0EmeFodog0BfCgMzAIvKQp|spotify:artist:1r4hJ1h58CWwUQe3MxPuau"
+    },
+    {
+      "date": "2017-01-01",
+      "country": "ar",
+      "rank": "2",
+      "uri": "spotify:track:7DM4BPaS7uofFul3ywMe46",
+      "artist_names": "Ricky Martin|Maluma",
+      "track_name": "Vente Pa' Ca (feat. Maluma)",
+      "label": "Sony Music Latin",
+      "peak_rank": "2",
+      "previous_rank": "-1",
+      "days_on_chart": "1",
+      "streams": "223988",
+      "consecutive_days": "1",
+      "entry_status": "NEW_ENTRY",
+      "peak_date": "2017-01-01",
+      "entry_rank": "2",
+      "entry_date": "2017-01-01",
+      "release_date": "2016-09-22",
+      "artist_uris": "spotify:artist:7slfeZO9LsJbWgpkIoXBUJ|spotify:artist:1r4hJ1h58CWwUQe3MxPuau"
+    },
+    {
+      "date": "2017-01-01",
+      "country": "ar",
+      "rank": "3",
+      "uri": "spotify:track:3AEZUABDXNtecAOSC1qTfo",
+      "artist_names": "CNCO",
+      "track_name": "Reggaet\u00f3n Lento (Bailemos)",
+      "label": "Sony Music Latin",
+      "peak_rank": "3",
+      "previous_rank": "-1",
+      "days_on_chart": "1",
+      "streams": "210943",
+      "consecutive_days": "1",
+      "entry_status": "NEW_ENTRY",
+      "peak_date": "2017-01-01",
+      "entry_rank": "3",
+      "entry_date": "2017-01-01",
+      "release_date": "2016-08-26",
+      "artist_uris": "spotify:artist:0eecdvMrqBftK0M1VKhaF4"
+    },
+    {
+      "date": "2017-01-01",
+      "country": "ar",
+      "rank": "4",
+      "uri": "spotify:track:6rQSrBHf7HlZjtcMZ4S4bO",
+      "artist_names": "J Balvin|Pharrell Williams|BIA|Sky Rompiendo",
+      "track_name": "Safari",
+      "label": "UMLE - Latino",
+      "peak_rank": "4",
+      "previous_rank": "-1",
+      "days_on_chart": "1",
+      "streams": "173865",
+      "consecutive_days": "1",
+      "entry_status": "NEW_ENTRY",
+      "peak_date": "2017-01-01",
+      "entry_rank": "4",
+      "entry_date": "2017-01-01",
+      "release_date": "2016-06-24",
+      "artist_uris": "spotify:artist:1vyhD5VmyZ7KMfW5gqLgo5|spotify:artist:2RdwBSPQiwcmiDo9kixcl8|spotify:artist:6veh5zbFpm31XsPdjBgPER|spotify:artist:51XrH5fQP2oIQynuKxSWcW"
+    },
+    {
+      "date": "2017-01-01",
+      "country": "ar",
+      "rank": "5",
+      "uri": "spotify:track:58IL315gMSTD37DOZPJ2hf",
+      "artist_names": "Daddy Yankee",
+      "track_name": "Shaky Shaky",
+      "label": "Craft Latino",
+      "peak_rank": "5",
+      "previous_rank": "-1",
+      "days_on_chart": "1",
+      "streams": "153956",
+      "consecutive_days": "1",
+      "entry_status": "NEW_ENTRY",
+      "peak_date": "2017-01-01",
+      "entry_rank": "5",
+      "entry_date": "2017-01-01",
+      "release_date": "2016-04-08",
+      "artist_uris": "spotify:artist:4VMYDCV2IEDYJArk749S6m"
+    }
+  ],
+  "top_country_values": [
+    [
+      "ar",
+      722200
+    ],
+    [
+      "au",
+      722200
+    ],
+    [
+      "be",
+      722200
+    ],
+    [
+      "br",
+      722200
+    ],
+    [
+      "ca",
+      722200
+    ],
+    [
+      "ec",
+      722200
+    ],
+    [
+      "fi",
+      722200
+    ],
+    [
+      "fr",
+      722200
+    ],
+    [
+      "id",
+      722200
+    ],
+    [
+      "it",
+      722200
+    ],
+    [
+      "mx",
+      722200
+    ],
+    [
+      "my",
+      722200
+    ],
+    [
+      "nz",
+      722200
+    ],
+    [
+      "pe",
+      722200
+    ],
+    [
+      "ph",
+      722200
+    ]
+  ],
+  "au_rows": 722200,
+  "au_date_min": "2017-01-01",
+  "au_date_max": "2026-11-20",
+  "au_days_by_year": {
+    "2017": 365,
+    "2018": 365,
+    "2019": 365,
+    "2020": 366,
+    "2021": 365,
+    "2022": 365,
+    "2023": 365,
+    "2024": 366,
+    "2025": 365,
+    "2026": 324
+  },
+  "au_chart_values": {
+    "1": 6974,
+    "2": 5900,
+    "3": 5501,
+    "4": 5208,
+    "5": 4924,
+    "6": 4665,
+    "7": 4446,
+    "8": 4216,
+    "9": 4038,
+    "10": 3936
+  }
+}
