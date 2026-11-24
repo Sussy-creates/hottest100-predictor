@@ -18,6 +18,8 @@ PAGES = {
     "kworb_shazam_au": "https://kworb.net/charts/shazam/au.html",
     "kworb_spotify_au_daily": "https://kworb.net/spotify/country/au_daily.html",
     "kworb_apple_au": "https://kworb.net/charts/apple_s/au.html",
+    "kworb_youtube_au_daily": "https://kworb.net/youtube/insights/au_daily.html",
+    "kworb_youtube_au_weekly": "https://kworb.net/youtube/insights/au.html",
     "shazam_top200_au_csv": "https://www.shazam.com/services/charts/csv/top-200/australia",
 }
 
