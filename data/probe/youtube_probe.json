@@ -1,0 +1,532 @@
+{
+ "page": {
+  "status": 200,
+  "bytes": 63322,
+  "config": {
+   "INNERTUBE_CLIENT_VERSION": "1.20261116.04.00",
+   "INNERTUBE_CLIENT_NAME": "WEB_MUSIC_ANALYTICS",
+   "INNERTUBE_CONTEXT_CLIENT_NAME": "31"
+  }
+ },
+ "TRACKS": {
+  "2016-06-02": {
+   "status": 403,
+   "bytes": 281,
+   "n_entries": 0,
+   "first_entry": null,
+   "end_dates_seen": [],
+   "top_keys": [
+    "error"
+   ],
+   "error": {
+    "code": 403,
+    "message": "The caller does not have permission",
+    "errors": [
+     {
+      "message": "The caller does not have permission",
+      "domain": "global",
+      "reason": "forbidden"
+     }
+    ],
+    "status": "PERMISSION_DENIED"
+   }
+  },
+  "2018-01-04": {
+   "status": 403,
+   "bytes": 281,
+   "n_entries": 0,
+   "first_entry": null,
+   "end_dates_seen": [],
+   "top_keys": [
+    "error"
+   ],
+   "error": {
+    "code": 403,
+    "message": "The caller does not have permission",
+    "errors": [
+     {
+      "message": "The caller does not have permission",
+      "domain": "global",
+      "reason": "forbidden"
+     }
+    ],
+    "status": "PERMISSION_DENIED"
+   }
+  },
+  "2019-06-06": {
+   "status": 403,
+   "bytes": 281,
+   "n_entries": 0,
+   "first_entry": null,
+   "end_dates_seen": [],
+   "top_keys": [
+    "error"
+   ],
+   "error": {
+    "code": 403,
+    "message": "The caller does not have permission",
+    "errors": [
+     {
+      "message": "The caller does not have permission",
+      "domain": "global",
+      "reason": "forbidden"
+     }
+    ],
+    "status": "PERMISSION_DENIED"
+   }
+  },
+  "2020-01-02": {
+   "status": 403,
+   "bytes": 281,
+   "n_entries": 0,
+   "first_entry": null,
+   "end_dates_seen": [],
+   "top_keys": [
+    "error"
+   ],
+   "error": {
+    "code": 403,
+    "message": "The caller does not have permission",
+    "errors": [
+     {
+      "message": "The caller does not have permission",
+      "domain": "global",
+      "reason": "forbidden"
+     }
+    ],
+    "status": "PERMISSION_DENIED"
+   }
+  },
+  "2021-01-07": {
+   "status": 403,
+   "bytes": 281,
+   "n_entries": 0,
+   "first_entry": null,
+   "end_dates_seen": [],
+   "top_keys": [
+    "error"
+   ],
+   "error": {
+    "code": 403,
+    "message": "The caller does not have permission",
+    "errors": [
+     {
+      "message": "The caller does not have permission",
+      "domain": "global",
+      "reason": "forbidden"
+     }
+    ],
+    "status": "PERMISSION_DENIED"
+   }
+  },
+  "2022-01-06": {
+   "status": 403,
+   "bytes": 281,
+   "n_entries": 0,
+   "first_entry": null,
+   "end_dates_seen": [],
+   "top_keys": [
+    "error"
+   ],
+   "error": {
+    "code": 403,
+    "message": "The caller does not have permission",
+    "errors": [
+     {
+      "message": "The caller does not have permission",
+      "domain": "global",
+      "reason": "forbidden"
+     }
+    ],
+    "status": "PERMISSION_DENIED"
+   }
+  },
+  "2023-01-05": {
+   "status": 403,
+   "bytes": 281,
+   "n_entries": 0,
+   "first_entry": null,
+   "end_dates_seen": [],
+   "top_keys": [
+    "error"
+   ],
+   "error": {
+    "code": 403,
+    "message": "The caller does not have permission",
+    "errors": [
+     {
+      "message": "The caller does not have permission",
+      "domain": "global",
+      "reason": "forbidden"
+     }
+    ],
+    "status": "PERMISSION_DENIED"
+   }
+  },
+  "2024-01-04": {
+   "status": 403,
+   "bytes": 281,
+   "n_entries": 0,
+   "first_entry": null,
+   "end_dates_seen": [],
+   "top_keys": [
+    "error"
+   ],
+   "error": {
+    "code": 403,
+    "message": "The caller does not have permission",
+    "errors": [
+     {
+      "message": "The caller does not have permission",
+      "domain": "global",
+      "reason": "forbidden"
+     }
+    ],
+    "status": "PERMISSION_DENIED"
+   }
+  },
+  "2025-01-09": {
+   "status": 403,
+   "bytes": 281,
+   "n_entries": 0,
+   "first_entry": null,
+   "end_dates_seen": [],
+   "top_keys": [
+    "error"
+   ],
+   "error": {
+    "code": 403,
+    "message": "The caller does not have permission",
+    "errors": [
+     {
+      "message": "The caller does not have permission",
+      "domain": "global",
+      "reason": "forbidden"
+     }
+    ],
+    "status": "PERMISSION_DENIED"
+   }
+  },
+  "2026-11-19": {
+   "status": 403,
+   "bytes": 281,
+   "n_entries": 0,
+   "first_entry": null,
+   "end_dates_seen": [],
+   "top_keys": [
+    "error"
+   ],
+   "error": {
+    "code": 403,
+    "message": "The caller does not have permission",
+    "errors": [
+     {
+      "message": "The caller does not have permission",
+      "domain": "global",
+      "reason": "forbidden"
+     }
+    ],
+    "status": "PERMISSION_DENIED"
+   }
+  }
+ },
+ "VIDEOS": {
+  "2016-06-02": {
+   "status": 403,
+   "bytes": 281,
+   "n_entries": 0,
+   "first_entry": null,
+   "end_dates_seen": [],
+   "top_keys": [
+    "error"
+   ],
+   "error": {
+    "code": 403,
+    "message": "The caller does not have permission",
+    "errors": [
+     {
+      "message": "The caller does not have permission",
+      "domain": "global",
+      "reason": "forbidden"
+     }
+    ],
+    "status": "PERMISSION_DENIED"
+   }
+  },
+  "2018-01-04": {
+   "status": 403,
+   "bytes": 281,
+   "n_entries": 0,
+   "first_entry": null,
+   "end_dates_seen": [],
+   "top_keys": [
+    "error"
+   ],
+   "error": {
+    "code": 403,
+    "message": "The caller does not have permission",
+    "errors": [
+     {
+      "message": "The caller does not have permission",
+      "domain": "global",
+      "reason": "forbidden"
+     }
+    ],
+    "status": "PERMISSION_DENIED"
+   }
+  },
+  "2019-06-06": {
+   "status": 403,
+   "bytes": 281,
+   "n_entries": 0,
+   "first_entry": null,
+   "end_dates_seen": [],
+   "top_keys": [
+    "error"
+   ],
+   "error": {
+    "code": 403,
+    "message": "The caller does not have permission",
+    "errors": [
+     {
+      "message": "The caller does not have permission",
+      "domain": "global",
+      "reason": "forbidden"
+     }
+    ],
+    "status": "PERMISSION_DENIED"
+   }
+  },
+  "2020-01-02": {
+   "status": 403,
+   "bytes": 281,
+   "n_entries": 0,
+   "first_entry": null,
+   "end_dates_seen": [],
+   "top_keys": [
+    "error"
+   ],
+   "error": {
+    "code": 403,
+    "message": "The caller does not have permission",
+    "errors": [
+     {
+      "message": "The caller does not have permission",
+      "domain": "global",
+      "reason": "forbidden"
+     }
+    ],
+    "status": "PERMISSION_DENIED"
+   }
+  },
+  "2021-01-07": {
+   "status": 403,
+   "bytes": 281,
+   "n_entries": 0,
+   "first_entry": null,
+   "end_dates_seen": [],
+   "top_keys": [
+    "error"
+   ],
+   "error": {
+    "code": 403,
+    "message": "The caller does not have permission",
+    "errors": [
+     {
+      "message": "The caller does not have permission",
+      "domain": "global",
+      "reason": "forbidden"
+     }
+    ],
+    "status": "PERMISSION_DENIED"
+   }
+  },
+  "2022-01-06": {
+   "status": 403,
+   "bytes": 281,
+   "n_entries": 0,
+   "first_entry": null,
+   "end_dates_seen": [],
+   "top_keys": [
+    "error"
+   ],
+   "error": {
+    "code": 403,
+    "message": "The caller does not have permission",
+    "errors": [
+     {
+      "message": "The caller does not have permission",
+      "domain": "global",
+      "reason": "forbidden"
+     }
+    ],
+    "status": "PERMISSION_DENIED"
+   }
+  },
+  "2023-01-05": {
+   "status": 403,
+   "bytes": 281,
+   "n_entries": 0,
+   "first_entry": null,
+   "end_dates_seen": [],
+   "top_keys": [
+    "error"
+   ],
+   "error": {
+    "code": 403,
+    "message": "The caller does not have permission",
+    "errors": [
+     {
+      "message": "The caller does not have permission",
+      "domain": "global",
+      "reason": "forbidden"
+     }
+    ],
+    "status": "PERMISSION_DENIED"
+   }
+  },
+  "2024-01-04": {
+   "status": 403,
+   "bytes": 281,
+   "n_entries": 0,
+   "first_entry": null,
+   "end_dates_seen": [],
+   "top_keys": [
+    "error"
+   ],
+   "error": {
+    "code": 403,
+    "message": "The caller does not have permission",
+    "errors": [
+     {
+      "message": "The caller does not have permission",
+      "domain": "global",
+      "reason": "forbidden"
+     }
+    ],
+    "status": "PERMISSION_DENIED"
+   }
+  },
+  "2025-01-09": {
+   "status": 403,
+   "bytes": 281,
+   "n_entries": 0,
+   "first_entry": null,
+   "end_dates_seen": [],
+   "top_keys": [
+    "error"
+   ],
+   "error": {
+    "code": 403,
+    "message": "The caller does not have permission",
+    "errors": [
+     {
+      "message": "The caller does not have permission",
+      "domain": "global",
+      "reason": "forbidden"
+     }
+    ],
+    "status": "PERMISSION_DENIED"
+   }
+  },
+  "2026-11-19": {
+   "status": 403,
+   "bytes": 281,
+   "n_entries": 0,
+   "first_entry": null,
+   "end_dates_seen": [],
+   "top_keys": [
+    "error"
+   ],
+   "error": {
+    "code": 403,
+    "message": "The caller does not have permission",
+    "errors": [
+     {
+      "message": "The caller does not have permission",
+      "domain": "global",
+      "reason": "forbidden"
+     }
+    ],
+    "status": "PERMISSION_DENIED"
+   }
+  }
+ },
+ "wayback_kworb_youtube_au_months": [
+  "201707",
+  "201710",
+  "201903",
+  "201904",
+  "201907",
+  "201909",
+  "201911",
+  "201912",
+  "202006",
+  "202009",
+  "202011",
+  "202101",
+  "202104",
+  "202106",
+  "202107",
+  "202108",
+  "202109",
+  "202110",
+  "202111",
+  "202112",
+  "202201",
+  "202202",
+  "202203",
+  "202204",
+  "202205",
+  "202206",
+  "202207",
+  "202208",
+  "202209",
+  "202210",
+  "202211",
+  "202212",
+  "202301",
+  "202302",
+  "202303",
+  "202304",
+  "202305",
+  "202306",
+  "202307",
+  "202308",
+  "202309",
+  "202310",
+  "202311",
+  "202312",
+  "202401",
+  "202402",
+  "202403",
+  "202404",
+  "202405",
+  "202406",
+  "202407",
+  "202408",
+  "202409",
+  "202411",
+  "202412",
+  "202501",
+  "202502",
+  "202503",
+  "202504",
+  "202505",
+  "202506",
+  "202507",
+  "202508",
+  "202509",
+  "202510",
+  "202511",
+  "202512",
+  "202601",
+  "202602",
+  "202603",
+  "202604",
+  "202605",
+  "202607",
+  "202609",
+  "202610"
+ ]
+}
