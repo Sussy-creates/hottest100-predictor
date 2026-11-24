@@ -10,3 +10,5 @@
 - Spotify AU sources (`data/raw/spotify_au/`): `gonzalopezgil` = daily top 200 with streams, 2017-01-01 onward, every day present (primary). `jfreyberg__charts` = weekly top 200, 2013–2023 (the only source for the 2015–16 countdowns). `dhruvildave` = daily 2017–2021, cross-check only.
 - Compute Spotify features on weekly aggregates for every year, so 2015–16 (weekly-only) and later years are comparable.
 - triple j airplay (`data/raw/abc_plays/`): one slimmed play per line, Dec 2014 onward; `recording_id` and artist `id` are stable ABC IDs.
+- Results: `data/derived/results.csv` = ranks 1–200 for training countdowns 2015–2024 (from Wikipedia). 2025 results sit in `data/holdout/` and must not be opened before `rule-v1`.
+- Countdown calendar: `config/countdowns.csv` (voting open/close, eligibility window Dec 1–Nov 30, source per row). 2015–16 close dates are day-only; others carry the AEDT close time.
