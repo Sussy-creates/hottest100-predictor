@@ -7,6 +7,7 @@ from __future__ import annotations
 
 import json
 import time
+import urllib.error
 import urllib.parse
 import urllib.request
 from pathlib import Path
@@ -21,9 +22,15 @@ TITLES = ["Triple J's Hottest 100 of {y}", "Triple J Hottest 100, {y}"]
 def parse(title: str) -> dict | None:
     q = urllib.parse.urlencode({"action": "parse", "page": title, "prop": "text|wikitext|revid",
                                 "redirects": 1, "format": "json", "formatversion": 2})
-    with urllib.request.urlopen(urllib.request.Request(f"{API}?{q}", headers=UA), timeout=60) as r:
-        data = json.loads(r.read())
-    return None if "error" in data else data["parse"]
+    for attempt in range(5):
+        try:
+            with urllib.request.urlopen(urllib.request.Request(f"{API}?{q}", headers=UA), timeout=60) as r:
+                data = json.loads(r.read())
+            return None if "error" in data else data["parse"]
+        except urllib.error.HTTPError as e:
+            print(f"  {title}: HTTP {e.code}, retry {attempt + 1}")
+            time.sleep(5 * 2 ** attempt)
+    return None
 
 
 def main() -> None:
