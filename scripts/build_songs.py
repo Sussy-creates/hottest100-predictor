@@ -173,10 +173,11 @@ def main() -> None:
     plays = plays.merge(rec[["recording_id", "song_id"]], on="recording_id", how="left")
     plays[["played_syd", "date", "recording_id", "song_id", "title", "artist", "version"]].to_parquet(
         DER / "plays.parquet", index=False)
+    lead = rec.sort_values("plays", ascending=False).drop_duplicates("song_id").set_index("song_id")
     songs = (rec.groupby("song_id")
-               .agg(title=("title", "first"), artist=("artist", "first"), version=("version", "first"),
-                    tkey=("tkey", "first"), recordings=("recording_id", "nunique"), plays=("plays", "sum"),
-                    first_play=("first_play", "min"), last_play=("last_play", "max"))
+               .agg(version=("version", "first"), tkey=("tkey", "first"), recordings=("recording_id", "nunique"),
+                    plays=("plays", "sum"), first_play=("first_play", "min"), last_play=("last_play", "max"))
+               .join(lead[["title", "artist"]])  # label each song by its most-played recording
                .reset_index())
     songs.to_csv(DER / "tj_songs.csv", index=False)
     print(f"triple j: {len(plays):,} plays, {rec['recording_id'].nunique():,} recordings -> {len(songs):,} songs")

@@ -1,0 +1,278 @@
+{
+ "final_rule": {
+  "p_sp_weeks": 2.0,
+  "p_sp_last4": 3.0,
+  "p_tj_peak7": 3.0,
+  "p_tj_since_liftoff": 2.0,
+  "artist_many": 1.0
+ },
+ "top_rules": [
+  {
+   "rule": {
+    "p_sp_weeks": 2.0,
+    "p_sp_last4": 3.0,
+    "p_tj_peak7": 3.0,
+    "p_tj_since_liftoff": 2.0,
+    "artist_many": 1.0
+   },
+   "objective": 1.21,
+   "mean_top10": 4.1,
+   "winner_top3_years": 8,
+   "winner_hit_years": 3
+  },
+  {
+   "rule": {
+    "p_sp_weeks": 2.0,
+    "p_sp_last4": 2.0,
+    "p_tj_peak7": 3.0,
+    "p_tj_since_liftoff": 2.0,
+    "artist_many": 1.0
+   },
+   "objective": 1.2000000000000002,
+   "mean_top10": 4.0,
+   "winner_top3_years": 8,
+   "winner_hit_years": 3
+  },
+  {
+   "rule": {
+    "p_sp_last4": 2.0,
+    "p_tj_peak7": 1.0,
+    "p_tj_last28": 2.0,
+    "p_tj_since_liftoff": 3.0,
+    "artist_many": 1.0
+   },
+   "objective": 1.2000000000000002,
+   "mean_top10": 4.0,
+   "winner_top3_years": 8,
+   "winner_hit_years": 4
+  },
+  {
+   "rule": {
+    "p_sp_last4": 2.0,
+    "p_tj_peak7": 2.0,
+    "p_tj_last28": 1.0,
+    "p_tj_since_liftoff": 3.0,
+    "artist_many": 1.0
+   },
+   "objective": 1.2000000000000002,
+   "mean_top10": 4.0,
+   "winner_top3_years": 8,
+   "winner_hit_years": 5
+  },
+  {
+   "rule": {
+    "p_sp_last4": 2.0,
+    "p_tj_peak7": 2.0,
+    "p_tj_last28": 2.0,
+    "p_tj_since_liftoff": 3.0,
+    "artist_many": 1.0
+   },
+   "objective": 1.2000000000000002,
+   "mean_top10": 4.0,
+   "winner_top3_years": 8,
+   "winner_hit_years": 4
+  },
+  {
+   "rule": {
+    "p_sp_weeks": 1.0,
+    "p_sp_last4": 3.0,
+    "p_tj_peak7": 3.0,
+    "p_tj_since_liftoff": 2.0,
+    "artist_many": 1.0
+   },
+   "objective": 1.2000000000000002,
+   "mean_top10": 4.0,
+   "winner_top3_years": 8,
+   "winner_hit_years": 3
+  },
+  {
+   "rule": {
+    "p_sp_last4": 3.0,
+    "p_tj_peak7": 1.0,
+    "p_tj_last28": 1.0,
+    "p_tj_since_liftoff": 3.0,
+    "artist_many": 1.0
+   },
+   "objective": 1.2000000000000002,
+   "mean_top10": 4.0,
+   "winner_top3_years": 8,
+   "winner_hit_years": 5
+  },
+  {
+   "rule": {
+    "p_sp_last4": 3.0,
+    "p_tj_peak7": 1.0,
+    "p_tj_last28": 2.0,
+    "p_tj_since_liftoff": 3.0,
+    "artist_many": 1.0
+   },
+   "objective": 1.2000000000000002,
+   "mean_top10": 4.0,
+   "winner_top3_years": 8,
+   "winner_hit_years": 4
+  },
+  {
+   "rule": {
+    "p_sp_last4": 3.0,
+    "p_tj_cum": 3.0,
+    "p_tj_since_liftoff": 1.0,
+    "p_tj_fade": 1.0,
+    "p_tj_artist_plays": 3.0
+   },
+   "objective": 1.19,
+   "mean_top10": 4.9,
+   "winner_top3_years": 7,
+   "winner_hit_years": 3
+  },
+  {
+   "rule": {
+    "p_sp_last4": 3.0,
+    "p_tj_peak7": 3.0,
+    "p_tj_since_liftoff": 2.0,
+    "artist_many": 1.0,
+    "lav_rel": 2.0
+   },
+   "objective": 1.19,
+   "mean_top10": 3.9,
+   "winner_top3_years": 8,
+   "winner_hit_years": 3
+  },
+  {
+   "rule": {
+    "p_sp_last4": 3.0,
+    "p_tj_peak7": 3.0,
+    "p_tj_since_liftoff": 2.0,
+    "artist_many": 1.0,
+    "lav_rel": 1.0
+   },
+   "objective": 1.19,
+   "mean_top10": 3.9,
+   "winner_top3_years": 8,
+   "winner_hit_years": 3
+  },
+  {
+   "rule": {
+    "p_sp_weeks": 1.0,
+    "p_sp_last4": 1.0,
+    "p_tj_last28": 2.0,
+    "p_tj_since_liftoff": 3.0,
+    "artist_many": 1.0
+   },
+   "objective": 1.19,
+   "mean_top10": 3.9,
+   "winner_top3_years": 8,
+   "winner_hit_years": 3
+  },
+  {
+   "rule": {
+    "p_sp_weeks": 1.0,
+    "p_sp_last4": 2.0,
+    "p_tj_peak7": 3.0,
+    "p_tj_since_liftoff": 2.0,
+    "artist_many": 1.0
+   },
+   "objective": 1.19,
+   "mean_top10": 3.9,
+   "winner_top3_years": 8,
+   "winner_hit_years": 3
+  },
+  {
+   "rule": {
+    "p_sp_last4": 3.0,
+    "p_tj_peak7": 3.0,
+    "p_tj_since_liftoff": 2.0,
+    "artist_many": 1.0
+   },
+   "objective": 1.19,
+   "mean_top10": 3.9,
+   "winner_top3_years": 8,
+   "winner_hit_years": 3
+  },
+  {
+   "rule": {
+    "p_sp_cum": 1.0,
+    "p_sp_last4": 3.0,
+    "p_tj_peak7": 3.0,
+    "p_tj_since_liftoff": 2.0,
+    "artist_many": 1.0
+   },
+   "objective": 1.19,
+   "mean_top10": 3.9,
+   "winner_top3_years": 8,
+   "winner_hit_years": 3
+  }
+ ],
+ "loyo_chosen": [
+  {
+   "p_sp_last4": 2.0,
+   "p_tj_peak7": 1.0,
+   "p_tj_last28": 2.0,
+   "p_tj_since_liftoff": 3.0,
+   "artist_many": 1.0
+  },
+  {
+   "p_sp_weeks": 2.0,
+   "p_sp_last4": 3.0,
+   "p_tj_peak7": 3.0,
+   "p_tj_since_liftoff": 2.0,
+   "artist_many": 1.0
+  },
+  {
+   "p_sp_weeks": 2.0,
+   "p_sp_last4": 3.0,
+   "p_tj_peak7": 3.0,
+   "p_tj_since_liftoff": 2.0,
+   "artist_many": 1.0
+  },
+  {
+   "p_sp_best_rank": 3.0,
+   "p_sp_last4": 3.0,
+   "p_tj_last28": 1.0,
+   "p_tj_since_liftoff": 3.0,
+   "artist_many": 1.0
+  },
+  {
+   "p_sp_weeks": 1.0,
+   "p_sp_last4": 3.0,
+   "p_tj_peak7": 3.0,
+   "p_tj_since_liftoff": 2.0,
+   "artist_many": 1.0
+  },
+  {
+   "p_sp_weeks": 2.0,
+   "p_sp_last4": 3.0,
+   "p_tj_peak7": 3.0,
+   "p_tj_since_liftoff": 2.0,
+   "artist_many": 1.0
+  },
+  {
+   "p_sp_weeks": 2.0,
+   "p_sp_last4": 3.0,
+   "p_tj_peak7": 3.0,
+   "p_tj_since_liftoff": 2.0,
+   "artist_many": 1.0
+  },
+  {
+   "p_sp_last4": 2.0,
+   "p_tj_peak7": 1.0,
+   "p_tj_last28": 2.0,
+   "p_tj_since_liftoff": 3.0,
+   "artist_many": 1.0
+  },
+  {
+   "p_sp_last4": 3.0,
+   "p_tj_cum": 3.0,
+   "p_tj_since_liftoff": 1.0,
+   "p_tj_fade": 1.0,
+   "p_tj_artist_plays": 3.0
+  },
+  {
+   "p_sp_last4": 3.0,
+   "p_tj_cum": 3.0,
+   "p_tj_since_liftoff": 1.0,
+   "p_tj_fade": 1.0,
+   "p_tj_artist_plays": 3.0
+  }
+ ],
+ "n_rules": 235975
+}

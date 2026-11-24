@@ -17,7 +17,7 @@ countdown_year,rank,song,artist,tj_song_ids,tj_method,tj_plays_pre_close,tj_firs
 2015,16,Fire and the Flood,Vance Joy,mtaky02lYV,title+artist,99,2015-07-23,spotify:track:6liNJDyWJjyHAgDnAX95bw,title+artist,3476645,36.0
 2015,17,Middle,DJ Snake featuring Bipolar Sunshine,mtrgBVvXg6,title+artist,129,2015-10-18,spotify:track:2Fn3coxd0xAZ09JtrgcgHa,title+artist,3607737,5.0
 2015,18,Downtown,"Macklemore & Ryan Lewis featuring Eric Nally, Melle Mel, Kool Moe Dee and Grandmaster Caz",mtwY4pLOYb,title+artist,64,2015-08-28,spotify:track:0lLDaAdXcjOQ7Mf2NXzXay,title+artist,8109462,2.0
-2015,19,The Hills,The Weeknd,mteK5R9QYA,title+artist,58,2015-07-05,spotify:track:25khomWgBVamSdKw7hzm3l|spotify:track:7fBv7CLKzipRk6EC6TWHOB,title+artist,19262570,4.0
+2015,19,The Hills,The Weeknd,mteK5R9QYA,title+artist,57,2015-07-05,spotify:track:25khomWgBVamSdKw7hzm3l|spotify:track:7fBv7CLKzipRk6EC6TWHOB,title+artist,19262570,4.0
 2015,20,Mountain at My Gates,Foals,mtygx1EzKw,title+artist,148,2015-07-21,spotify:track:53L6A3I9vf7rgEZnMzx54E,title+artist,674234,90.0
 2015,21,Magnolia,Gang of Youths,mtZK2adWgp,title+artist,122,2015-04-13,spotify:track:5f37ixzmpPfGTFytUM66dx,title+artist,0,
 2015,22,Keeping Score,L D R U featuring Paige IV,mtygxVAnYw,title+artist,141,2015-09-24,spotify:track:1SqvnNuECvid6XdiJ9OCH5,title+artist,860334,45.0
@@ -28,7 +28,7 @@ countdown_year,rank,song,artist,tj_song_ids,tj_method,tj_plays_pre_close,tj_firs
 2015,27,Young,Vallis Alps,mtrkon7dY1,title+artist,180,2015-01-12,spotify:track:3u4rIcRR7gSoJdkJIx9zpu,title+artist,144453,158.0
 2015,28,Like an Animal,Rüfüs,mtjkMj46yg,title+artist,108,2015-09-22,spotify:track:05LoBwiXyb1sx3xV3S3tEd,title+artist,963513,65.0
 2015,29,Greek Tragedy,The Wombats,mtjkM6bw3g,title+artist,125,2015-01-15,spotify:track:4z9Q8bigTEySh8PVNQ3gem,title+artist,749697,58.0
-2015,30,Say My Name,Peking Duk featuring Benjamin Joseph,mtjgdzEmYz,title+artist,137,2015-07-09,spotify:track:0wSJeDntuftBpsyhRSzZoW,title+artist,787667,67.0
+2015,30,Say My Name,Peking Duk featuring Benjamin Joseph,mtjgdzEmYz,title+artist,136,2015-07-09,spotify:track:0wSJeDntuftBpsyhRSzZoW,title+artist,787667,67.0
 2015,31,Loud Places,Jamie xx featuring Romy,mtjgdA3mKz,title+artist,116,2015-03-26,spotify:track:0Sl8C9oeS3b5Kv9bSvTPDr,title+artist,460913,90.0
 2015,32,Leave a Trace,Chvrches,mtrgByJ9k6,title+artist,119,2015-07-17,spotify:track:5ZVxR2lLvGky9Or49R618p,title+artist,356551,81.0
 2015,33,Long Loud Hours,Urthboy featuring Bertie Blackman,mtVgn9adkL,title+artist,92,2015-10-11,,unmatched,0,
@@ -44,7 +44,7 @@ countdown_year,rank,song,artist,tj_song_ids,tj_method,tj_plays_pre_close,tj_firs
 2015,43,Pedestrian at Best,Courtney Barnett,mt9kWA67Kx,title+artist,123,2015-01-30,spotify:track:7faHRZSIWrNj0LzwGKsTBu,title+artist,3990,253.0
 2015,44,Something About You,Hayden James,mtpYbpWyGg,title+artist,192,2014-12-04,spotify:track:6MzuROznsagl5Szc8w3Smj,title+artist,1204198,58.0
 2015,45,Throne,Bring Me the Horizon,mtEk6BWxkG,title+artist,103,2015-07-24,spotify:track:0M3adYbGtyRHACP86dey1H,title+artist,225057,93.0
-2015,46,Go,The Chemical Brothers,mtrkoDn2g1,title+artist,121,2015-05-05,spotify:track:2cNjgoSh1TBHFQIhfzRJUE,title+artist,135575,182.0
+2015,46,Go,The Chemical Brothers,mtrgBEy56k,title+artist,120,2015-05-05,spotify:track:2cNjgoSh1TBHFQIhfzRJUE,title+artist,135575,182.0
 2015,47,Dynamite,Asta featuring Allday,mtpYbQ6yNK,title+artist,142,2015-02-26,spotify:track:0B3x40yF0GalVYyje2jMLG,title+artist,19386,197.0
 2015,48,Crushed,Parkway Drive,mtPkvwAagy,title+artist,103,2015-08-24,,unmatched,0,
 2015,49,Too Much Time Together,San Cisco,mt9kWAynKx,title+artist,125,2015-02-05,spotify:track:0LcVvD1iPjqkfVdWd7ClfA,title+artist,32999,192.0
@@ -209,7 +209,7 @@ countdown_year,rank,song,artist,tj_song_ids,tj_method,tj_plays_pre_close,tj_firs
 2016,8,Say It,Flume featuring Tove Lo,mteK539q9k,title+artist,118,2016-04-21,spotify:track:4sQMalN597HdggTu196aL0,title+artist,23873266,2.0
 2016,9,Stranger,Peking Duk featuring Elliphant,mtrgBEDb9k,title+artist,142,2016-10-20,spotify:track:0jVPEBd4wyHupkTHwzQRyc,title+artist,7045612,10.0
 2016,10,Starboy,The Weeknd featuring Daft Punk,mtmYwARegy,title+artist,94,2016-09-22,spotify:track:5aAx2yezTd8zXrkmtKl66Z|spotify:track:7MXVkk9YMctZqd1Srtv4MB,title+artist,37127650,1.0
-2016,11,Chameleon,Pnau,mtrko2rb8Y,title+artist,119,2016-11-03,spotify:track:4rex1k9pBVFaIVKBBssZzi,title+artist,2997250,12.0
+2016,11,Chameleon,Pnau,mtjgdOqNkz,title+artist,118,2016-11-03,spotify:track:4rex1k9pBVFaIVKBBssZzi,title+artist,2997250,12.0
 2016,12,Cocoon,Milky Chance,mtPkV1JrY9,title+artist,119,2016-11-10,spotify:track:0L87MffumRNWrY2SNUFcvs|spotify:track:2v06ZOVTUrUoBNKOCqS22m,title+artist,3132090,28.0
 2016,13,Lovesick,Mura Masa featuring ASAP Rocky,mtqgarqdK8,title+artist,121,2016-10-02,spotify:track:0t2myRMEMCi2SRyg5TEFLp|spotify:track:7Kq16WtEJzdRSNQgdXsn7Y,title+artist,4458761,11.0
 2016,14,Viceroy,Violent Soho,mt9kJEedYb,title+artist,129,2016-02-03,spotify:track:0T3vq52coKx0csg7VO1HOC,title+artist,69461,128.0
@@ -1399,7 +1399,7 @@ countdown_year,rank,song,artist,tj_song_ids,tj_method,tj_plays_pre_close,tj_firs
 2021,198,Backseat,Fergus James,mtqgax1Pdk,title+artist,118,2021-07-27,,unmatched,0,
 2021,199,Unison,Gang of Youths,mtrgBQ6VXk,title+artist,11,2021-07-16,spotify:track:1B0Cien4C0razbujaBrYYG,title+artist,41377,117.0
 2021,200,Good Girls,Chvrches,mtLkANWL0g,title+artist,109,2021-07-13,,unmatched,0,
-2022,1,Say Nothing,Flume featuring May-a,mtpgGqwVdY,title+artist,129,2022-02-03,spotify:track:424Uwmm1kNW07Ty1nOhSpl|spotify:track:6x8to58oCuyPyuXIe5Imak,title+artist,9487214,15.0
+2022,1,Say Nothing,Flume featuring May-a,mtpgGqwVdY,title+artist,128,2022-02-03,spotify:track:424Uwmm1kNW07Ty1nOhSpl|spotify:track:6x8to58oCuyPyuXIe5Imak,title+artist,9487214,15.0
 2022,2,B.O.T.A. (Baddest of Them All),Eliza Rose and Interplanetary Criminal,mtwY4x1XVY,title+artist,136,2022-07-29,spotify:track:39JofJHEtg8I4fSyo7Imft|spotify:track:45bfH0GZvUyujIBiKRhXso,title+artist,17673085,4.0
 2022,3,Hardlight,Spacey Jane,mtVYLOZlOK,title+artist,99,2022-05-19,spotify:track:14hUuDsgEshd6VjyGxk8RB|spotify:track:7CMTh1oSr8LIWaTmLExLnj|spotify:track:7caaUcuKR1bVEv6eQgNzfN,title+artist,67705,166.0
 2022,4,Bad Habit,Steve Lacy,mtXYEjXGpk,title+artist,102,2022-07-07,spotify:track:4k6Uh1HXdhtusDW5y8Gbvy|spotify:track:5CM4UuQ9Gnd6K2YyKGPMoK,title+artist,28653678,1.0
@@ -1465,7 +1465,7 @@ countdown_year,rank,song,artist,tj_song_ids,tj_method,tj_plays_pre_close,tj_firs
 2022,64,Anakin,The Rions,mtPkvZ9bLk,title+artist,121,2022-08-03,,unmatched,0,
 2022,65,Forever Drunk,Peach PRC,mtDKpenezY,title+artist,132,2022-08-17,spotify:track:0DqnKQQarQLw4zVY0LLGbY,title+artist,42644,102.0
 2022,66,The Brown Snake,Thelma Plum,mtVkPpeRJk,title+artist,138,2022-08-10,,unmatched,0,
-2022,67,Escapism,Raye featuring 070 Shake,mtpYbLR8Mg,title+artist,124,2022-10-16,spotify:track:4rPJSqrov3zqGwXlemLBMw|spotify:track:5WxVXxCMRnvxUKFq40ELwq|spotify:track:5mHdCZtVyb4DcJw8799hZp,title+artist,8984231,5.0
+2022,67,Escapism,Raye featuring 070 Shake,mtpYbLR8Mg,title+artist,124,2022-10-16,spotify:track:5WxVXxCMRnvxUKFq40ELwq|spotify:track:5mHdCZtVyb4DcJw8799hZp,title+artist,6093736,5.0
 2022,68,Yeah the Girls,Fisher featuring Meryll,mtjgd2qmqY,title+artist,119,2022-09-02,,unmatched,0,
 2022,69,Maybe,Machine Gun Kelly featuring Bring Me the Horizon,mtmYwP2rlk,title+artist,133,2022-03-20,spotify:track:1Al4Z4K76RCKj31mExavs7|spotify:track:25wdC7CJmCJPgnKw9rYquJ,title+artist,1181311,14.0
 2022,70,Only Wanna Be with You,Amy Shark,mtDKpeEppY,title+artist,114,2022-10-07,spotify:track:5i8v4dQ9Lfo0CmG7PU64Z2,title+artist,0,
@@ -1493,7 +1493,7 @@ countdown_year,rank,song,artist,tj_song_ids,tj_method,tj_plays_pre_close,tj_firs
 2022,92,Alright,Sam Fender,mtjkMyZewk,title+artist,138,2022-07-17,,unmatched,0,
 2022,93,Holy Moley,Lime Cordiale and Idris Elba,mtdk84qlVk,title+artist,106,2022-01-18,,unmatched,0,
 2022,94,Lupa,King Stingray,mtygxAJ0vK,title+artist,111,2022-08-05,,unmatched,0,
-2022,95,Evergreen (You Didn't Deserve Me at All),Omar Apollo,mtwY4xDOnY,title+artist,89,2022-09-19,spotify:track:2TktkzfozZifbQhXjT6I33,title+artist,5351539,21.0
+2022,95,Evergreen (You Didn't Deserve Me at All),Omar Apollo,mtwY4xDOnY,title+artist,8,2022-09-19,spotify:track:2TktkzfozZifbQhXjT6I33,title+artist,5351539,21.0
 2022,96,Waste of Space,G Flip,mtMg965vpK,title+artist,88,2022-07-14,,unmatched,0,
 2022,97,Betty (Get Money),Yung Gravy,mtjkMy9xwk,title+artist,2,2022-09-27,spotify:track:4cacyP5c3PMlfnyjpg13xW,title+artist,7817466,18.0
 2022,98,Bad Memories,Meduza and James Carter featuring Elley Duhé and Fast Boy,mtpgGqAjJY,title+artist,130,2022-07-25,spotify:track:3rb0tMq42WfggucPm0HHkA,title+artist,152049,188.0
@@ -1611,7 +1611,7 @@ countdown_year,rank,song,artist,tj_song_ids,tj_method,tj_plays_pre_close,tj_firs
 2023,10,Chemical,Post Malone,mt3YZd8QXg,title+artist,120,2023-04-14,spotify:track:5TOgxgZrIZzvaKg9r2bvc2|spotify:track:5w40ZYhbBMAlHYNDaVJIUu,title+artist,25668195,9.0
 2023,11,Vampire,Olivia Rodrigo,mtVKQvlnqY,title+artist,99,2023-06-30,spotify:track:1kuGVB7EU95pJObxwvfwKS|spotify:track:3k79jB4aGmMDUQzEwa46Rz,title+artist,31059392,1.0
 2023,12,Rumble,"Skrillex, Fred Again and Flowdan",mt9kWOVnyk,title+artist,61,2023-01-05,spotify:track:1GfBLbAhZUWdseuDqhocmn|spotify:track:74fmYjFwt9CqEFAh8ybeBD,title+artist,5407045,17.0
-2023,13,Kill Bill,SZA,mtqgaxeJ3k,title+artist,135,2022-12-11,spotify:track:0CrcwVLUe8wzLUIXgjXVZJ|spotify:track:1Qrg8KqiBpW07V7PNxwwwL|spotify:track:2ty6DmPnxVPpEFuB23XM0x,title+artist,59629922,1.0
+2023,13,Kill Bill,SZA,mtqgaxeJ3k,title+artist,135,2022-12-11,spotify:track:0CrcwVLUe8wzLUIXgjXVZJ|spotify:track:1Qrg8KqiBpW07V7PNxwwwL,title+artist,59594844,1.0
 2023,14,Atmosphere,Fisher and Kita Alexander,mtrgBEz0jk,title+artist,121,2023-08-11,spotify:track:0yfJlRyn9VEZfonQUIPdkr,title+artist,7529650,57.0
 2023,15,(It Goes Like) Nanana,Peggy Gou,mtPkVlyRoK,title+artist,167,2023-06-16,spotify:track:1SwmINnHRKk4RiZGdarOv1|spotify:track:23RoR84KodL5HWvUTneQ1w,title+artist,15021927,15.0
 2023,16,Sprinter,Dave and Central Cee,mt9kJDlw7K,title+artist,109,2023-06-04,spotify:track:2FDTHlrBguDzQkp7PVj16Q,title+artist,40401136,1.0

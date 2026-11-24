@@ -7,7 +7,7 @@ from difflib import SequenceMatcher
 
 LAV = re.compile(r"like\s*a\s*version", re.I)
 LIVE = re.compile(r"\blive\b|live recording|live at|live from", re.I)
-KEEP = re.compile(r"remix|rework|\bvip\b|\bflip\b", re.I)  # versions that count as different songs
+KEEP = re.compile(r"remix|rework|\bvip\b|\bflip\b|bootleg|\bdub\b|nightcore|mash ?up|sped up|slowed", re.I)  # different songs
 DROP = re.compile(r"radio edit|single version|album version|explicit|clean|remaster|original mix|extended|\bedit\b", re.I)
 FEAT = re.compile(r"^\s*(feat\.?|ft\.?|featuring|with|prod\.?)\b", re.I)
 FEAT_TAIL = re.compile(r"\s+\b(feat\.?|ft\.?|featuring)\s.*$", re.I)
