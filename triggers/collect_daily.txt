@@ -1,2 +1,2 @@
 Edit this file to run the daily collection now.
-run 1: 2026-11-23
+run 2: 2026-11-24 (scheduled run did not fire)

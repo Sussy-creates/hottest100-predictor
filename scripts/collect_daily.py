@@ -1,6 +1,7 @@
 """Daily snapshot of live chart pages, so this year's prediction never depends on Wayback.
 
-Saves gzipped HTML under data/raw/daily/<source>/<YYYY-MM-DD>.html.gz (UTC date).
+Saves gzipped pages under data/raw/daily/<source>/<YYYY-MM-DD>.html.gz (UTC date).
+Re-running on the same day overwrites that day's file, so extra runs are harmless.
 """
 from __future__ import annotations
 
@@ -17,7 +18,7 @@ PAGES = {
     "kworb_shazam_au": "https://kworb.net/charts/shazam/au.html",
     "kworb_spotify_au_daily": "https://kworb.net/spotify/country/au_daily.html",
     "kworb_apple_au": "https://kworb.net/charts/apple_s/au.html",
-    "shazam_top200_au": "https://www.shazam.com/charts/top-200/australia",
+    "shazam_top200_au_csv": "https://www.shazam.com/services/charts/csv/top-200/australia",
 }
 
 
