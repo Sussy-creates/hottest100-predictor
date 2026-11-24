@@ -2,6 +2,7 @@
 
   python scripts/build_features.py train     -> data/derived/features.parquet (2015-2024, with labels)
   python scripts/build_features.py holdout   -> data/holdout/features_2025.parquet (no labels; only after rule-v1)
+  python scripts/build_features.py live      -> data/live/features_<date>.parquet ("as if voting closed today")
 """
 from __future__ import annotations
 
@@ -35,7 +36,10 @@ def labels(matches: pd.DataFrame) -> pd.DataFrame:
 
 def main(mode: str) -> None:
     cal = pd.read_csv(ROOT / "config" / "countdowns.csv")
-    years = cal.loc[cal["set"] == ("train" if mode == "train" else "holdout"), "countdown_year"].tolist()
+    if mode == "live":
+        today = pd.Timestamp.now(tz="Australia/Sydney").normalize().tz_localize(None)
+        cal.loc[cal["set"] == "live", "voting_close_aedt"] = today.strftime("%Y-%m-%d")
+    years = cal.loc[cal["set"] == {"train": "train", "holdout": "holdout", "live": "live"}[mode], "countdown_year"].tolist()
     plays, songs, sp, tracks, t_idx = load()
     out = []
     for y in years:
@@ -48,8 +52,12 @@ def main(mode: str) -> None:
         f = f.merge(lab, on=["countdown_year", "song_id"], how="left")
         f["rank"] = f["rank"].fillna(201).astype(int)
         f.to_parquet(DER / "features.parquet", index=False)
-    else:
+    elif mode == "holdout":
         f.to_parquet(HOLD / "features_2025.parquet", index=False)
+    else:
+        live = ROOT / "data" / "live"
+        live.mkdir(parents=True, exist_ok=True)
+        f.to_parquet(live / f"features_{today.date()}.parquet", index=False)
 
 
 if __name__ == "__main__":
