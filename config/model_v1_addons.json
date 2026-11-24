@@ -1,0 +1,41 @@
+{
+ "model": "XGBRanker",
+ "params": {
+  "objective": "rank:ndcg",
+  "n_estimators": 200,
+  "max_depth": 3,
+  "learning_rate": 0.05,
+  "subsample": 0.8,
+  "colsample_bytree": 0.8
+ },
+ "seeds": [
+  1,
+  2,
+  3,
+  4,
+  7
+ ],
+ "features": [
+  "p_sp_cum",
+  "p_sp_best_rank",
+  "p_sp_weeks",
+  "p_sp_last4",
+  "p_tj_peak7",
+  "p_tj_cum",
+  "p_tj_last28",
+  "p_tj_since_liftoff",
+  "p_tj_fade",
+  "p_tj_artist_plays",
+  "artist_many",
+  "lav_rel",
+  "sp_charted",
+  "is_lav",
+  "p_yt_best_rank",
+  "yt_present",
+  "p_sz_best_rank",
+  "sz_present"
+ ],
+ "snapshot": 0,
+ "train_years": "2015-2024",
+ "note": "Secondary model. Core features plus YouTube AU and Shazam AU chart ranks from archived captures (60 days before each snapshot). NaN where a year has no captures; XGBoost routes missing values."
+}
