@@ -1,0 +1,31 @@
+name: fetch-wikipedia
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/fetch_wikipedia.py
+      - triggers/fetch_wikipedia.txt
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python scripts/fetch_wikipedia.py
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/raw/wikipedia
+          git diff --cached --quiet || git commit -m "data: Hottest 100 Wikipedia pages 2015-2025"
+          git pull --rebase
+          git push
