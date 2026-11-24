@@ -12,3 +12,5 @@
 - triple j airplay (`data/raw/abc_plays/`): one slimmed play per line, Dec 2014 onward; `recording_id` and artist `id` are stable ABC IDs.
 - Results: `data/derived/results.csv` = ranks 1–200 for training countdowns 2015–2024 (from Wikipedia). 2025 results sit in `data/holdout/` and must not be opened before `rule-v1`.
 - Countdown calendar: `config/countdowns.csv` (voting open/close, eligibility window Dec 1–Nov 30, source per row). 2015–16 close dates are day-only; others carry the AEDT close time.
+- Leakage: the countdown broadcast pushes songs onto Spotify (12 of the 100 training top-10 songs first charted in countdown week). Every feature must use data up to voting close only; for weekly Spotify, only weeks ending on or before close.
+- Song matching (`scripts/build_songs.py`, `src/h100/normalize.py`): triple j recordings merge into songs by title key + version (lav/live/'') + artist overlap. Spotify matches always require artist overlap (title-only Spotify matches were all wrong artists). Some countdown entries were never played on triple j before close; they keep zero airplay rather than being dropped.
