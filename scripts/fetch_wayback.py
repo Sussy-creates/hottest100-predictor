@@ -37,7 +37,13 @@ def get(url: str, timeout: int = 120) -> bytes | None:
     return None
 
 
+# Snapshots sit 0-120 days before a mid/late-January close, with a 60-day look-back: Jul-Jan is enough.
+MONTHS = {"07", "08", "09", "10", "11", "12", "01"}
+BUDGET = 215 * 60  # stop before the job timeout so the commit step always runs on a clean tree
+
+
 def main() -> None:
+    t0 = time.time()
     for name, url in PAGES.items():
         q = urllib.parse.urlencode({"url": url, "output": "json", "fl": "timestamp,original",
                                     "filter": "statuscode:200", "collapse": "timestamp:8"})
@@ -48,8 +54,11 @@ def main() -> None:
         new = 0
         for ts, original in rows:
             path = out / f"{ts}.html.gz"
-            if path.exists():
+            if path.exists() or ts[4:6] not in MONTHS:
                 continue
+            if time.time() - t0 > BUDGET:
+                print(f"{name}: time budget reached, {new} downloaded", flush=True)
+                return
             html = get(f"https://web.archive.org/web/{ts}id_/{original}")
             if html:
                 path.write_bytes(gzip.compress(html))
