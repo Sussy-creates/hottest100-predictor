@@ -12,7 +12,8 @@ def loyo(f: pd.DataFrame, feats, snapshot=0, train_snapshot=0, seeds=(1, 2, 3, 4
     out = []
     ys = sorted(f.countdown_year.unique()) if years is None else years
     for y in ys:
-        tr = f[(f.snapshot == train_snapshot) & (f.countdown_year != y)]
+        ts = train_snapshot if isinstance(train_snapshot, (list, tuple)) else [train_snapshot]
+        tr = f[f.snapshot.isin(ts) & (f.countdown_year != y)]
         te = f[(f.snapshot == snapshot) & (f.countdown_year == y)].copy()
         if fitter is None:
             te["score"] = predict(fit(tr, feats, seeds), te, feats)
