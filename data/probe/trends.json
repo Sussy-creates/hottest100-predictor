@@ -1,0 +1,46 @@
+{
+ "Gang of Youths | Ocean Alley | Post Malone": {
+  "ok": true,
+  "rows": 144,
+  "mean": {
+   "Gang of Youths": 6.3,
+   "Ocean Alley": 0.1,
+   "Post Malone": 36.1
+  },
+  "max": {
+   "Gang of Youths": 67,
+   "Ocean Alley": 4,
+   "Post Malone": 100
+  }
+ },
+ "Playlunch Keith | Olivia Dean Man I Need | Keli Holiday | Ball Park Music": {
+  "ok": true,
+  "rows": 137,
+  "mean": {
+   "Playlunch Keith": 0.1,
+   "Olivia Dean Man I Need": 0.6,
+   "Keli Holiday": 11.5,
+   "Ball Park Music": 1.5
+  },
+  "max": {
+   "Playlunch Keith": 7,
+   "Olivia Dean Man I Need": 12,
+   "Keli Holiday": 100,
+   "Ball Park Music": 31
+  }
+ },
+ "Spacey Jane Booster Seat | Glass Animals Heat Waves | Ball Park Music Cherub": {
+  "ok": true,
+  "rows": 140,
+  "mean": {
+   "Spacey Jane Booster Seat": 0.6,
+   "Glass Animals Heat Waves": 0.0,
+   "Ball Park Music Cherub": 0.7
+  },
+  "max": {
+   "Spacey Jane Booster Seat": 89,
+   "Glass Animals Heat Waves": 0,
+   "Ball Park Music Cherub": 100
+  }
+ }
+}
