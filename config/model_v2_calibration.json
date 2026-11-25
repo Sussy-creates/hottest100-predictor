@@ -1,0 +1,55 @@
+{
+ "tau_win": 0.1537,
+ "eps_win": 0.1,
+ "winner_loglik": -27.984373806277997,
+ "tau_top5": 0.3426,
+ "eps_top5": 0.1,
+ "tau_top10": 0.6508,
+ "eps_top10": 0.02,
+ "rank_logit_top5": [
+  1.1671003156869362,
+  -1.4563133926348648
+ ],
+ "rank_logit_top10": [
+  2.473390130839185,
+  -1.5632965630804458
+ ],
+ "seeds": [
+  1,
+  2,
+  3,
+  4,
+  7,
+  11,
+  12,
+  13,
+  14,
+  15
+ ],
+ "features": [
+  "p_sp_cum",
+  "p_sp_best_rank",
+  "p_sp_weeks",
+  "p_sp_last4",
+  "p_tj_peak7",
+  "p_tj_cum",
+  "p_tj_last28",
+  "p_tj_since_liftoff",
+  "p_tj_fade",
+  "p_tj_artist_plays",
+  "artist_many",
+  "lav_rel",
+  "sp_charted",
+  "is_lav",
+  "is_aus2"
+ ],
+ "loyo": {
+  "top10": 5.09,
+  "top5": 2.0,
+  "top50": 26.9,
+  "winners": 6,
+  "winner_top3": 8,
+  "med_winner": 1.0,
+  "logrank": 3.603
+ }
+}
