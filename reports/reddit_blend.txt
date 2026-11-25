@@ -10,8 +10,3 @@
  2024  1            4            5            6          0          1          1       95
  2025  1            5            7            7          0          1          1       77
 means: model 4.70 top10 / 5 wins; Reddit alone 4.40 / 3; blend 6.20 / 7 (of 10). Blend better in 6 years, worse in 2.
-Fixed-weight check, 2016-2025, two seed sets (decision rule):
-seed set 1 (v2 seeds): w=0 4.70 top10, logrank 2.593, 5 wins | w=1 6.20, 2.034, 7 wins
-seed set 2 (21-30):    w=0 4.70 top10, logrank 2.596, 5 wins | w=1 6.30, 2.035, 7 wins | worse years: 1 (2016, 8->7)
-2015 (8 ballots) is excluded: z-scoring 8 ballots is too sparse (blending cost 4 top-10 hits), so v3 turns the
-Reddit term off below 50 ballots.
