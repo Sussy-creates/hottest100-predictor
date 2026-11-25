@@ -40,13 +40,19 @@ def build(frame: pd.DataFrame, cal: pd.DataFrame) -> pd.DataFrame:
         path = ROOT / "data/raw/trends" / f"{y}.csv"
         if not path.exists():
             continue
-        tr = pd.read_csv(path).dropna(subset=["value"])
+        tr = pd.read_csv(path)
+        pp = path.with_name(f"{y}_patch.csv")
+        if pp.exists():  # full band names the lead split broke up ("Tones And I"), where Trends knows the band
+            tr = pd.concat([tr, pd.read_csv(pp)])
+        tr = tr.dropna(subset=["value"])
+        have = set(tr.artist)
         tr["date"] = pd.to_datetime(tr["date"])
         close = cal.loc[y, "voting_close_aedt"]
         close = pd.Timestamp(str(close)[:10]) if isinstance(close, str) else tr.date.max() + pd.Timedelta(days=1)
         for d in sorted(fy.snapshot.unique()):
             g = fy[fy.snapshot == d][["countdown_year", "snapshot", "song_id", "artist"]].copy()
-            g["lead_name"] = g.artist.map(lead_name)
+            seg = g.artist.astype(str).str.split(", ").str[0].str.strip()
+            g["lead_name"] = [s if s in have else lead_name(a) for s, a in zip(seg, g.artist)]
             g = g.merge(artist_feats(tr, close - pd.Timedelta(days=int(d))), on="lead_name", how="left")
             for c in ["tr_level", "tr_recent", "tr_growth"]:
                 g["p_" + c] = g[c].rank(pct=True)
