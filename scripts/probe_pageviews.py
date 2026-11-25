@@ -54,7 +54,8 @@ for r in rows:
         r["views_prev60"] = views(title, close - timedelta(days=120), close - timedelta(days=61))
     else:
         r["views_60"] = r["views_prev60"] = ""
-    time.sleep(0.2)
+    time.sleep(0.1)
+    print(r["countdown_year"], r["artist_name"], title, r["views_60"], flush=True)
 with open(ROOT / "data/probe/pageviews.csv", "w", newline="") as fh:
     w = csv.DictWriter(fh, fieldnames=list(rows[0].keys())); w.writeheader(); w.writerows(rows)
 print(sum(1 for r in rows if r["wiki_title"]), "of", len(rows), "resolved")
