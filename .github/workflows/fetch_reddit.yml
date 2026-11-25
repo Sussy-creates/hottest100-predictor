@@ -1,0 +1,33 @@
+name: fetch-reddit
+
+# r/triplej (and r/australia, r/AustralianMusic) vote and prediction threads per voting window, via Arctic Shift.
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - triggers/fetch_reddit.txt
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python scripts/fetch_reddit.py
+      - name: Commit
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/raw/reddit
+          git diff --cached --quiet && exit 0
+          git commit -m "data: Reddit vote threads"
+          for i in 1 2 3 4 5; do git pull --rebase && git push && exit 0; sleep 15; done
+          exit 1

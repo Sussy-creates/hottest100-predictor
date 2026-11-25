@@ -1,0 +1,11 @@
+Parsed from github.com/nickw444/100-warm-tunas at commit 5d3fa6e5e0fd6b5fd60cb5b3037c267c809d5e01 (static site pages: final prediction per year, ranks 1-100 from <year>/index.html, 101-200 from <year>/top-200/).
+Artists are written 'Bennies, The' style.
+Per-year totals (year, votes tallied, images):
+(2016, '65412', '7788')
+(2017, '67085', '7216')
+(2018, '58463', '6234')
+(2019, '45112', '4929')
+(2020, '36156', '4026')
+(2021, '25877', '2855')
+(2022, '41731', '4623')
+(2023, '32880', '3598')
