@@ -1,0 +1,2 @@
+rule-v1 cd9559c227ab348447abb05533385253c9abcbf0
+Frozen 2026-11-25 01:06:37 UTC, before any 2025 feature or result was built. The tag lives locally (tag pushes are blocked from the work sandbox); this commit is on main.
