@@ -1,0 +1,148 @@
+{
+ "reddit_arctic_shift": {
+  "2015": {
+   "status": null,
+   "error": "<HTTPError 400: 'Bad Request'>"
+  },
+  "2016": {
+   "status": null,
+   "error": "<HTTPError 400: 'Bad Request'>"
+  },
+  "2017": {
+   "status": null,
+   "error": "<HTTPError 400: 'Bad Request'>"
+  },
+  "2018": {
+   "status": null,
+   "error": "<HTTPError 400: 'Bad Request'>"
+  },
+  "2019": {
+   "status": null,
+   "error": "<HTTPError 400: 'Bad Request'>"
+  },
+  "2020": {
+   "status": null,
+   "error": "<HTTPError 400: 'Bad Request'>"
+  },
+  "2021": {
+   "status": null,
+   "error": "<HTTPError 400: 'Bad Request'>"
+  },
+  "2022": {
+   "status": null,
+   "error": "<HTTPError 400: 'Bad Request'>"
+  },
+  "2023": {
+   "status": null,
+   "error": "<HTTPError 400: 'Bad Request'>"
+  },
+  "2024": {
+   "status": null,
+   "error": "<HTTPError 400: 'Bad Request'>"
+  },
+  "2025": {
+   "status": null,
+   "error": "<HTTPError 400: 'Bad Request'>"
+  }
+ },
+ "spotify_embed": {
+  "status": 200,
+  "len": 159858,
+  "name": "Hottest 100 2025 Predictions",
+  "n_tracks": 100,
+  "first": [
+   [
+    "Man I Need",
+    "Olivia Dean"
+   ],
+   [
+    "Dracula",
+    "Tame Impala"
+   ],
+   [
+    "Dreamin (feat. Daya)",
+    "Dom Dolla, Daya"
+   ],
+   [
+    "So Easy (To Fall In Love)",
+    "Olivia Dean"
+   ],
+   [
+    "back to friends",
+    "sombr"
+   ]
+  ],
+  "entity_keys": [
+   "attributes",
+   "authors",
+   "coverArt",
+   "duration",
+   "format",
+   "hasVideo",
+   "id",
+   "isExplicit",
+   "isPlayable",
+   "name",
+   "playabilityReason",
+   "relatedEntityUri",
+   "releaseDate",
+   "subtitle",
+   "title",
+   "trackList",
+   "type",
+   "uri",
+   "visualIdentity"
+  ],
+  "track_keys": [
+   "audioPreview",
+   "contentRatings",
+   "duration",
+   "entityType",
+   "isExplicit",
+   "isNineteenPlus",
+   "isPlayable",
+   "playabilityReason",
+   "subtitle",
+   "title",
+   "uid",
+   "uri"
+  ]
+ },
+ "playlist_discovery_ddg": {
+  "2018": {
+   "status": 202,
+   "playlist_ids_on_first_page": 0,
+   "ids": []
+  },
+  "2020": {
+   "status": 202,
+   "playlist_ids_on_first_page": 0,
+   "ids": []
+  },
+  "2022": {
+   "status": 202,
+   "playlist_ids_on_first_page": 0,
+   "ids": []
+  },
+  "2024": {
+   "status": 202,
+   "playlist_ids_on_first_page": 0,
+   "ids": []
+  },
+  "2025": {
+   "status": 202,
+   "playlist_ids_on_first_page": 0,
+   "ids": []
+  }
+ },
+ "bluesky": {
+  "\"hottest 100\" votes": {
+   "status": null,
+   "error": "<HTTPError 403: 'Forbidden'>"
+  },
+  "\"hottest 100\" voted": {
+   "status": null,
+   "error": "<HTTPError 403: 'Forbidden'>"
+  }
+ }
+}
