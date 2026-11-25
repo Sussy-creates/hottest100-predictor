@@ -34,7 +34,9 @@ def parse(title: str) -> dict | None:
 
 
 def main() -> None:
-    for y in range(2015, 2026):
+    for y in range(2005, 2026):
+        if (OUT / f"{y}.json").exists():
+            continue
         page = None
         for t in TITLES:
             page = parse(t.format(y=y))
