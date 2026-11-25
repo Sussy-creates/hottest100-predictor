@@ -1,12 +1,12 @@
 """Google Trends AU interest for each target artist in the 60 days before close, relative to the anchor term
-"triple j" in the same request (so values compare across batches). Writes data/probe/trends_targets.csv."""
+"triple j" in the same request (so values compare across batches). Writes data/probe/trends_targets_v2.csv."""
 import csv, time
 from datetime import date, timedelta
 from pathlib import Path
 from pytrends.request import TrendReq
 
 ROOT = Path(__file__).resolve().parents[1]
-ANCHOR = "triple j"
+ANCHOR = "Hilltop Hoods"  # an Australian act with steady, moderate search volume
 rows = list(csv.DictReader(open(ROOT / "data/probe/pageview_targets.csv")))
 t = TrendReq(hl="en-AU", tz=-600, retries=3, backoff_factor=10)
 by_year: dict = {}
@@ -20,7 +20,7 @@ for (y, close), names in sorted(by_year.items()):
         kw = names[i:i + 4] + [ANCHOR]
         for attempt in range(3):
             try:
-                t.build_payload(kw, geo="AU", timeframe=tf, cat=35)  # category 35 = Music & Audio
+                t.build_payload(kw, geo="AU", timeframe=tf)
                 df = t.interest_over_time()
                 a = float(df[ANCHOR].mean()) or 1e-9
                 for k in kw[:-1]:
@@ -33,5 +33,5 @@ for (y, close), names in sorted(by_year.items()):
 for r in rows:
     raw, rel = vals.get((r["countdown_year"], r["artist_name"]), ("", ""))
     r["trends_mean"], r["trends_rel_anchor"] = raw, rel
-with open(ROOT / "data/probe/trends_targets.csv", "w", newline="") as fh:
+with open(ROOT / "data/probe/trends_targets_v2.csv", "w", newline="") as fh:
     w = csv.DictWriter(fh, fieldnames=list(rows[0].keys())); w.writeheader(); w.writerows(rows)
