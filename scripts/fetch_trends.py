@@ -7,7 +7,11 @@ topic (a music-type entity from Trends' own suggestions) when one is found, else
 Writes data/raw/trends/<year>.csv (long: date, artist, keyword, kw_type, value, anchor, batch).
 Artists already in the file are skipped, so a rerun resumes.
 
-Usage: python scripts/fetch_trends.py 2019
+With --patch, reads data/derived/trends_targets_patch.csv instead: full first-credit names that the lead-artist
+split broke up ("Tones And I" -> "Tones"). Those are fetched only when they resolve to a music topic, into
+data/raw/trends/<year>_patch.csv.
+
+Usage: python scripts/fetch_trends.py 2019 [--patch]
 """
 import csv, re, sys, time
 from pathlib import Path
@@ -39,11 +43,13 @@ def topic(t: TrendReq, name: str):
     return name, "term"
 
 
-def main(year: int) -> None:
-    tg = pd.read_csv(ROOT / "data/derived/trends_targets.csv")
+def main(year: int, patch: bool = False) -> None:
+    tg = pd.read_csv(ROOT / ("data/derived/trends_targets_patch.csv" if patch else "data/derived/trends_targets.csv"))
     tg = tg[tg.countdown_year == year]
+    if tg.empty:
+        print(year, "nothing to fetch"); return
     tf = f"{tg.window_start.iloc[0]} {tg.window_end.iloc[0]}"
-    out = ROOT / "data/raw/trends" / f"{year}.csv"
+    out = ROOT / "data/raw/trends" / f"{year}{'_patch' if patch else ''}.csv"
     out.parent.mkdir(parents=True, exist_ok=True)
     done = set(pd.read_csv(out).artist) if out.exists() else set()
     todo = [a for a in tg.artist if a not in done]
@@ -60,7 +66,11 @@ def main(year: int) -> None:
         kws = []
         for n in names:
             kw, kt = topic(t, n); time.sleep(2)
+            if patch and kt != "topic":
+                w.writerow(["", n, kw, "no_topic", "", "", i // 4]); continue
             kws.append((n, kw, kt))
+        if not kws:
+            fh.flush(); continue
         uniq = list(dict.fromkeys(k for _, k, _ in kws if k != anchor_kw))
         for attempt in range(4):
             try:
@@ -86,4 +96,4 @@ def main(year: int) -> None:
 
 
 if __name__ == "__main__":
-    main(int(sys.argv[1]))
+    main(int(sys.argv[1]), "--patch" in sys.argv)

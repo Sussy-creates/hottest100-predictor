@@ -42,4 +42,12 @@ for y, g in p[p.pred_rank <= TOP].groupby("countdown_year"):
         rows.append((y, start.isoformat(), (end - timedelta(days=1)).isoformat(), a))
 out = pd.DataFrame(rows, columns=["countdown_year", "window_start", "window_end", "artist"])
 out.to_csv(ROOT / "data/derived/trends_targets.csv", index=False)
+# Patch list: first credits that the split broke up (bands with "&"/"and"/"x" in the name).
+pt = p[p.pred_rank <= TOP].copy()
+pt["seg"] = pt.artist.astype(str).str.split(", ").str[0].str.strip()
+pt = pt[pt.seg != pt.artist.map(lead_name)]
+win = out.drop_duplicates("countdown_year").set_index("countdown_year")[["window_start", "window_end"]]
+pt = pt.drop_duplicates(["countdown_year", "seg"]).join(win, on="countdown_year")
+pt.rename(columns={"seg": "artist"})[["countdown_year", "window_start", "window_end", "artist"]].to_csv(
+    ROOT / "data/derived/trends_targets_patch.csv", index=False)
 print(out.groupby("countdown_year").size().to_string(), "\ntotal", len(out))

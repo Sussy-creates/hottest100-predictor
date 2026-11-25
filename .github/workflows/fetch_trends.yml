@@ -30,7 +30,7 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install pytrends pandas "urllib3<2"
-      - run: python scripts/fetch_trends.py ${{ matrix.year }}
+      - run: python scripts/fetch_trends.py ${{ matrix.year }} ${{ contains(github.event.head_commit.message, '[patch]') && '--patch' || '' }}
       - name: Commit
         if: always()
         run: |
