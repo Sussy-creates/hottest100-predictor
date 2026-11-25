@@ -3,7 +3,7 @@
 Writes data/raw/abc_plays/<year>/<year>-<month>.jsonl.gz, one slimmed play per line.
 Months already on disk are skipped unless they are the current month (still filling).
 
-Usage: python scripts/fetch_abc_plays.py 2019 [--out data/raw/abc_plays]
+Usage: python scripts/fetch_abc_plays.py 2019 [--out data/raw/abc_plays] [--station unearthed] [--months 9-12]
 """
 from __future__ import annotations
 
@@ -63,11 +63,11 @@ def slim(item: dict) -> dict:
     }
 
 
-def fetch_window(start: datetime, end: datetime) -> list[dict]:
+def fetch_window(start: datetime, end: datetime, station: str = "triplej") -> list[dict]:
     fmt = "%Y-%m-%dT%H:%M:%S.000Z"
     out, offset = [], 0
     while True:
-        data = call({"station": "triplej", "from": start.strftime(fmt), "to": end.strftime(fmt),
+        data = call({"station": station, "from": start.strftime(fmt), "to": end.strftime(fmt),
                      "limit": LIMIT, "offset": offset})
         items = data.get("items") or []
         out.extend(items)
@@ -78,12 +78,12 @@ def fetch_window(start: datetime, end: datetime) -> list[dict]:
             return out
 
 
-def fetch_month(month_start: datetime, now: datetime) -> list[dict]:
+def fetch_month(month_start: datetime, now: datetime, station: str = "triplej") -> list[dict]:
     month_end = (month_start + timedelta(days=32)).replace(day=1)
     end = min(month_end, now)
     seen, rows, t = set(), [], month_start
     while t < end:
-        for item in fetch_window(t, min(t + WINDOW, end)):
+        for item in fetch_window(t, min(t + WINDOW, end), station):
             pid = item.get("arid")
             if pid and pid not in seen:  # windows share boundaries; dedupe on play id
                 seen.add(pid)
@@ -97,13 +97,17 @@ def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("year", type=int)
     ap.add_argument("--out", default="data/raw/abc_plays")
+    ap.add_argument("--station", default="triplej")
+    ap.add_argument("--months", default="1-12", help="e.g. 9-12 or 1")
     args = ap.parse_args()
+    lo, _, hi = args.months.partition("-")
+    months = range(int(lo), int(hi or lo) + 1)
 
     now = datetime.now(timezone.utc)
     out_dir = Path(args.out) / str(args.year)
     out_dir.mkdir(parents=True, exist_ok=True)
 
-    for m in range(1, 13):
+    for m in months:
         ms = datetime(args.year, m, 1, tzinfo=timezone.utc)
         if ms < EARLIEST or ms > now:
             continue
@@ -113,7 +117,7 @@ def main() -> None:
             print(f"{path.name}: already have it, skipping")
             continue
         t0 = time.time()
-        rows = fetch_month(ms, now)
+        rows = fetch_month(ms, now, args.station)
         with gzip.open(path, "wt", encoding="utf-8") as f:
             for r in rows:
                 f.write(json.dumps(r, ensure_ascii=False) + "\n")
