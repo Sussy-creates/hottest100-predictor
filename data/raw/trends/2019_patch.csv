@@ -1,0 +1,927 @@
+date,artist,keyword,kw_type,value,anchor,batch
+,Hayden James & Nat Dunn,Hayden James & Nat Dunn,no_topic,,,0
+,SZA x The Weeknd x Travis Scott,SZA x The Weeknd x Travis Scott,no_topic,,,0
+2019-08-23,Tones And I,/g/11fkq9zwhh,topic,10,11,0
+2019-08-24,Tones And I,/g/11fkq9zwhh,topic,13,11,0
+2019-08-25,Tones And I,/g/11fkq9zwhh,topic,6,5,0
+2019-08-26,Tones And I,/g/11fkq9zwhh,topic,7,4,0
+2019-08-27,Tones And I,/g/11fkq9zwhh,topic,5,4,0
+2019-08-28,Tones And I,/g/11fkq9zwhh,topic,8,4,0
+2019-08-29,Tones And I,/g/11fkq9zwhh,topic,10,4,0
+2019-08-30,Tones And I,/g/11fkq9zwhh,topic,14,6,0
+2019-08-31,Tones And I,/g/11fkq9zwhh,topic,16,15,0
+2019-09-01,Tones And I,/g/11fkq9zwhh,topic,12,7,0
+2019-09-02,Tones And I,/g/11fkq9zwhh,topic,11,4,0
+2019-09-03,Tones And I,/g/11fkq9zwhh,topic,11,5,0
+2019-09-04,Tones And I,/g/11fkq9zwhh,topic,11,4,0
+2019-09-05,Tones And I,/g/11fkq9zwhh,topic,13,3,0
+2019-09-06,Tones And I,/g/11fkq9zwhh,topic,10,5,0
+2019-09-07,Tones And I,/g/11fkq9zwhh,topic,12,14,0
+2019-09-08,Tones And I,/g/11fkq9zwhh,topic,11,4,0
+2019-09-09,Tones And I,/g/11fkq9zwhh,topic,6,2,0
+2019-09-10,Tones And I,/g/11fkq9zwhh,topic,7,1,0
+2019-09-11,Tones And I,/g/11fkq9zwhh,topic,7,2,0
+2019-09-12,Tones And I,/g/11fkq9zwhh,topic,8,2,0
+2019-09-13,Tones And I,/g/11fkq9zwhh,topic,11,4,0
+2019-09-14,Tones And I,/g/11fkq9zwhh,topic,11,6,0
+2019-09-15,Tones And I,/g/11fkq9zwhh,topic,11,3,0
+2019-09-16,Tones And I,/g/11fkq9zwhh,topic,8,2,0
+2019-09-17,Tones And I,/g/11fkq9zwhh,topic,8,2,0
+2019-09-18,Tones And I,/g/11fkq9zwhh,topic,8,2,0
+2019-09-19,Tones And I,/g/11fkq9zwhh,topic,8,1,0
+2019-09-20,Tones And I,/g/11fkq9zwhh,topic,9,2,0
+2019-09-21,Tones And I,/g/11fkq9zwhh,topic,11,5,0
+2019-09-22,Tones And I,/g/11fkq9zwhh,topic,9,2,0
+2019-09-23,Tones And I,/g/11fkq9zwhh,topic,7,1,0
+2019-09-24,Tones And I,/g/11fkq9zwhh,topic,7,1,0
+2019-09-25,Tones And I,/g/11fkq9zwhh,topic,8,2,0
+2019-09-26,Tones And I,/g/11fkq9zwhh,topic,11,2,0
+2019-09-27,Tones And I,/g/11fkq9zwhh,topic,16,2,0
+2019-09-28,Tones And I,/g/11fkq9zwhh,topic,77,2,0
+2019-09-29,Tones And I,/g/11fkq9zwhh,topic,30,2,0
+2019-09-30,Tones And I,/g/11fkq9zwhh,topic,18,1,0
+2019-10-01,Tones And I,/g/11fkq9zwhh,topic,12,1,0
+2019-10-02,Tones And I,/g/11fkq9zwhh,topic,10,2,0
+2019-10-03,Tones And I,/g/11fkq9zwhh,topic,9,2,0
+2019-10-04,Tones And I,/g/11fkq9zwhh,topic,11,2,0
+2019-10-05,Tones And I,/g/11fkq9zwhh,topic,14,1,0
+2019-10-06,Tones And I,/g/11fkq9zwhh,topic,12,1,0
+2019-10-07,Tones And I,/g/11fkq9zwhh,topic,10,2,0
+2019-10-08,Tones And I,/g/11fkq9zwhh,topic,7,1,0
+2019-10-09,Tones And I,/g/11fkq9zwhh,topic,9,2,0
+2019-10-10,Tones And I,/g/11fkq9zwhh,topic,13,1,0
+2019-10-11,Tones And I,/g/11fkq9zwhh,topic,12,1,0
+2019-10-12,Tones And I,/g/11fkq9zwhh,topic,14,3,0
+2019-10-13,Tones And I,/g/11fkq9zwhh,topic,9,2,0
+2019-10-14,Tones And I,/g/11fkq9zwhh,topic,9,1,0
+2019-10-15,Tones And I,/g/11fkq9zwhh,topic,9,1,0
+2019-10-16,Tones And I,/g/11fkq9zwhh,topic,12,1,0
+2019-10-17,Tones And I,/g/11fkq9zwhh,topic,10,1,0
+2019-10-18,Tones And I,/g/11fkq9zwhh,topic,12,2,0
+2019-10-19,Tones And I,/g/11fkq9zwhh,topic,14,2,0
+2019-10-20,Tones And I,/g/11fkq9zwhh,topic,11,2,0
+2019-10-21,Tones And I,/g/11fkq9zwhh,topic,9,0,0
+2019-10-22,Tones And I,/g/11fkq9zwhh,topic,6,1,0
+2019-10-23,Tones And I,/g/11fkq9zwhh,topic,7,2,0
+2019-10-24,Tones And I,/g/11fkq9zwhh,topic,8,2,0
+2019-10-25,Tones And I,/g/11fkq9zwhh,topic,8,2,0
+2019-10-26,Tones And I,/g/11fkq9zwhh,topic,11,2,0
+2019-10-27,Tones And I,/g/11fkq9zwhh,topic,9,1,0
+2019-10-28,Tones And I,/g/11fkq9zwhh,topic,6,1,0
+2019-10-29,Tones And I,/g/11fkq9zwhh,topic,7,1,0
+2019-10-30,Tones And I,/g/11fkq9zwhh,topic,6,1,0
+2019-10-31,Tones And I,/g/11fkq9zwhh,topic,6,2,0
+2019-11-01,Tones And I,/g/11fkq9zwhh,topic,9,1,0
+2019-11-02,Tones And I,/g/11fkq9zwhh,topic,12,0,0
+2019-11-03,Tones And I,/g/11fkq9zwhh,topic,8,0,0
+2019-11-04,Tones And I,/g/11fkq9zwhh,topic,7,1,0
+2019-11-05,Tones And I,/g/11fkq9zwhh,topic,7,1,0
+2019-11-06,Tones And I,/g/11fkq9zwhh,topic,6,1,0
+2019-11-07,Tones And I,/g/11fkq9zwhh,topic,7,1,0
+2019-11-08,Tones And I,/g/11fkq9zwhh,topic,8,2,0
+2019-11-09,Tones And I,/g/11fkq9zwhh,topic,9,2,0
+2019-11-10,Tones And I,/g/11fkq9zwhh,topic,6,1,0
+2019-11-11,Tones And I,/g/11fkq9zwhh,topic,4,1,0
+2019-11-12,Tones And I,/g/11fkq9zwhh,topic,4,1,0
+2019-11-13,Tones And I,/g/11fkq9zwhh,topic,6,2,0
+2019-11-14,Tones And I,/g/11fkq9zwhh,topic,7,2,0
+2019-11-15,Tones And I,/g/11fkq9zwhh,topic,6,4,0
+2019-11-16,Tones And I,/g/11fkq9zwhh,topic,12,2,0
+2019-11-17,Tones And I,/g/11fkq9zwhh,topic,12,12,0
+2019-11-18,Tones And I,/g/11fkq9zwhh,topic,8,2,0
+2019-11-19,Tones And I,/g/11fkq9zwhh,topic,10,2,0
+2019-11-20,Tones And I,/g/11fkq9zwhh,topic,18,2,0
+2019-11-21,Tones And I,/g/11fkq9zwhh,topic,23,2,0
+2019-11-22,Tones And I,/g/11fkq9zwhh,topic,23,2,0
+2019-11-23,Tones And I,/g/11fkq9zwhh,topic,25,2,0
+2019-11-24,Tones And I,/g/11fkq9zwhh,topic,25,2,0
+2019-11-25,Tones And I,/g/11fkq9zwhh,topic,16,1,0
+2019-11-26,Tones And I,/g/11fkq9zwhh,topic,19,1,0
+2019-11-27,Tones And I,/g/11fkq9zwhh,topic,100,11,0
+2019-11-28,Tones And I,/g/11fkq9zwhh,topic,60,3,0
+2019-11-29,Tones And I,/g/11fkq9zwhh,topic,31,2,0
+2019-11-30,Tones And I,/g/11fkq9zwhh,topic,43,4,0
+2019-12-01,Tones And I,/g/11fkq9zwhh,topic,21,2,0
+2019-12-02,Tones And I,/g/11fkq9zwhh,topic,11,1,0
+2019-12-03,Tones And I,/g/11fkq9zwhh,topic,12,1,0
+2019-12-04,Tones And I,/g/11fkq9zwhh,topic,13,2,0
+2019-12-05,Tones And I,/g/11fkq9zwhh,topic,15,2,0
+2019-12-06,Tones And I,/g/11fkq9zwhh,topic,28,2,0
+2019-12-07,Tones And I,/g/11fkq9zwhh,topic,26,1,0
+2019-12-08,Tones And I,/g/11fkq9zwhh,topic,19,2,0
+2019-12-09,Tones And I,/g/11fkq9zwhh,topic,13,1,0
+2019-12-10,Tones And I,/g/11fkq9zwhh,topic,13,1,0
+2019-12-11,Tones And I,/g/11fkq9zwhh,topic,10,1,0
+2019-12-12,Tones And I,/g/11fkq9zwhh,topic,10,2,0
+2019-12-13,Tones And I,/g/11fkq9zwhh,topic,12,1,0
+2019-12-14,Tones And I,/g/11fkq9zwhh,topic,13,3,0
+2019-12-15,Tones And I,/g/11fkq9zwhh,topic,11,1,0
+2019-12-16,Tones And I,/g/11fkq9zwhh,topic,9,1,0
+2019-12-17,Tones And I,/g/11fkq9zwhh,topic,11,2,0
+2019-12-18,Tones And I,/g/11fkq9zwhh,topic,8,1,0
+2019-12-19,Tones And I,/g/11fkq9zwhh,topic,9,1,0
+2019-12-20,Tones And I,/g/11fkq9zwhh,topic,9,0,0
+2019-12-21,Tones And I,/g/11fkq9zwhh,topic,11,2,0
+2019-12-22,Tones And I,/g/11fkq9zwhh,topic,11,0,0
+2019-12-23,Tones And I,/g/11fkq9zwhh,topic,10,2,0
+2019-12-24,Tones And I,/g/11fkq9zwhh,topic,10,2,0
+2019-12-25,Tones And I,/g/11fkq9zwhh,topic,15,2,0
+2019-12-26,Tones And I,/g/11fkq9zwhh,topic,9,0,0
+2019-12-27,Tones And I,/g/11fkq9zwhh,topic,8,2,0
+2019-12-28,Tones And I,/g/11fkq9zwhh,topic,12,1,0
+2019-12-29,Tones And I,/g/11fkq9zwhh,topic,11,1,0
+2019-12-30,Tones And I,/g/11fkq9zwhh,topic,8,1,0
+2019-12-31,Tones And I,/g/11fkq9zwhh,topic,17,3,0
+2020-01-01,Tones And I,/g/11fkq9zwhh,topic,9,2,0
+2020-01-02,Tones And I,/g/11fkq9zwhh,topic,8,1,0
+2020-01-03,Tones And I,/g/11fkq9zwhh,topic,7,1,0
+2020-01-04,Tones And I,/g/11fkq9zwhh,topic,7,2,0
+2020-01-05,Tones And I,/g/11fkq9zwhh,topic,7,2,0
+2020-01-06,Tones And I,/g/11fkq9zwhh,topic,7,1,0
+2020-01-07,Tones And I,/g/11fkq9zwhh,topic,9,0,0
+2020-01-08,Tones And I,/g/11fkq9zwhh,topic,9,1,0
+2020-01-09,Tones And I,/g/11fkq9zwhh,topic,7,1,0
+2020-01-10,Tones And I,/g/11fkq9zwhh,topic,8,1,0
+2020-01-11,Tones And I,/g/11fkq9zwhh,topic,8,2,0
+2020-01-12,Tones And I,/g/11fkq9zwhh,topic,8,2,0
+2020-01-13,Tones And I,/g/11fkq9zwhh,topic,5,2,0
+2020-01-14,Tones And I,/g/11fkq9zwhh,topic,5,1,0
+2020-01-15,Tones And I,/g/11fkq9zwhh,topic,7,1,0
+2020-01-16,Tones And I,/g/11fkq9zwhh,topic,7,1,0
+2020-01-17,Tones And I,/g/11fkq9zwhh,topic,8,0,0
+2020-01-18,Tones And I,/g/11fkq9zwhh,topic,7,2,0
+2020-01-19,Tones And I,/g/11fkq9zwhh,topic,6,1,0
+2019-08-23,Of Monsters And Men,/m/0hglxhl,topic,0,11,0
+2019-08-24,Of Monsters And Men,/m/0hglxhl,topic,0,11,0
+2019-08-25,Of Monsters And Men,/m/0hglxhl,topic,0,5,0
+2019-08-26,Of Monsters And Men,/m/0hglxhl,topic,0,4,0
+2019-08-27,Of Monsters And Men,/m/0hglxhl,topic,0,4,0
+2019-08-28,Of Monsters And Men,/m/0hglxhl,topic,0,4,0
+2019-08-29,Of Monsters And Men,/m/0hglxhl,topic,0,4,0
+2019-08-30,Of Monsters And Men,/m/0hglxhl,topic,0,6,0
+2019-08-31,Of Monsters And Men,/m/0hglxhl,topic,0,15,0
+2019-09-01,Of Monsters And Men,/m/0hglxhl,topic,0,7,0
+2019-09-02,Of Monsters And Men,/m/0hglxhl,topic,0,4,0
+2019-09-03,Of Monsters And Men,/m/0hglxhl,topic,0,5,0
+2019-09-04,Of Monsters And Men,/m/0hglxhl,topic,0,4,0
+2019-09-05,Of Monsters And Men,/m/0hglxhl,topic,0,3,0
+2019-09-06,Of Monsters And Men,/m/0hglxhl,topic,0,5,0
+2019-09-07,Of Monsters And Men,/m/0hglxhl,topic,0,14,0
+2019-09-08,Of Monsters And Men,/m/0hglxhl,topic,0,4,0
+2019-09-09,Of Monsters And Men,/m/0hglxhl,topic,0,2,0
+2019-09-10,Of Monsters And Men,/m/0hglxhl,topic,0,1,0
+2019-09-11,Of Monsters And Men,/m/0hglxhl,topic,0,2,0
+2019-09-12,Of Monsters And Men,/m/0hglxhl,topic,0,2,0
+2019-09-13,Of Monsters And Men,/m/0hglxhl,topic,0,4,0
+2019-09-14,Of Monsters And Men,/m/0hglxhl,topic,0,6,0
+2019-09-15,Of Monsters And Men,/m/0hglxhl,topic,0,3,0
+2019-09-16,Of Monsters And Men,/m/0hglxhl,topic,0,2,0
+2019-09-17,Of Monsters And Men,/m/0hglxhl,topic,0,2,0
+2019-09-18,Of Monsters And Men,/m/0hglxhl,topic,0,2,0
+2019-09-19,Of Monsters And Men,/m/0hglxhl,topic,0,1,0
+2019-09-20,Of Monsters And Men,/m/0hglxhl,topic,0,2,0
+2019-09-21,Of Monsters And Men,/m/0hglxhl,topic,0,5,0
+2019-09-22,Of Monsters And Men,/m/0hglxhl,topic,0,2,0
+2019-09-23,Of Monsters And Men,/m/0hglxhl,topic,0,1,0
+2019-09-24,Of Monsters And Men,/m/0hglxhl,topic,0,1,0
+2019-09-25,Of Monsters And Men,/m/0hglxhl,topic,0,2,0
+2019-09-26,Of Monsters And Men,/m/0hglxhl,topic,0,2,0
+2019-09-27,Of Monsters And Men,/m/0hglxhl,topic,0,2,0
+2019-09-28,Of Monsters And Men,/m/0hglxhl,topic,0,2,0
+2019-09-29,Of Monsters And Men,/m/0hglxhl,topic,0,2,0
+2019-09-30,Of Monsters And Men,/m/0hglxhl,topic,1,1,0
+2019-10-01,Of Monsters And Men,/m/0hglxhl,topic,1,1,0
+2019-10-02,Of Monsters And Men,/m/0hglxhl,topic,0,2,0
+2019-10-03,Of Monsters And Men,/m/0hglxhl,topic,0,2,0
+2019-10-04,Of Monsters And Men,/m/0hglxhl,topic,0,2,0
+2019-10-05,Of Monsters And Men,/m/0hglxhl,topic,0,1,0
+2019-10-06,Of Monsters And Men,/m/0hglxhl,topic,0,1,0
+2019-10-07,Of Monsters And Men,/m/0hglxhl,topic,0,2,0
+2019-10-08,Of Monsters And Men,/m/0hglxhl,topic,0,1,0
+2019-10-09,Of Monsters And Men,/m/0hglxhl,topic,0,2,0
+2019-10-10,Of Monsters And Men,/m/0hglxhl,topic,0,1,0
+2019-10-11,Of Monsters And Men,/m/0hglxhl,topic,0,1,0
+2019-10-12,Of Monsters And Men,/m/0hglxhl,topic,0,3,0
+2019-10-13,Of Monsters And Men,/m/0hglxhl,topic,1,2,0
+2019-10-14,Of Monsters And Men,/m/0hglxhl,topic,0,1,0
+2019-10-15,Of Monsters And Men,/m/0hglxhl,topic,0,1,0
+2019-10-16,Of Monsters And Men,/m/0hglxhl,topic,0,1,0
+2019-10-17,Of Monsters And Men,/m/0hglxhl,topic,0,1,0
+2019-10-18,Of Monsters And Men,/m/0hglxhl,topic,0,2,0
+2019-10-19,Of Monsters And Men,/m/0hglxhl,topic,0,2,0
+2019-10-20,Of Monsters And Men,/m/0hglxhl,topic,0,2,0
+2019-10-21,Of Monsters And Men,/m/0hglxhl,topic,0,0,0
+2019-10-22,Of Monsters And Men,/m/0hglxhl,topic,0,1,0
+2019-10-23,Of Monsters And Men,/m/0hglxhl,topic,0,2,0
+2019-10-24,Of Monsters And Men,/m/0hglxhl,topic,0,2,0
+2019-10-25,Of Monsters And Men,/m/0hglxhl,topic,0,2,0
+2019-10-26,Of Monsters And Men,/m/0hglxhl,topic,0,2,0
+2019-10-27,Of Monsters And Men,/m/0hglxhl,topic,0,1,0
+2019-10-28,Of Monsters And Men,/m/0hglxhl,topic,0,1,0
+2019-10-29,Of Monsters And Men,/m/0hglxhl,topic,0,1,0
+2019-10-30,Of Monsters And Men,/m/0hglxhl,topic,0,1,0
+2019-10-31,Of Monsters And Men,/m/0hglxhl,topic,0,2,0
+2019-11-01,Of Monsters And Men,/m/0hglxhl,topic,0,1,0
+2019-11-02,Of Monsters And Men,/m/0hglxhl,topic,0,0,0
+2019-11-03,Of Monsters And Men,/m/0hglxhl,topic,0,0,0
+2019-11-04,Of Monsters And Men,/m/0hglxhl,topic,0,1,0
+2019-11-05,Of Monsters And Men,/m/0hglxhl,topic,0,1,0
+2019-11-06,Of Monsters And Men,/m/0hglxhl,topic,0,1,0
+2019-11-07,Of Monsters And Men,/m/0hglxhl,topic,0,1,0
+2019-11-08,Of Monsters And Men,/m/0hglxhl,topic,0,2,0
+2019-11-09,Of Monsters And Men,/m/0hglxhl,topic,0,2,0
+2019-11-10,Of Monsters And Men,/m/0hglxhl,topic,0,1,0
+2019-11-11,Of Monsters And Men,/m/0hglxhl,topic,0,1,0
+2019-11-12,Of Monsters And Men,/m/0hglxhl,topic,0,1,0
+2019-11-13,Of Monsters And Men,/m/0hglxhl,topic,0,2,0
+2019-11-14,Of Monsters And Men,/m/0hglxhl,topic,0,2,0
+2019-11-15,Of Monsters And Men,/m/0hglxhl,topic,0,4,0
+2019-11-16,Of Monsters And Men,/m/0hglxhl,topic,0,2,0
+2019-11-17,Of Monsters And Men,/m/0hglxhl,topic,0,12,0
+2019-11-18,Of Monsters And Men,/m/0hglxhl,topic,0,2,0
+2019-11-19,Of Monsters And Men,/m/0hglxhl,topic,0,2,0
+2019-11-20,Of Monsters And Men,/m/0hglxhl,topic,0,2,0
+2019-11-21,Of Monsters And Men,/m/0hglxhl,topic,0,2,0
+2019-11-22,Of Monsters And Men,/m/0hglxhl,topic,0,2,0
+2019-11-23,Of Monsters And Men,/m/0hglxhl,topic,0,2,0
+2019-11-24,Of Monsters And Men,/m/0hglxhl,topic,0,2,0
+2019-11-25,Of Monsters And Men,/m/0hglxhl,topic,0,1,0
+2019-11-26,Of Monsters And Men,/m/0hglxhl,topic,0,1,0
+2019-11-27,Of Monsters And Men,/m/0hglxhl,topic,0,11,0
+2019-11-28,Of Monsters And Men,/m/0hglxhl,topic,0,3,0
+2019-11-29,Of Monsters And Men,/m/0hglxhl,topic,0,2,0
+2019-11-30,Of Monsters And Men,/m/0hglxhl,topic,0,4,0
+2019-12-01,Of Monsters And Men,/m/0hglxhl,topic,0,2,0
+2019-12-02,Of Monsters And Men,/m/0hglxhl,topic,0,1,0
+2019-12-03,Of Monsters And Men,/m/0hglxhl,topic,0,1,0
+2019-12-04,Of Monsters And Men,/m/0hglxhl,topic,0,2,0
+2019-12-05,Of Monsters And Men,/m/0hglxhl,topic,0,2,0
+2019-12-06,Of Monsters And Men,/m/0hglxhl,topic,0,2,0
+2019-12-07,Of Monsters And Men,/m/0hglxhl,topic,0,1,0
+2019-12-08,Of Monsters And Men,/m/0hglxhl,topic,0,2,0
+2019-12-09,Of Monsters And Men,/m/0hglxhl,topic,0,1,0
+2019-12-10,Of Monsters And Men,/m/0hglxhl,topic,0,1,0
+2019-12-11,Of Monsters And Men,/m/0hglxhl,topic,0,1,0
+2019-12-12,Of Monsters And Men,/m/0hglxhl,topic,0,2,0
+2019-12-13,Of Monsters And Men,/m/0hglxhl,topic,0,1,0
+2019-12-14,Of Monsters And Men,/m/0hglxhl,topic,0,3,0
+2019-12-15,Of Monsters And Men,/m/0hglxhl,topic,0,1,0
+2019-12-16,Of Monsters And Men,/m/0hglxhl,topic,0,1,0
+2019-12-17,Of Monsters And Men,/m/0hglxhl,topic,0,2,0
+2019-12-18,Of Monsters And Men,/m/0hglxhl,topic,0,1,0
+2019-12-19,Of Monsters And Men,/m/0hglxhl,topic,0,1,0
+2019-12-20,Of Monsters And Men,/m/0hglxhl,topic,0,0,0
+2019-12-21,Of Monsters And Men,/m/0hglxhl,topic,0,2,0
+2019-12-22,Of Monsters And Men,/m/0hglxhl,topic,0,0,0
+2019-12-23,Of Monsters And Men,/m/0hglxhl,topic,0,2,0
+2019-12-24,Of Monsters And Men,/m/0hglxhl,topic,0,2,0
+2019-12-25,Of Monsters And Men,/m/0hglxhl,topic,0,2,0
+2019-12-26,Of Monsters And Men,/m/0hglxhl,topic,0,0,0
+2019-12-27,Of Monsters And Men,/m/0hglxhl,topic,0,2,0
+2019-12-28,Of Monsters And Men,/m/0hglxhl,topic,0,1,0
+2019-12-29,Of Monsters And Men,/m/0hglxhl,topic,0,1,0
+2019-12-30,Of Monsters And Men,/m/0hglxhl,topic,0,1,0
+2019-12-31,Of Monsters And Men,/m/0hglxhl,topic,1,3,0
+2020-01-01,Of Monsters And Men,/m/0hglxhl,topic,2,2,0
+2020-01-02,Of Monsters And Men,/m/0hglxhl,topic,1,1,0
+2020-01-03,Of Monsters And Men,/m/0hglxhl,topic,0,1,0
+2020-01-04,Of Monsters And Men,/m/0hglxhl,topic,0,2,0
+2020-01-05,Of Monsters And Men,/m/0hglxhl,topic,0,2,0
+2020-01-06,Of Monsters And Men,/m/0hglxhl,topic,1,1,0
+2020-01-07,Of Monsters And Men,/m/0hglxhl,topic,1,0,0
+2020-01-08,Of Monsters And Men,/m/0hglxhl,topic,2,1,0
+2020-01-09,Of Monsters And Men,/m/0hglxhl,topic,2,1,0
+2020-01-10,Of Monsters And Men,/m/0hglxhl,topic,4,1,0
+2020-01-11,Of Monsters And Men,/m/0hglxhl,topic,1,2,0
+2020-01-12,Of Monsters And Men,/m/0hglxhl,topic,0,2,0
+2020-01-13,Of Monsters And Men,/m/0hglxhl,topic,0,2,0
+2020-01-14,Of Monsters And Men,/m/0hglxhl,topic,0,1,0
+2020-01-15,Of Monsters And Men,/m/0hglxhl,topic,0,1,0
+2020-01-16,Of Monsters And Men,/m/0hglxhl,topic,0,1,0
+2020-01-17,Of Monsters And Men,/m/0hglxhl,topic,0,0,0
+2020-01-18,Of Monsters And Men,/m/0hglxhl,topic,0,2,0
+2020-01-19,Of Monsters And Men,/m/0hglxhl,topic,0,1,0
+,benny blanco & Juice WRLD,benny blanco & Juice WRLD,no_topic,,,1
+2019-08-23,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,70,1
+2019-08-24,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,72,1
+2019-08-25,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,33,1
+2019-08-26,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,28,1
+2019-08-27,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,25,1
+2019-08-28,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,26,1
+2019-08-29,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,27,1
+2019-08-30,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,38,1
+2019-08-31,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,100,1
+2019-09-01,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,44,1
+2019-09-02,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,28,1
+2019-09-03,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,31,1
+2019-09-04,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,25,1
+2019-09-05,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,20,1
+2019-09-06,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,34,1
+2019-09-07,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,93,1
+2019-09-08,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,27,1
+2019-09-09,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,15,1
+2019-09-10,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,9,1
+2019-09-11,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,10,1
+2019-09-12,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,16,1
+2019-09-13,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,22,1
+2019-09-14,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,40,1
+2019-09-15,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,18,1
+2019-09-16,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,14,1
+2019-09-17,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,15,1
+2019-09-18,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,12,1
+2019-09-19,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,7,1
+2019-09-20,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,11,1
+2019-09-21,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,29,1
+2019-09-22,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,12,1
+2019-09-23,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,5,1
+2019-09-24,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,7,1
+2019-09-25,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,10,1
+2019-09-26,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,14,1
+2019-09-27,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,14,1
+2019-09-28,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,10,1
+2019-09-29,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,12,1
+2019-09-30,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,9,1
+2019-10-01,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,8,1
+2019-10-02,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,10,1
+2019-10-03,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,14,1
+2019-10-04,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,10,1
+2019-10-05,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,9,1
+2019-10-06,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,9,1
+2019-10-07,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,11,1
+2019-10-08,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,8,1
+2019-10-09,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,12,1
+2019-10-10,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,9,1
+2019-10-11,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,7,1
+2019-10-12,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,18,1
+2019-10-13,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,12,1
+2019-10-14,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,8,1
+2019-10-15,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,7,1
+2019-10-16,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,8,1
+2019-10-17,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,7,1
+2019-10-18,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,10,1
+2019-10-19,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,12,1
+2019-10-20,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,12,1
+2019-10-21,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,0,1
+2019-10-22,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,6,1
+2019-10-23,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,11,1
+2019-10-24,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,11,1
+2019-10-25,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,10,1
+2019-10-26,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,10,1
+2019-10-27,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,8,1
+2019-10-28,Catfish And The Bottlemen,/m/0nhrcv1,topic,5,9,1
+2019-10-29,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,9,1
+2019-10-30,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,9,1
+2019-10-31,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,11,1
+2019-11-01,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,8,1
+2019-11-02,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,0,1
+2019-11-03,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,0,1
+2019-11-04,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,9,1
+2019-11-05,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,8,1
+2019-11-06,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,8,1
+2019-11-07,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,9,1
+2019-11-08,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,13,1
+2019-11-09,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,14,1
+2019-11-10,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,7,1
+2019-11-11,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,9,1
+2019-11-12,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,8,1
+2019-11-13,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,11,1
+2019-11-14,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,10,1
+2019-11-15,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,23,1
+2019-11-16,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,13,1
+2019-11-17,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,77,1
+2019-11-18,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,16,1
+2019-11-19,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,13,1
+2019-11-20,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,10,1
+2019-11-21,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,15,1
+2019-11-22,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,15,1
+2019-11-23,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,14,1
+2019-11-24,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,13,1
+2019-11-25,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,10,1
+2019-11-26,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,9,1
+2019-11-27,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,75,1
+2019-11-28,Catfish And The Bottlemen,/m/0nhrcv1,topic,8,17,1
+2019-11-29,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,11,1
+2019-11-30,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,24,1
+2019-12-01,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,11,1
+2019-12-02,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,7,1
+2019-12-03,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,9,1
+2019-12-04,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,13,1
+2019-12-05,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,10,1
+2019-12-06,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,16,1
+2019-12-07,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,9,1
+2019-12-08,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,16,1
+2019-12-09,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,8,1
+2019-12-10,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,8,1
+2019-12-11,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,9,1
+2019-12-12,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,12,1
+2019-12-13,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,9,1
+2019-12-14,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,22,1
+2019-12-15,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,9,1
+2019-12-16,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,9,1
+2019-12-17,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,10,1
+2019-12-18,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,9,1
+2019-12-19,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,9,1
+2019-12-20,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,0,1
+2019-12-21,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,10,1
+2019-12-22,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,0,1
+2019-12-23,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,13,1
+2019-12-24,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,13,1
+2019-12-25,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,14,1
+2019-12-26,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,0,1
+2019-12-27,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,14,1
+2019-12-28,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,9,1
+2019-12-29,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,9,1
+2019-12-30,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,7,1
+2019-12-31,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,19,1
+2020-01-01,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,12,1
+2020-01-02,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,8,1
+2020-01-03,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,9,1
+2020-01-04,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,14,1
+2020-01-05,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,10,1
+2020-01-06,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,8,1
+2020-01-07,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,0,1
+2020-01-08,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,7,1
+2020-01-09,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,7,1
+2020-01-10,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,9,1
+2020-01-11,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,14,1
+2020-01-12,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,10,1
+2020-01-13,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,11,1
+2020-01-14,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,7,1
+2020-01-15,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,6,1
+2020-01-16,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,10,1
+2020-01-17,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,0,1
+2020-01-18,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,11,1
+2020-01-19,Catfish And The Bottlemen,/m/0nhrcv1,topic,0,9,1
+2019-08-23,Boy & Bear,/m/0fr6tm4,topic,7,70,1
+2019-08-24,Boy & Bear,/m/0fr6tm4,topic,7,72,1
+2019-08-25,Boy & Bear,/m/0fr6tm4,topic,0,33,1
+2019-08-26,Boy & Bear,/m/0fr6tm4,topic,0,28,1
+2019-08-27,Boy & Bear,/m/0fr6tm4,topic,0,25,1
+2019-08-28,Boy & Bear,/m/0fr6tm4,topic,0,26,1
+2019-08-29,Boy & Bear,/m/0fr6tm4,topic,0,27,1
+2019-08-30,Boy & Bear,/m/0fr6tm4,topic,0,38,1
+2019-08-31,Boy & Bear,/m/0fr6tm4,topic,0,100,1
+2019-09-01,Boy & Bear,/m/0fr6tm4,topic,29,44,1
+2019-09-02,Boy & Bear,/m/0fr6tm4,topic,0,28,1
+2019-09-03,Boy & Bear,/m/0fr6tm4,topic,0,31,1
+2019-09-04,Boy & Bear,/m/0fr6tm4,topic,0,25,1
+2019-09-05,Boy & Bear,/m/0fr6tm4,topic,5,20,1
+2019-09-06,Boy & Bear,/m/0fr6tm4,topic,0,34,1
+2019-09-07,Boy & Bear,/m/0fr6tm4,topic,0,93,1
+2019-09-08,Boy & Bear,/m/0fr6tm4,topic,0,27,1
+2019-09-09,Boy & Bear,/m/0fr6tm4,topic,0,15,1
+2019-09-10,Boy & Bear,/m/0fr6tm4,topic,6,9,1
+2019-09-11,Boy & Bear,/m/0fr6tm4,topic,0,10,1
+2019-09-12,Boy & Bear,/m/0fr6tm4,topic,0,16,1
+2019-09-13,Boy & Bear,/m/0fr6tm4,topic,0,22,1
+2019-09-14,Boy & Bear,/m/0fr6tm4,topic,0,40,1
+2019-09-15,Boy & Bear,/m/0fr6tm4,topic,0,18,1
+2019-09-16,Boy & Bear,/m/0fr6tm4,topic,0,14,1
+2019-09-17,Boy & Bear,/m/0fr6tm4,topic,0,15,1
+2019-09-18,Boy & Bear,/m/0fr6tm4,topic,0,12,1
+2019-09-19,Boy & Bear,/m/0fr6tm4,topic,0,7,1
+2019-09-20,Boy & Bear,/m/0fr6tm4,topic,0,11,1
+2019-09-21,Boy & Bear,/m/0fr6tm4,topic,0,29,1
+2019-09-22,Boy & Bear,/m/0fr6tm4,topic,0,12,1
+2019-09-23,Boy & Bear,/m/0fr6tm4,topic,0,5,1
+2019-09-24,Boy & Bear,/m/0fr6tm4,topic,0,7,1
+2019-09-25,Boy & Bear,/m/0fr6tm4,topic,0,10,1
+2019-09-26,Boy & Bear,/m/0fr6tm4,topic,0,14,1
+2019-09-27,Boy & Bear,/m/0fr6tm4,topic,0,14,1
+2019-09-28,Boy & Bear,/m/0fr6tm4,topic,0,10,1
+2019-09-29,Boy & Bear,/m/0fr6tm4,topic,0,12,1
+2019-09-30,Boy & Bear,/m/0fr6tm4,topic,10,9,1
+2019-10-01,Boy & Bear,/m/0fr6tm4,topic,0,8,1
+2019-10-02,Boy & Bear,/m/0fr6tm4,topic,9,10,1
+2019-10-03,Boy & Bear,/m/0fr6tm4,topic,0,14,1
+2019-10-04,Boy & Bear,/m/0fr6tm4,topic,0,10,1
+2019-10-05,Boy & Bear,/m/0fr6tm4,topic,0,9,1
+2019-10-06,Boy & Bear,/m/0fr6tm4,topic,0,9,1
+2019-10-07,Boy & Bear,/m/0fr6tm4,topic,0,11,1
+2019-10-08,Boy & Bear,/m/0fr6tm4,topic,0,8,1
+2019-10-09,Boy & Bear,/m/0fr6tm4,topic,18,12,1
+2019-10-10,Boy & Bear,/m/0fr6tm4,topic,0,9,1
+2019-10-11,Boy & Bear,/m/0fr6tm4,topic,0,7,1
+2019-10-12,Boy & Bear,/m/0fr6tm4,topic,0,18,1
+2019-10-13,Boy & Bear,/m/0fr6tm4,topic,0,12,1
+2019-10-14,Boy & Bear,/m/0fr6tm4,topic,0,8,1
+2019-10-15,Boy & Bear,/m/0fr6tm4,topic,0,7,1
+2019-10-16,Boy & Bear,/m/0fr6tm4,topic,0,8,1
+2019-10-17,Boy & Bear,/m/0fr6tm4,topic,0,7,1
+2019-10-18,Boy & Bear,/m/0fr6tm4,topic,0,10,1
+2019-10-19,Boy & Bear,/m/0fr6tm4,topic,0,12,1
+2019-10-20,Boy & Bear,/m/0fr6tm4,topic,0,12,1
+2019-10-21,Boy & Bear,/m/0fr6tm4,topic,0,0,1
+2019-10-22,Boy & Bear,/m/0fr6tm4,topic,0,6,1
+2019-10-23,Boy & Bear,/m/0fr6tm4,topic,0,11,1
+2019-10-24,Boy & Bear,/m/0fr6tm4,topic,0,11,1
+2019-10-25,Boy & Bear,/m/0fr6tm4,topic,0,10,1
+2019-10-26,Boy & Bear,/m/0fr6tm4,topic,7,10,1
+2019-10-27,Boy & Bear,/m/0fr6tm4,topic,0,8,1
+2019-10-28,Boy & Bear,/m/0fr6tm4,topic,0,9,1
+2019-10-29,Boy & Bear,/m/0fr6tm4,topic,0,9,1
+2019-10-30,Boy & Bear,/m/0fr6tm4,topic,0,9,1
+2019-10-31,Boy & Bear,/m/0fr6tm4,topic,0,11,1
+2019-11-01,Boy & Bear,/m/0fr6tm4,topic,0,8,1
+2019-11-02,Boy & Bear,/m/0fr6tm4,topic,0,0,1
+2019-11-03,Boy & Bear,/m/0fr6tm4,topic,0,0,1
+2019-11-04,Boy & Bear,/m/0fr6tm4,topic,0,9,1
+2019-11-05,Boy & Bear,/m/0fr6tm4,topic,0,8,1
+2019-11-06,Boy & Bear,/m/0fr6tm4,topic,0,8,1
+2019-11-07,Boy & Bear,/m/0fr6tm4,topic,0,9,1
+2019-11-08,Boy & Bear,/m/0fr6tm4,topic,0,13,1
+2019-11-09,Boy & Bear,/m/0fr6tm4,topic,0,14,1
+2019-11-10,Boy & Bear,/m/0fr6tm4,topic,0,7,1
+2019-11-11,Boy & Bear,/m/0fr6tm4,topic,0,9,1
+2019-11-12,Boy & Bear,/m/0fr6tm4,topic,0,8,1
+2019-11-13,Boy & Bear,/m/0fr6tm4,topic,0,11,1
+2019-11-14,Boy & Bear,/m/0fr6tm4,topic,0,10,1
+2019-11-15,Boy & Bear,/m/0fr6tm4,topic,0,23,1
+2019-11-16,Boy & Bear,/m/0fr6tm4,topic,0,13,1
+2019-11-17,Boy & Bear,/m/0fr6tm4,topic,0,77,1
+2019-11-18,Boy & Bear,/m/0fr6tm4,topic,0,16,1
+2019-11-19,Boy & Bear,/m/0fr6tm4,topic,0,13,1
+2019-11-20,Boy & Bear,/m/0fr6tm4,topic,0,10,1
+2019-11-21,Boy & Bear,/m/0fr6tm4,topic,7,15,1
+2019-11-22,Boy & Bear,/m/0fr6tm4,topic,0,15,1
+2019-11-23,Boy & Bear,/m/0fr6tm4,topic,0,14,1
+2019-11-24,Boy & Bear,/m/0fr6tm4,topic,0,13,1
+2019-11-25,Boy & Bear,/m/0fr6tm4,topic,0,10,1
+2019-11-26,Boy & Bear,/m/0fr6tm4,topic,0,9,1
+2019-11-27,Boy & Bear,/m/0fr6tm4,topic,0,75,1
+2019-11-28,Boy & Bear,/m/0fr6tm4,topic,0,17,1
+2019-11-29,Boy & Bear,/m/0fr6tm4,topic,0,11,1
+2019-11-30,Boy & Bear,/m/0fr6tm4,topic,0,24,1
+2019-12-01,Boy & Bear,/m/0fr6tm4,topic,0,11,1
+2019-12-02,Boy & Bear,/m/0fr6tm4,topic,0,7,1
+2019-12-03,Boy & Bear,/m/0fr6tm4,topic,0,9,1
+2019-12-04,Boy & Bear,/m/0fr6tm4,topic,0,13,1
+2019-12-05,Boy & Bear,/m/0fr6tm4,topic,0,10,1
+2019-12-06,Boy & Bear,/m/0fr6tm4,topic,0,16,1
+2019-12-07,Boy & Bear,/m/0fr6tm4,topic,0,9,1
+2019-12-08,Boy & Bear,/m/0fr6tm4,topic,0,16,1
+2019-12-09,Boy & Bear,/m/0fr6tm4,topic,11,8,1
+2019-12-10,Boy & Bear,/m/0fr6tm4,topic,7,8,1
+2019-12-11,Boy & Bear,/m/0fr6tm4,topic,9,9,1
+2019-12-12,Boy & Bear,/m/0fr6tm4,topic,6,12,1
+2019-12-13,Boy & Bear,/m/0fr6tm4,topic,0,9,1
+2019-12-14,Boy & Bear,/m/0fr6tm4,topic,9,22,1
+2019-12-15,Boy & Bear,/m/0fr6tm4,topic,0,9,1
+2019-12-16,Boy & Bear,/m/0fr6tm4,topic,6,9,1
+2019-12-17,Boy & Bear,/m/0fr6tm4,topic,0,10,1
+2019-12-18,Boy & Bear,/m/0fr6tm4,topic,6,9,1
+2019-12-19,Boy & Bear,/m/0fr6tm4,topic,0,9,1
+2019-12-20,Boy & Bear,/m/0fr6tm4,topic,0,0,1
+2019-12-21,Boy & Bear,/m/0fr6tm4,topic,0,10,1
+2019-12-22,Boy & Bear,/m/0fr6tm4,topic,0,0,1
+2019-12-23,Boy & Bear,/m/0fr6tm4,topic,0,13,1
+2019-12-24,Boy & Bear,/m/0fr6tm4,topic,0,13,1
+2019-12-25,Boy & Bear,/m/0fr6tm4,topic,0,14,1
+2019-12-26,Boy & Bear,/m/0fr6tm4,topic,0,0,1
+2019-12-27,Boy & Bear,/m/0fr6tm4,topic,0,14,1
+2019-12-28,Boy & Bear,/m/0fr6tm4,topic,0,9,1
+2019-12-29,Boy & Bear,/m/0fr6tm4,topic,0,9,1
+2019-12-30,Boy & Bear,/m/0fr6tm4,topic,0,7,1
+2019-12-31,Boy & Bear,/m/0fr6tm4,topic,0,19,1
+2020-01-01,Boy & Bear,/m/0fr6tm4,topic,0,12,1
+2020-01-02,Boy & Bear,/m/0fr6tm4,topic,0,8,1
+2020-01-03,Boy & Bear,/m/0fr6tm4,topic,0,9,1
+2020-01-04,Boy & Bear,/m/0fr6tm4,topic,7,14,1
+2020-01-05,Boy & Bear,/m/0fr6tm4,topic,0,10,1
+2020-01-06,Boy & Bear,/m/0fr6tm4,topic,0,8,1
+2020-01-07,Boy & Bear,/m/0fr6tm4,topic,0,0,1
+2020-01-08,Boy & Bear,/m/0fr6tm4,topic,5,7,1
+2020-01-09,Boy & Bear,/m/0fr6tm4,topic,0,7,1
+2020-01-10,Boy & Bear,/m/0fr6tm4,topic,0,9,1
+2020-01-11,Boy & Bear,/m/0fr6tm4,topic,0,14,1
+2020-01-12,Boy & Bear,/m/0fr6tm4,topic,0,10,1
+2020-01-13,Boy & Bear,/m/0fr6tm4,topic,0,11,1
+2020-01-14,Boy & Bear,/m/0fr6tm4,topic,0,7,1
+2020-01-15,Boy & Bear,/m/0fr6tm4,topic,0,6,1
+2020-01-16,Boy & Bear,/m/0fr6tm4,topic,0,10,1
+2020-01-17,Boy & Bear,/m/0fr6tm4,topic,0,0,1
+2020-01-18,Boy & Bear,/m/0fr6tm4,topic,0,11,1
+2020-01-19,Boy & Bear,/m/0fr6tm4,topic,0,9,1
+2019-08-23,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,70,1
+2019-08-24,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,72,1
+2019-08-25,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,33,1
+2019-08-26,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,9,28,1
+2019-08-27,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,6,25,1
+2019-08-28,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,7,26,1
+2019-08-29,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,7,27,1
+2019-08-30,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,6,38,1
+2019-08-31,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,100,1
+2019-09-01,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,8,44,1
+2019-09-02,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,28,1
+2019-09-03,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,6,31,1
+2019-09-04,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,25,1
+2019-09-05,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,20,1
+2019-09-06,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,34,1
+2019-09-07,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,93,1
+2019-09-08,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,27,1
+2019-09-09,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,15,1
+2019-09-10,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,9,1
+2019-09-11,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,10,1
+2019-09-12,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,16,1
+2019-09-13,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,22,1
+2019-09-14,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,40,1
+2019-09-15,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,18,1
+2019-09-16,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,14,1
+2019-09-17,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,15,1
+2019-09-18,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,12,1
+2019-09-19,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,7,7,1
+2019-09-20,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,11,1
+2019-09-21,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,29,1
+2019-09-22,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,12,1
+2019-09-23,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,6,5,1
+2019-09-24,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,7,1
+2019-09-25,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,10,1
+2019-09-26,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,14,1
+2019-09-27,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,14,1
+2019-09-28,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,10,1
+2019-09-29,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,12,1
+2019-09-30,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,9,1
+2019-10-01,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,8,1
+2019-10-02,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,10,1
+2019-10-03,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,14,1
+2019-10-04,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,10,1
+2019-10-05,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,9,1
+2019-10-06,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,9,1
+2019-10-07,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,11,1
+2019-10-08,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,8,1
+2019-10-09,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,12,1
+2019-10-10,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,9,1
+2019-10-11,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,7,1
+2019-10-12,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,18,1
+2019-10-13,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,12,1
+2019-10-14,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,8,1
+2019-10-15,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,7,1
+2019-10-16,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,8,1
+2019-10-17,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,6,7,1
+2019-10-18,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,10,1
+2019-10-19,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,12,1
+2019-10-20,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,12,1
+2019-10-21,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,0,1
+2019-10-22,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,6,1
+2019-10-23,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,11,1
+2019-10-24,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,7,11,1
+2019-10-25,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,6,10,1
+2019-10-26,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,10,1
+2019-10-27,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,7,8,1
+2019-10-28,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,9,1
+2019-10-29,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,9,1
+2019-10-30,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,9,1
+2019-10-31,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,11,1
+2019-11-01,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,8,1
+2019-11-02,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,0,1
+2019-11-03,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,0,1
+2019-11-04,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,9,1
+2019-11-05,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,8,1
+2019-11-06,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,8,1
+2019-11-07,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,9,1
+2019-11-08,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,13,1
+2019-11-09,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,14,1
+2019-11-10,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,7,7,1
+2019-11-11,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,9,1
+2019-11-12,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,8,1
+2019-11-13,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,11,1
+2019-11-14,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,10,1
+2019-11-15,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,8,23,1
+2019-11-16,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,13,1
+2019-11-17,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,77,1
+2019-11-18,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,16,1
+2019-11-19,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,6,13,1
+2019-11-20,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,10,1
+2019-11-21,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,15,1
+2019-11-22,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,15,1
+2019-11-23,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,14,1
+2019-11-24,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,13,1
+2019-11-25,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,10,1
+2019-11-26,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,5,9,1
+2019-11-27,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,75,1
+2019-11-28,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,17,1
+2019-11-29,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,11,1
+2019-11-30,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,8,24,1
+2019-12-01,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,11,1
+2019-12-02,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,7,1
+2019-12-03,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,8,9,1
+2019-12-04,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,13,1
+2019-12-05,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,10,1
+2019-12-06,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,16,1
+2019-12-07,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,9,1
+2019-12-08,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,16,1
+2019-12-09,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,8,1
+2019-12-10,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,8,1
+2019-12-11,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,9,1
+2019-12-12,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,12,1
+2019-12-13,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,9,1
+2019-12-14,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,22,1
+2019-12-15,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,9,1
+2019-12-16,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,9,1
+2019-12-17,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,10,1
+2019-12-18,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,9,1
+2019-12-19,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,9,1
+2019-12-20,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,0,1
+2019-12-21,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,10,1
+2019-12-22,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,0,1
+2019-12-23,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,13,1
+2019-12-24,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,8,13,1
+2019-12-25,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,14,1
+2019-12-26,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,0,1
+2019-12-27,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,14,1
+2019-12-28,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,9,1
+2019-12-29,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,9,1
+2019-12-30,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,7,1
+2019-12-31,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,19,1
+2020-01-01,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,12,1
+2020-01-02,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,8,1
+2020-01-03,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,9,1
+2020-01-04,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,14,1
+2020-01-05,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,10,1
+2020-01-06,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,8,1
+2020-01-07,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,0,1
+2020-01-08,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,7,1
+2020-01-09,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,7,1
+2020-01-10,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,9,9,1
+2020-01-11,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,6,14,1
+2020-01-12,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,10,1
+2020-01-13,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,6,11,1
+2020-01-14,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,7,1
+2020-01-15,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,6,1
+2020-01-16,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,10,1
+2020-01-17,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,0,1
+2020-01-18,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,9,11,1
+2020-01-19,King Gizzard & The Lizard Wizard,/m/0wkgtjq,topic,0,9,1
+,Charli XCX & Christine And The Queens,Charli XCX & Christine And The Queens,no_topic,,,2
+,Chris Lake & Solardo,Chris Lake & Solardo,no_topic,,,2
+,Flume & Reo Cragun,Flume & Reo Cragun,no_topic,,,2
+,Golden Features x The Presets,Golden Features x The Presets,no_topic,,,2
+,Mallrat x Basenji,Mallrat x Basenji,no_topic,,,3
+,Meduza x Becky Hill x Goodboys,Meduza x Becky Hill x Goodboys,no_topic,,,3
+,Florence And The Machine,Florence And The Machine,no_topic,,,3
+2019-08-23,The Naked And Famous,/m/0fqb4sv,topic,0,70,3
+2019-08-24,The Naked And Famous,/m/0fqb4sv,topic,0,72,3
+2019-08-25,The Naked And Famous,/m/0fqb4sv,topic,0,33,3
+2019-08-26,The Naked And Famous,/m/0fqb4sv,topic,0,28,3
+2019-08-27,The Naked And Famous,/m/0fqb4sv,topic,0,25,3
+2019-08-28,The Naked And Famous,/m/0fqb4sv,topic,0,26,3
+2019-08-29,The Naked And Famous,/m/0fqb4sv,topic,0,27,3
+2019-08-30,The Naked And Famous,/m/0fqb4sv,topic,0,38,3
+2019-08-31,The Naked And Famous,/m/0fqb4sv,topic,0,100,3
+2019-09-01,The Naked And Famous,/m/0fqb4sv,topic,0,44,3
+2019-09-02,The Naked And Famous,/m/0fqb4sv,topic,0,28,3
+2019-09-03,The Naked And Famous,/m/0fqb4sv,topic,0,31,3
+2019-09-04,The Naked And Famous,/m/0fqb4sv,topic,0,25,3
+2019-09-05,The Naked And Famous,/m/0fqb4sv,topic,0,20,3
+2019-09-06,The Naked And Famous,/m/0fqb4sv,topic,0,34,3
+2019-09-07,The Naked And Famous,/m/0fqb4sv,topic,0,93,3
+2019-09-08,The Naked And Famous,/m/0fqb4sv,topic,0,27,3
+2019-09-09,The Naked And Famous,/m/0fqb4sv,topic,0,15,3
+2019-09-10,The Naked And Famous,/m/0fqb4sv,topic,0,9,3
+2019-09-11,The Naked And Famous,/m/0fqb4sv,topic,0,10,3
+2019-09-12,The Naked And Famous,/m/0fqb4sv,topic,0,16,3
+2019-09-13,The Naked And Famous,/m/0fqb4sv,topic,0,22,3
+2019-09-14,The Naked And Famous,/m/0fqb4sv,topic,0,40,3
+2019-09-15,The Naked And Famous,/m/0fqb4sv,topic,0,18,3
+2019-09-16,The Naked And Famous,/m/0fqb4sv,topic,0,14,3
+2019-09-17,The Naked And Famous,/m/0fqb4sv,topic,0,15,3
+2019-09-18,The Naked And Famous,/m/0fqb4sv,topic,0,12,3
+2019-09-19,The Naked And Famous,/m/0fqb4sv,topic,0,7,3
+2019-09-20,The Naked And Famous,/m/0fqb4sv,topic,0,11,3
+2019-09-21,The Naked And Famous,/m/0fqb4sv,topic,0,29,3
+2019-09-22,The Naked And Famous,/m/0fqb4sv,topic,0,12,3
+2019-09-23,The Naked And Famous,/m/0fqb4sv,topic,0,5,3
+2019-09-24,The Naked And Famous,/m/0fqb4sv,topic,0,7,3
+2019-09-25,The Naked And Famous,/m/0fqb4sv,topic,0,10,3
+2019-09-26,The Naked And Famous,/m/0fqb4sv,topic,0,14,3
+2019-09-27,The Naked And Famous,/m/0fqb4sv,topic,0,14,3
+2019-09-28,The Naked And Famous,/m/0fqb4sv,topic,0,10,3
+2019-09-29,The Naked And Famous,/m/0fqb4sv,topic,0,12,3
+2019-09-30,The Naked And Famous,/m/0fqb4sv,topic,0,9,3
+2019-10-01,The Naked And Famous,/m/0fqb4sv,topic,0,8,3
+2019-10-02,The Naked And Famous,/m/0fqb4sv,topic,0,10,3
+2019-10-03,The Naked And Famous,/m/0fqb4sv,topic,0,14,3
+2019-10-04,The Naked And Famous,/m/0fqb4sv,topic,0,10,3
+2019-10-05,The Naked And Famous,/m/0fqb4sv,topic,0,9,3
+2019-10-06,The Naked And Famous,/m/0fqb4sv,topic,0,9,3
+2019-10-07,The Naked And Famous,/m/0fqb4sv,topic,0,11,3
+2019-10-08,The Naked And Famous,/m/0fqb4sv,topic,0,8,3
+2019-10-09,The Naked And Famous,/m/0fqb4sv,topic,0,12,3
+2019-10-10,The Naked And Famous,/m/0fqb4sv,topic,0,9,3
+2019-10-11,The Naked And Famous,/m/0fqb4sv,topic,0,7,3
+2019-10-12,The Naked And Famous,/m/0fqb4sv,topic,0,18,3
+2019-10-13,The Naked And Famous,/m/0fqb4sv,topic,0,12,3
+2019-10-14,The Naked And Famous,/m/0fqb4sv,topic,0,8,3
+2019-10-15,The Naked And Famous,/m/0fqb4sv,topic,0,7,3
+2019-10-16,The Naked And Famous,/m/0fqb4sv,topic,0,8,3
+2019-10-17,The Naked And Famous,/m/0fqb4sv,topic,0,7,3
+2019-10-18,The Naked And Famous,/m/0fqb4sv,topic,0,10,3
+2019-10-19,The Naked And Famous,/m/0fqb4sv,topic,0,12,3
+2019-10-20,The Naked And Famous,/m/0fqb4sv,topic,0,12,3
+2019-10-21,The Naked And Famous,/m/0fqb4sv,topic,0,0,3
+2019-10-22,The Naked And Famous,/m/0fqb4sv,topic,0,6,3
+2019-10-23,The Naked And Famous,/m/0fqb4sv,topic,0,11,3
+2019-10-24,The Naked And Famous,/m/0fqb4sv,topic,0,11,3
+2019-10-25,The Naked And Famous,/m/0fqb4sv,topic,0,10,3
+2019-10-26,The Naked And Famous,/m/0fqb4sv,topic,0,10,3
+2019-10-27,The Naked And Famous,/m/0fqb4sv,topic,0,8,3
+2019-10-28,The Naked And Famous,/m/0fqb4sv,topic,0,9,3
+2019-10-29,The Naked And Famous,/m/0fqb4sv,topic,0,9,3
+2019-10-30,The Naked And Famous,/m/0fqb4sv,topic,0,9,3
+2019-10-31,The Naked And Famous,/m/0fqb4sv,topic,0,11,3
+2019-11-01,The Naked And Famous,/m/0fqb4sv,topic,0,8,3
+2019-11-02,The Naked And Famous,/m/0fqb4sv,topic,0,0,3
+2019-11-03,The Naked And Famous,/m/0fqb4sv,topic,0,0,3
+2019-11-04,The Naked And Famous,/m/0fqb4sv,topic,0,9,3
+2019-11-05,The Naked And Famous,/m/0fqb4sv,topic,0,8,3
+2019-11-06,The Naked And Famous,/m/0fqb4sv,topic,0,8,3
+2019-11-07,The Naked And Famous,/m/0fqb4sv,topic,0,9,3
+2019-11-08,The Naked And Famous,/m/0fqb4sv,topic,0,13,3
+2019-11-09,The Naked And Famous,/m/0fqb4sv,topic,0,14,3
+2019-11-10,The Naked And Famous,/m/0fqb4sv,topic,0,7,3
+2019-11-11,The Naked And Famous,/m/0fqb4sv,topic,0,9,3
+2019-11-12,The Naked And Famous,/m/0fqb4sv,topic,0,8,3
+2019-11-13,The Naked And Famous,/m/0fqb4sv,topic,0,11,3
+2019-11-14,The Naked And Famous,/m/0fqb4sv,topic,0,10,3
+2019-11-15,The Naked And Famous,/m/0fqb4sv,topic,0,23,3
+2019-11-16,The Naked And Famous,/m/0fqb4sv,topic,0,13,3
+2019-11-17,The Naked And Famous,/m/0fqb4sv,topic,0,77,3
+2019-11-18,The Naked And Famous,/m/0fqb4sv,topic,0,16,3
+2019-11-19,The Naked And Famous,/m/0fqb4sv,topic,0,13,3
+2019-11-20,The Naked And Famous,/m/0fqb4sv,topic,0,10,3
+2019-11-21,The Naked And Famous,/m/0fqb4sv,topic,0,15,3
+2019-11-22,The Naked And Famous,/m/0fqb4sv,topic,0,15,3
+2019-11-23,The Naked And Famous,/m/0fqb4sv,topic,0,14,3
+2019-11-24,The Naked And Famous,/m/0fqb4sv,topic,0,13,3
+2019-11-25,The Naked And Famous,/m/0fqb4sv,topic,0,10,3
+2019-11-26,The Naked And Famous,/m/0fqb4sv,topic,0,9,3
+2019-11-27,The Naked And Famous,/m/0fqb4sv,topic,0,75,3
+2019-11-28,The Naked And Famous,/m/0fqb4sv,topic,0,17,3
+2019-11-29,The Naked And Famous,/m/0fqb4sv,topic,0,11,3
+2019-11-30,The Naked And Famous,/m/0fqb4sv,topic,0,24,3
+2019-12-01,The Naked And Famous,/m/0fqb4sv,topic,0,11,3
+2019-12-02,The Naked And Famous,/m/0fqb4sv,topic,0,7,3
+2019-12-03,The Naked And Famous,/m/0fqb4sv,topic,0,9,3
+2019-12-04,The Naked And Famous,/m/0fqb4sv,topic,0,13,3
+2019-12-05,The Naked And Famous,/m/0fqb4sv,topic,0,10,3
+2019-12-06,The Naked And Famous,/m/0fqb4sv,topic,0,16,3
+2019-12-07,The Naked And Famous,/m/0fqb4sv,topic,0,9,3
+2019-12-08,The Naked And Famous,/m/0fqb4sv,topic,0,16,3
+2019-12-09,The Naked And Famous,/m/0fqb4sv,topic,0,8,3
+2019-12-10,The Naked And Famous,/m/0fqb4sv,topic,0,8,3
+2019-12-11,The Naked And Famous,/m/0fqb4sv,topic,0,9,3
+2019-12-12,The Naked And Famous,/m/0fqb4sv,topic,0,12,3
+2019-12-13,The Naked And Famous,/m/0fqb4sv,topic,0,9,3
+2019-12-14,The Naked And Famous,/m/0fqb4sv,topic,0,22,3
+2019-12-15,The Naked And Famous,/m/0fqb4sv,topic,0,9,3
+2019-12-16,The Naked And Famous,/m/0fqb4sv,topic,0,9,3
+2019-12-17,The Naked And Famous,/m/0fqb4sv,topic,0,10,3
+2019-12-18,The Naked And Famous,/m/0fqb4sv,topic,0,9,3
+2019-12-19,The Naked And Famous,/m/0fqb4sv,topic,0,9,3
+2019-12-20,The Naked And Famous,/m/0fqb4sv,topic,0,0,3
+2019-12-21,The Naked And Famous,/m/0fqb4sv,topic,0,10,3
+2019-12-22,The Naked And Famous,/m/0fqb4sv,topic,0,0,3
+2019-12-23,The Naked And Famous,/m/0fqb4sv,topic,0,13,3
+2019-12-24,The Naked And Famous,/m/0fqb4sv,topic,0,13,3
+2019-12-25,The Naked And Famous,/m/0fqb4sv,topic,0,14,3
+2019-12-26,The Naked And Famous,/m/0fqb4sv,topic,0,0,3
+2019-12-27,The Naked And Famous,/m/0fqb4sv,topic,0,14,3
+2019-12-28,The Naked And Famous,/m/0fqb4sv,topic,0,9,3
+2019-12-29,The Naked And Famous,/m/0fqb4sv,topic,0,9,3
+2019-12-30,The Naked And Famous,/m/0fqb4sv,topic,0,7,3
+2019-12-31,The Naked And Famous,/m/0fqb4sv,topic,0,19,3
+2020-01-01,The Naked And Famous,/m/0fqb4sv,topic,0,12,3
+2020-01-02,The Naked And Famous,/m/0fqb4sv,topic,0,8,3
+2020-01-03,The Naked And Famous,/m/0fqb4sv,topic,0,9,3
+2020-01-04,The Naked And Famous,/m/0fqb4sv,topic,0,14,3
+2020-01-05,The Naked And Famous,/m/0fqb4sv,topic,0,10,3
+2020-01-06,The Naked And Famous,/m/0fqb4sv,topic,0,8,3
+2020-01-07,The Naked And Famous,/m/0fqb4sv,topic,0,0,3
+2020-01-08,The Naked And Famous,/m/0fqb4sv,topic,0,7,3
+2020-01-09,The Naked And Famous,/m/0fqb4sv,topic,0,7,3
+2020-01-10,The Naked And Famous,/m/0fqb4sv,topic,0,9,3
+2020-01-11,The Naked And Famous,/m/0fqb4sv,topic,0,14,3
+2020-01-12,The Naked And Famous,/m/0fqb4sv,topic,0,10,3
+2020-01-13,The Naked And Famous,/m/0fqb4sv,topic,0,11,3
+2020-01-14,The Naked And Famous,/m/0fqb4sv,topic,0,7,3
+2020-01-15,The Naked And Famous,/m/0fqb4sv,topic,0,6,3
+2020-01-16,The Naked And Famous,/m/0fqb4sv,topic,0,10,3
+2020-01-17,The Naked And Famous,/m/0fqb4sv,topic,0,0,3
+2020-01-18,The Naked And Famous,/m/0fqb4sv,topic,0,11,3
+2020-01-19,The Naked And Famous,/m/0fqb4sv,topic,0,9,3
+,ROSALÍA x Ozuna,ROSALÍA x Ozuna,no_topic,,,4
+,NVTHVN & ok2222,NVTHVN & ok2222,no_topic,,,4
+,Thandi Phoenix & Sigma,Thandi Phoenix & Sigma,no_topic,,,4
+,YUNGBLUD & Halsey,YUNGBLUD & Halsey,no_topic,,,4
+,Skepta & Nafe Smallz,Skepta & Nafe Smallz,no_topic,,,5
+,Grimes & i_o,Grimes & i_o,no_topic,,,5
+,AJ Tracey & Skepta,AJ Tracey & Skepta,no_topic,,,5
+,Matt Corby & Tash Sultana,Matt Corby & Tash Sultana,no_topic,,,5
+,The Aston Shuffle & Fabich,The Aston Shuffle & Fabich,no_topic,,,6
+,Mura Masa & slowthai,Mura Masa & slowthai,no_topic,,,6
+,Hayden James and NAATIONS,Hayden James and NAATIONS,no_topic,,,6
+,Antony & Cleopatra,Antony & Cleopatra,no_topic,,,6
+,The Rubens & Vic Mensa,The Rubens & Vic Mensa,no_topic,,,7
+,Kito & Empress Of,Kito & Empress Of,no_topic,,,7
+,Peking Duk & Jack River,Peking Duk & Jack River,no_topic,,,7
+,KIDDO x GASHI,KIDDO x GASHI,no_topic,,,7
