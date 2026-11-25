@@ -118,6 +118,20 @@ def calibration_report(p: pd.DataFrame) -> str:
     return "\n".join(lines)
 
 
+def live_scores(f: pd.DataFrame):
+    """Score the latest live feature snapshot with v2 trained on all training years. Returns (frame, date stamp)."""
+    from h100.rule import add_derived
+    path = sorted((ROOT / "data/live").glob("features_*.parquet"))[-1]
+    live = add_derived(pd.read_parquet(path))
+    plays = pd.read_parquet(ROOT / "data/derived/plays.parquet", columns=["recording_id", "song_id"])
+    top = plays.groupby(["song_id", "recording_id"]).size().reset_index(name="n").sort_values("n").drop_duplicates("song_id", keep="last")
+    meta = pd.read_parquet(ROOT / "data/derived/recording_meta.parquet")
+    live["is_aus"] = live.song_id.map(top.merge(meta, on="recording_id").set_index("song_id")["aus_any"]).fillna(False).astype(float)
+    live = prepare(live)
+    live["score"] = pw(SEEDS)(f, live, FEATURES)
+    return live, path.stem.replace("features_", "")
+
+
 def main(mode: str) -> None:
     f = prepare(pd.read_parquet(ROOT / "data/derived/analysis_frame.parquet"))
     if mode == "loyo":
@@ -137,19 +151,10 @@ def main(mode: str) -> None:
         (ROOT / "reports/v2_calibration.txt").write_text(rep)
         print(rep)
     else:
-        from h100.rule import add_derived
         cal = json.loads(CAL.read_text())
-        path = sorted((ROOT / "data/live").glob("features_*.parquet"))[-1]
-        live = add_derived(pd.read_parquet(path))
-        plays = pd.read_parquet(ROOT / "data/derived/plays.parquet", columns=["recording_id", "song_id"])
-        top = plays.groupby(["song_id", "recording_id"]).size().reset_index(name="n").sort_values("n").drop_duplicates("song_id", keep="last")
-        meta = pd.read_parquet(ROOT / "data/derived/recording_meta.parquet")
-        live["is_aus"] = live.song_id.map(top.merge(meta, on="recording_id").set_index("song_id")["aus_any"]).fillna(False).astype(float)
-        live = prepare(live)
-        live["score"] = pw(SEEDS)(f, live, FEATURES)
+        live, stamp = live_scores(f)
         out = add_probs(live, cal, np.random.default_rng(1)).sort_values("score", ascending=False)
         out["pred_rank"] = range(1, len(out) + 1)
-        stamp = path.stem.replace("features_", "")
         cols = ["pred_rank", "title", "artist", "p_win", "fair_odds_win", "p_top5", "p_top10", "fair_odds_top10",
                 "is_aus2", "tj_cum", "sp_cum", "sp_best_rank"]
         out.head(100)[cols].to_csv(ROOT / f"reports/live_{stamp}_v2.csv", index=False)

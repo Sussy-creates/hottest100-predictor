@@ -39,12 +39,13 @@ def year_votes(y, cands, cal):
     com["ts"] = pd.to_datetime(com.created_utc, unit="s", utc=True)
     com = com[(com.ts < close_ts(cal, y)) & com.body.notna() & ~com.author.isin(["[deleted]", "AutoModerator"])]
     pats = []
-    for r in cands.itertuples():
+    dup = cands.title.map(norm).duplicated(keep=False).to_numpy()  # covers / same-name songs need the artist named
+    for r, is_dup in zip(cands.itertuples(), dup):
         t = norm(r.title)
         if len(t.replace(" ", "")) < 3:
             continue
         a = norm(SPLIT.split(str(r.artist))[0]).removeprefix("the ")
-        pats.append((r.song_id, re.compile(rf"(?<![a-z0-9]){re.escape(t)}(?![a-z0-9])"), len(t.replace(" ", "")) < COMMON, a))
+        pats.append((r.song_id, re.compile(rf"(?<![a-z0-9]){re.escape(t)}(?![a-z0-9])"), is_dup or len(t.replace(" ", "")) < COMMON, a))
     ballots = {}
     for c in com.sort_values("ts").itertuples():
         text = norm(c.body)

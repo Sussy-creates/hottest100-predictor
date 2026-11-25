@@ -1,10 +1,12 @@
 # Notes for Claude
 
-- Goal: predict the triple j Hottest 100 #1 and top-10 set from popularity signals only (triple j airplay, Spotify AU, Shazam AU). Top-5 order is a readout, not a target.
+- Goal: predict the triple j Hottest 100 #1 and top-10 set from popularity signals (triple j airplay, Spotify AU) plus public vote samples posted before close. Top-5 order is a readout, not a target.
 - Plan doc: https://claude.ai/artifact/4Dmt6QUCEukNZGmEhdvuoZ (read with the docs tools, never web-fetch).
 - The coding sandbox cannot reach the data sites (ABC API, kworb, Wayback). Do all fetching in GitHub Actions workflows that commit results under `data/`. Do not try to route around the sandbox allowlist.
 - Training years: countdowns 2015–2025 (2025 was the rule-v1 holdout, scored once on 25 Nov 2026, now training data). 2026 is the live betting year, not a holdout.
-- Current model: v2 (`analysis/v2.py`): core features + cleaned Australian flag (`analysis/aus_fix.py`), pairwise XGBRanker, 10 seeds, songs that placed in the previous countdown dropped. Probabilities: win = Plackett-Luce softmax with outlier mix; top 5/10 = logistic on log(predicted rank). Calibration in `config/model_v2_calibration.json`. Weekly rescoring: `.github/workflows/rescore_live.yml`.
+- Current model: v3 (`analysis/v3.py`) = v2 score + 1.0 × within-year z(log1p Reddit ballot votes) when a year has ≥50 Reddit ballots (else v3 = v2, with v2's calibration). Reddit ballots: `scripts/fetch_reddit.py` (Arctic Shift, in Actions) → `analysis/reddit_votes.py` (comments naming ≥3 candidates before close, one per user). LOYO 2015–2025: top10 6.45, winners 8/11 (v2: 5.09, 6/11). Calibration in `config/model_v3_calibration.json`.
+- v2 (`analysis/v2.py`): core features + cleaned Australian flag (`analysis/aus_fix.py`), pairwise XGBRanker, 10 seeds, songs that placed in the previous countdown dropped. Probabilities: win = Plackett-Luce softmax with outlier mix; top 5/10 = logistic on log(predicted rank). Calibration in `config/model_v2_calibration.json`. Weekly rescoring (Spotify + 2026 Reddit, scored with v3): `.github/workflows/rescore_live.yml`.
+- Vote samples (Reddit, hottest100.com, Warm Tunas 2016–23) are the strongest signal found; the goal now includes them, not popularity alone. Betting odds stay a benchmark, never an input.
 - Every model change must pass the decision rule: 11-year leave-one-year-out, two seed sets, top-10 gain ≥0.2 with better log-rank and ≤2 years worse.
 - The repo is public (since 25 Nov 2026). Never commit tokens or secrets; use repo secrets.
 - Snapshots are anchored to each year's voting close (T−120/−90/−60/−30/0 days), never calendar months.

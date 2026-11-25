@@ -1,6 +1,6 @@
 name: rescore-live
 
-# Weekly (daily from January, see cron): refresh Spotify AU, rebuild songs and live features, score 2026 with model v2.
+# Weekly (daily from January, see cron): refresh Spotify AU, rebuild songs and live features, score 2026 with model v3 (v2 + Reddit ballots).
 on:
   schedule:
     - cron: "23 19 * * 1"   # Mondays 19:23 UTC = Tuesday morning in Sydney
@@ -36,16 +36,20 @@ jobs:
           mkdir -p /tmp/dl
           kaggle datasets download gonzalopezgil/spotify-charts-daily-updated -f charts_songs_daily.csv -p /tmp/dl
           python scripts/extract_spotify_au.py "$(ls /tmp/dl/* | head -1)" data/raw/spotify_au/gonzalopezgil --member charts_songs_daily.csv
+      - name: Refresh 2026 Reddit vote threads (Arctic Shift)
+        continue-on-error: true
+        timeout-minutes: 40
+        run: python scripts/fetch_reddit.py 2026
       - name: Rebuild songs, live features, score
         run: |
           python scripts/build_songs.py
           python scripts/build_features.py live
-          python analysis/v2.py live
+          python analysis/v3.py live
       - name: Commit
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/raw/spotify_au/gonzalopezgil* data/live reports/live_*_v2.csv
+          git add data/raw/spotify_au/gonzalopezgil* data/live reports/live_*_v3.csv $(ls data/raw/reddit/2026_* 2>/dev/null)
           git diff --cached --quiet && exit 0
           git commit -m "live: rescore $(date -u +%Y-%m-%d)"
           for i in 1 2 3 4 5; do git pull --rebase --autostash && git push && exit 0; sleep 15; done

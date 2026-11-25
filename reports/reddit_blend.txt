@@ -1,0 +1,17 @@
+ year  w  model_top10  votes_top10  blend_top10  model_win  votes_win  blend_win  ballots
+ 2016  1            8            5            7          1          0          1       91
+ 2017  1            5            5            5          1          0          1       82
+ 2018  1            4            3            6          0          1          1       97
+ 2019  1            5            4            4          1          0          1      176
+ 2020  1            3            5            7          1          0          1      140
+ 2021  1            5            3            8          0          0          0      143
+ 2022  1            3            4            7          1          0          0      254
+ 2023  1            5            3            5          0          0          0       99
+ 2024  1            4            5            6          0          1          1       95
+ 2025  1            5            7            7          0          1          1       77
+means: model 4.70 top10 / 5 wins; Reddit alone 4.40 / 3; blend 6.20 / 7 (of 10). Blend better in 6 years, worse in 2.
+Fixed-weight check, 2016-2025, two seed sets (decision rule):
+seed set 1 (v2 seeds): w=0 4.70 top10, logrank 2.593, 5 wins | w=1 6.20, 2.034, 7 wins
+seed set 2 (21-30):    w=0 4.70 top10, logrank 2.596, 5 wins | w=1 6.30, 2.035, 7 wins | worse years: 1 (2016, 8->7)
+2015 (8 ballots) is excluded: z-scoring 8 ballots is too sparse (blending cost 4 top-10 hits), so v3 turns the
+Reddit term off below 50 ballots.
