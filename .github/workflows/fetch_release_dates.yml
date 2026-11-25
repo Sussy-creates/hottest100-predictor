@@ -1,0 +1,43 @@
+name: fetch-release-dates
+
+# iTunes AU release dates for each year's top-500 candidate songs (data/derived/release_targets.csv).
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - triggers/fetch_release_dates.txt
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fetch-release-dates
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    strategy:
+      fail-fast: false
+      max-parallel: 3
+      matrix:
+        year: [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pandas
+      - run: python scripts/fetch_release_dates.py ${{ matrix.year }}
+      - name: Commit
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/raw/release_dates
+          git diff --cached --quiet && exit 0
+          git commit -m "data: release dates ${{ matrix.year }}"
+          for i in 1 2 3 4 5; do git pull --rebase && git push && exit 0; sleep $((RANDOM % 20 + 5)); done
+          exit 1

@@ -1,7 +1,8 @@
 """Artists to fetch Google Trends for: lead artists of each year's top-500 candidates.
 
 2015-2025 use the out-of-sample LOYO ranking (core+aus, pairwise); 2026 uses the latest live ranking.
-Writes data/derived/trends_targets.csv: countdown_year, window_start, window_end, artist.
+Writes data/derived/trends_targets.csv (countdown_year, window_start, window_end, artist)
+and data/derived/release_targets.csv (the same top-500 songs, for the release-date lookup).
 """
 import re, sys
 from datetime import date, timedelta
@@ -28,7 +29,10 @@ from h100.rule import add_derived  # noqa: E402
 live = add_derived(live[live.snapshot == 0])
 live["score"] = pw()(f[f.snapshot == 0], live, CORE_FEATURES)
 live["pred_rank"] = live["score"].rank(ascending=False, method="first")
-p = pd.concat([p[["countdown_year", "artist", "pred_rank"]], live[["countdown_year", "artist", "pred_rank"]]])
+cols = ["countdown_year", "song_id", "title", "artist", "pred_rank"]
+p = pd.concat([p[cols], live[cols]])
+# Songs for the release-date lookup (same top-500 set).
+p[p.pred_rank <= TOP][cols[:4]].to_csv(ROOT / "data/derived/release_targets.csv", index=False)
 rows = []
 for y, g in p[p.pred_rank <= TOP].groupby("countdown_year"):
     close = cal.loc[y, "voting_close_aedt"]
