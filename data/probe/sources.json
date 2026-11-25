@@ -1,0 +1,196 @@
+{
+ "abc_other_stations": {
+  "unearthed 2015-06-01": {
+   "status": 200,
+   "total": 373,
+   "sample": [
+    "Adeline",
+    "Bears",
+    "Caroline"
+   ]
+  },
+  "unearthed 2017-10-02": {
+   "status": 200,
+   "total": 389,
+   "sample": [
+    "Blood + Sand",
+    "Sideways",
+    "Any Other Way"
+   ]
+  },
+  "unearthed 2020-10-01": {
+   "status": 200,
+   "total": 415,
+   "sample": [
+    "Phil, Slow It Down",
+    "Ultraviolet",
+    "Isolation"
+   ]
+  },
+  "unearthed 2024-10-01": {
+   "status": 200,
+   "total": 422,
+   "sample": [
+    "Use Me",
+    "not ur bitch",
+    "Stuck"
+   ]
+  },
+  "doublej 2015-06-01": {
+   "status": 200,
+   "total": 346,
+   "sample": [
+    "Humans",
+    "Harvest Home",
+    "Fun For Me"
+   ]
+  },
+  "doublej 2017-10-02": {
+   "status": 200,
+   "total": 340,
+   "sample": [
+    "Wasted On Fidelity",
+    "Candy Pieces All Smeared Out",
+    "Mountains Of Gold"
+   ]
+  },
+  "doublej 2020-10-01": {
+   "status": 200,
+   "total": 344,
+   "sample": [
+    "Ativan",
+    "Lifetime",
+    "Lazerray"
+   ]
+  },
+  "doublej 2024-10-01": {
+   "status": 200,
+   "total": 338,
+   "sample": [
+    "Cat 5 (Cyclone)",
+    "Plug In Baby",
+    "Self To Blame"
+   ]
+  },
+  "triplejunearthed 2015-06-01": {
+   "status": 200,
+   "total": 0,
+   "sample": []
+  },
+  "triplejunearthed 2017-10-02": {
+   "status": 200,
+   "total": 0,
+   "sample": []
+  },
+  "triplejunearthed 2020-10-01": {
+   "status": 200,
+   "total": 0,
+   "sample": []
+  },
+  "triplejunearthed 2024-10-01": {
+   "status": 200,
+   "total": 0,
+   "sample": []
+  }
+ },
+ "wikipedia_pageviews": {
+  "Gang_of_Youths": {
+   "status": 200,
+   "days": 142,
+   "views": 20469
+  },
+  "Spacey_Jane": {
+   "status": 200,
+   "days": 142,
+   "views": 9915
+  },
+  "Playlunch": {
+   "status": 200,
+   "days": 31,
+   "views": 23
+  },
+  "Ball_Park_Music": {
+   "status": 200,
+   "days": 142,
+   "views": 6133
+  },
+  "Paint_the_Town_Red_(Doja_Cat_song)": {
+   "status": 200,
+   "days": 142,
+   "views": 45100
+  }
+ },
+ "wayback": {
+  "aria_aus_artist_singles": {
+   "status": 200,
+   "days": 69,
+   "by_year": {
+    "2016": 28,
+    "2017": 14,
+    "2018": 10,
+    "2019": 11,
+    "2020": 6
+   }
+  },
+  "aria_singles": {
+   "status": 200,
+   "days": 374,
+   "by_year": {
+    "2016": 84,
+    "2017": 73,
+    "2018": 49,
+    "2019": 79,
+    "2020": 89
+   }
+  },
+  "aria_aus_artist_singles_old": {
+   "status": 200,
+   "days": 0,
+   "by_year": {}
+  },
+  "kworb_apple_au": {
+   "status": 200,
+   "days": 432,
+   "by_year": {
+    "2017": 1,
+    "2019": 6,
+    "2020": 4,
+    "2021": 38,
+    "2022": 82,
+    "2023": 107,
+    "2024": 89,
+    "2025": 80,
+    "2026": 25
+   }
+  },
+  "kworb_itunes_au": {
+   "status": "<urlopen error [Errno 110] Connection timed out>",
+   "days": 0,
+   "by_year": {}
+  },
+  "triplej_hitlist": {
+   "status": 200,
+   "days": 0,
+   "by_year": {}
+  },
+  "unearthed_charts": {
+   "status": 200,
+   "days": 228,
+   "by_year": {
+    "2006": 15,
+    "2007": 26,
+    "2008": 5,
+    "2009": 21,
+    "2010": 33,
+    "2011": 22,
+    "2012": 64,
+    "2013": 36,
+    "2014": 6
+   }
+  }
+ },
+ "google_trends": {
+  "ok": false,
+  "error": "TypeError(\"Retry.__init__() got an unexpected keyword argument 'method_whitelist'\")"
+ }
+}
