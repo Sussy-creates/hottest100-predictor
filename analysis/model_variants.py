@@ -21,6 +21,7 @@ variants = {
     "train T0+T30": dict(train_snapshot=[0, 30], fitter=lambda tr, te, ft: grouped_fit(tr, te, ft, PARAMS)),
     "pairwise": dict(fitter=lambda tr, te, ft: grouped_fit(tr, te, ft, {**PARAMS, "objective": "rank:pairwise"})),
 }
-for name, kw in variants.items():
+if __name__ == "__main__":
+  for name, kw in variants.items():
     m = metrics(loyo(f, feats, **kw)); s = summary(m); s["name"] = "core+aus+hist " + name
     s["per_year_top10"] = " ".join(map(str, m.top10)); print(s, flush=True)
