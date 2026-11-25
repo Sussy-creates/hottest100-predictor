@@ -53,7 +53,7 @@ def posts_in(sub, lo, hi, title=None):
 
 
 def comments_of(link_id):
-    out, after = [], None
+    out, seen, after = [], set(), None
     while True:
         kw = dict(link_id=link_id, limit=100, sort="asc")
         if after:
@@ -61,10 +61,11 @@ def comments_of(link_id):
         d = get("comments/search", **kw)
         if not d:
             return out
-        out += d
-        if len(d) < 100:
+        new = [c for c in d if c.get("id") not in seen]
+        seen.update(c.get("id") for c in new); out += new
+        if len(d) < 100 or not new:
             return out
-        after = int(d[-1]["created_utc"]) + 1
+        after = int(d[-1]["created_utc"])  # same-second comments are deduplicated by id, not skipped
         time.sleep(2)
 
 
