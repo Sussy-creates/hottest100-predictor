@@ -6,7 +6,7 @@ countdown_year,voting_open,voting_close_aedt,eligibility_start,eligibility_end,s
 2019,2019-12-16,2020-01-20T15:00,2018-12-01,2019-11-30,train,https://www.pedestrian.tv/music/hottest-100-2019-dates/
 2020,2020-12-08,2021-01-18T15:00,2019-12-01,2020-11-30,train,https://au.rollingstone.com/music/music-news/triple-j-hottest-100-2020-details-20312
 2021,2021-12-14,2022-01-17T12:00,2020-12-01,2021-11-30,train,https://www.nme.com/news/music/triple-j-announce-voting-and-broadcast-dates-for-2021-hottest-100-3114425
-2022,,2023-01-23T12:00,2021-12-01,2022-11-30,train,https://www.mediaweek.com.au/triple-j-reveals-key-dates-for-2022-hottest-100/
+2022,2022-12-13,2023-01-23T12:00,2021-12-01,2022-11-30,train,https://www.mediaweek.com.au/triple-j-reveals-key-dates-for-2022-hottest-100/
 2023,2023-12-12,2024-01-22T17:00,2022-12-01,2023-11-30,train,https://themusicnetwork.com/news/triple-j-2023-hottest-100-dates-details
 2024,2024-12-10,2025-01-20T17:00,2023-12-01,2024-11-30,train,https://tonedeaf.thebrag.com/100-warm-tunas-reveals-top-picks-for-this-years-triple-j-hottest-100/
 2025,2025-12-08,2026-01-15T17:00,2024-12-01,2025-11-30,holdout,https://themusicnetwork.com/news/voting-opens-for-triple-js-hottest-100

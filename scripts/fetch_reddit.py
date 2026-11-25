@@ -27,6 +27,8 @@ def get(path, **params):
             print("HTTP", e.code, url, e.read()[:300], flush=True)
             if e.code == 400:
                 return None
+            if e.code in (422, 429):  # "Timeout. Maybe slow down a bit"
+                time.sleep(30 * (i + 1)); continue
         except Exception as e:  # noqa: BLE001
             print("retry", url, repr(e)[:120], flush=True)
         time.sleep(5 * (i + 1))
@@ -63,7 +65,7 @@ def comments_of(link_id):
         if len(d) < 100:
             return out
         after = int(d[-1]["created_utc"]) + 1
-        time.sleep(1)
+        time.sleep(2)
 
 
 def main(years):
@@ -71,8 +73,8 @@ def main(years):
     out = ROOT / "data/raw/reddit"; out.mkdir(parents=True, exist_ok=True)
     for y in years:
         r = cal[y]
-        if r["voting_open"]:
-            lo = date.fromisoformat(r["voting_open"]) - timedelta(days=21)
+        if r["voting_close_aedt"]:
+            lo = date.fromisoformat(r["voting_open"] or r["voting_close_aedt"][:10]) - timedelta(days=21 if r["voting_open"] else 60)
             hi = date.fromisoformat(r["voting_close_aedt"][:10]) + timedelta(days=10)
         else:  # live year: from early November to today
             lo, hi = date(y, 11, 1), date.today() + timedelta(days=1)
