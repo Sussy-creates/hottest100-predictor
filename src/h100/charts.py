@@ -36,14 +36,16 @@ def parse_kworb(page: str) -> pd.DataFrame:
 
 
 def parse_shazam_old(page: str) -> pd.DataFrame:
-    """Old shazam.com chart pages (2014-2016) embed the chart as JSON or as list items."""
+    """Old shazam.com Top 100 pages (2014-2016): one <article data-chart-position=N> per track, with the title in
+    the ti__title content attribute and the artist in the byArtist meta name."""
     rows = []
-    for m in re.finditer(r'"title"\s*:\s*"([^"]+)"\s*,\s*"subtitle"\s*:\s*"([^"]+)"', page):
-        rows.append({"rank": len(rows) + 1, "title": m.group(1), "artist": m.group(2), "value": None})
-    if not rows:
-        for m in re.finditer(r'<div[^>]*class="[^"]*\btitle\b[^"]*"[^>]*>\s*(?:<a[^>]*>)?([^<]+).*?'
-                             r'<div[^>]*class="[^"]*\bartist\b[^"]*"[^>]*>\s*(?:<a[^>]*>)?([^<]+)', page, re.S):
-            rows.append({"rank": len(rows) + 1, "title": _text(m.group(1)), "artist": _text(m.group(2)), "value": None})
+    for block in page.split("<article")[1:]:
+        pos = re.search(r'data-chart-position="(\d+)"', block)
+        title = re.search(r'class="ti__title"[^>]*content="([^"]*)"', block)
+        artist = re.search(r'itemprop="byArtist"[^>]*>\s*<meta itemprop="name" content="([^"]*)"', block)
+        if pos and title and artist:
+            rows.append({"rank": int(pos.group(1)), "title": htmllib.unescape(title.group(1)).strip(),
+                         "artist": htmllib.unescape(artist.group(1)).strip(), "value": None})
     return pd.DataFrame(rows)
 
 
