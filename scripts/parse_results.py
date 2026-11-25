@@ -22,7 +22,8 @@ KEYWORDS = re.compile(r"\bvot(e|es|ing)\b.*\b(open|clos|commenc|began|begin|end)
 def results(year: int, html: str) -> pd.DataFrame:
     frames = []
     for t in pd.read_html(io.StringIO(html)):
-        cols = [str(c) for c in t.columns]
+        t.columns = [re.sub(r"\[\d+\]", "", str(c)).strip() for c in t.columns]  # "Song[1]" -> "Song"
+        cols = list(t.columns)
         if {"#", "Song", "Artist"} <= set(cols):
             t = t.rename(columns={"#": "rank", "Song": "song", "Artist": "artist",
                                   "Country of origin": "country"})
