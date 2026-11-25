@@ -2,6 +2,7 @@
 
   python scripts/score.py holdout   # refuses to run unless tag rule-v1 exists and is an ancestor of HEAD
   python scripts/score.py live      # scores data/live/features_<latest>.parquet
+  Optional third argument: one spec name (primary / with_addons); default is both.
 """
 from __future__ import annotations
 
@@ -43,7 +44,8 @@ def rank_with(spec_name: str, train: pd.DataFrame, target: pd.DataFrame) -> pd.D
     return t
 
 
-def main(mode: str) -> None:
+def main(mode: str, only: str | None = None) -> None:
+    specs = [only] if only else list(SPECS)
     train = add_derived(pd.read_parquet(ROOT / "data/derived/features.parquet"))
     train = addons(train, ROOT / "data/derived/addon_features.parquet")
     out = ROOT / "reports"
@@ -56,18 +58,18 @@ def main(mode: str) -> None:
         res["song_id"] = res["tj_song_ids"].str.split("|")
         lab = res.explode("song_id")[["song_id", "rank", "song", "artist"]].rename(
             columns={"song": "actual_song", "artist": "actual_artist"})
-        for name in SPECS:
+        for name in specs:
             r = rank_with(name, train, tgt).merge(lab, on="song_id", how="left")
             r.to_csv(out / f"holdout_2025_{name}.csv", index=False)
     else:
         latest = sorted((ROOT / "data/live").glob("features_*.parquet"))[-1]
         tgt = add_derived(pd.read_parquet(latest))
         tgt = addons(tgt[tgt["snapshot"] == 0], ROOT / "data/live" / latest.name.replace("features_", "addon_features_"))
-        for name in SPECS:
+        for name in specs:
             r = rank_with(name, train, tgt)
             r.head(100).to_csv(out / f"live_{latest.stem.replace('features_', '')}_{name}.csv", index=False)
         print(f"scored {latest.name}")
 
 
 if __name__ == "__main__":
-    main(sys.argv[1])
+    main(sys.argv[1], sys.argv[2] if len(sys.argv) > 2 else None)
