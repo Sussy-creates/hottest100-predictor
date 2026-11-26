@@ -1,0 +1,65 @@
+{
+ "user_playlists": {
+  "owners_tried": 2,
+  "status": {
+   "403": 2
+  },
+  "public_playlists_per_owner": [],
+  "playlist_name_kinds": {},
+  "embed_ok": "0/0"
+ },
+ "triplej_playlists": {
+  "status": 403,
+  "playlists": []
+ },
+ "artist_search_fields": [
+  "external_urls",
+  "href",
+  "id",
+  "images",
+  "name",
+  "type",
+  "uri"
+ ],
+ "3MekbRujJg5VZThubOlrkR": {
+  "status": 200,
+  "keys": [
+   "external_urls",
+   "href",
+   "id",
+   "images",
+   "name",
+   "type",
+   "uri"
+  ],
+  "followers": null,
+  "popularity": null
+ },
+ "related-artists": {
+  "status": 403,
+  "keys": [
+   "error"
+  ],
+  "followers": null,
+  "popularity": null
+ },
+ "top-tracks": {
+  "status": 403,
+  "keys": [
+   "error"
+  ],
+  "followers": null,
+  "popularity": null
+ },
+ "artist_page": {
+  "status": 200,
+  "len": 340649,
+  "monthly_listeners": [
+   "1.7M",
+   "1.7M",
+   "1.7M"
+  ],
+  "mentions_sydney": false,
+  "mentions_melbourne": false
+ }
+}
