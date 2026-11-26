@@ -3,7 +3,7 @@ name: fetch-spotify-playlists
 # Daily snapshot of public "Hottest 100 votes / predictions" playlists (Spotify search + public embed track lists).
 on:
   schedule:
-    - cron: "41 20 * 11,12,1 *"   # daily Nov-Jan, 20:41 UTC = early morning in Sydney
+    - cron: "41 11 * 11,12,1 *"   # daily Nov-Jan, 11:41 UTC = 10:41pm AEDT (after the 26 Nov 429 penalty lifts)
   workflow_dispatch:
     inputs:
       years:

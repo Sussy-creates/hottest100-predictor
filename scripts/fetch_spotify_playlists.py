@@ -83,7 +83,7 @@ def search(tok, q):
             dict(q=q, type="playlist", limit=10, offset=10 * page, market="AU"))
         st, body = http(url, headers={"Authorization": f"Bearer {tok}"})
         if st == 429:
-            raise RateLimited(q)
+            raise RateLimited(out)
         if st != 200:
             print("search", st, q, page, body[:200], flush=True); break
         res = json.loads(body).get("playlists") or {}
@@ -91,7 +91,7 @@ def search(tok, q):
         out += [p for p in raw if p]  # the API returns null for some removed playlists
         if not res.get("next") or not raw:
             break
-        time.sleep(0.3)
+        time.sleep(1.5)  # gentle: hammering search earns a ~20-hour 429 penalty
     return out
 
 
@@ -107,15 +107,14 @@ def embed_tracks(pid):
 
 def main(years):
     tok = token()
-    out = ROOT / "data/raw/spotify_playlists" / date.today().isoformat(); out.mkdir(parents=True, exist_ok=True)
-    hits, seen = [], {}
+    out = ROOT / "data/raw/spotify_playlists" / date.today().isoformat()
+    hits, seen, limited = [], {}, False
     for y in years:
         for q in queries(y):
             try:
                 found = search(tok, q)
-            except RateLimited:
-                print("rate limited by Spotify: stopping the search, keeping what was found", flush=True)
-                break
+            except RateLimited as e:
+                found, limited = e.args[0], True
             for p in found:
                 tr = p.get("tracks") or p.get("items") or {}
                 row = dict(year=y, query=q, id=p.get("id"), name=p.get("name"), description=p.get("description"),
@@ -123,7 +122,18 @@ def main(years):
                 hits.append(row)
                 if relevant(row["name"] or "", y) and (row["n_tracks"] or 0) <= MAX_TRACKS:
                     seen.setdefault(row["id"], row)
+            if limited:
+                print("rate limited by Spotify: stopping the search, keeping what was found", flush=True)
+                break
+        if limited:
+            break
         print(y, f"{sum(h['year'] == y for h in hits)} search hits, {sum(r['year'] == y for r in seen.values())} relevant playlists", flush=True)
+    if not hits:  # don't overwrite an earlier snapshot from today with an empty one
+        print("no search hits: nothing written", flush=True)
+        return
+    out.mkdir(parents=True, exist_ok=True)
+    if (out / "search.jsonl").exists():
+        out = out.with_name(out.name + "_" + time.strftime("%H%M")); out.mkdir()
     with open(out / "search.jsonl", "w") as fh:
         for h in hits:
             fh.write(json.dumps(h, ensure_ascii=False) + "\n")
