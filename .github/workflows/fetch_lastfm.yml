@@ -2,8 +2,7 @@ name: fetch-lastfm
 
 # Last.fm panel of Australian listeners (usernames stay in the Actions cache) -> per-song play totals per year.
 on:
-  schedule:
-    - cron: "17 21 * 12,1 *"   # daily in December-January: refresh the live year only
+  # No schedule: the panel failed the backtest on 26 Nov 2026 (reports/lastfm_blend.txt). Run by hand if revisited.
   workflow_dispatch:
     inputs:
       years:
