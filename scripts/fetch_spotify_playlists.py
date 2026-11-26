@@ -18,7 +18,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 UA = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) hottest100-predictor research"}
-PAGES = 20  # x 10 results per query
+PAGES = 10  # x 10 results per query (later pages are almost all unrelated playlists)
 MAX_TRACKS = 100
 
 
