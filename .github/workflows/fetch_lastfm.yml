@@ -32,12 +32,18 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - uses: actions/cache@v4
+      - uses: actions/cache/restore@v4
         with:
           path: data/cache/lastfm_panel.json
           key: lastfm-panel-${{ github.run_id }}
           restore-keys: lastfm-panel-
       - run: python scripts/fetch_lastfm.py ${{ github.event_name == 'schedule' && '2026' || inputs.years || '' }}
+      - name: Keep the panel even if the charts step timed out
+        if: always() && hashFiles('data/cache/lastfm_panel.json') != ''
+        uses: actions/cache/save@v4
+        with:
+          path: data/cache/lastfm_panel.json
+          key: lastfm-panel-${{ github.run_id }}
       - name: Commit
         if: always()
         run: |
