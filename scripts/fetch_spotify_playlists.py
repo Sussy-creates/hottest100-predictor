@@ -31,13 +31,21 @@ def http(url, data=None, headers=None, tries=4):
         except urllib.error.HTTPError as e:
             body = e.read().decode("utf-8", "replace")[:300]
             if e.code == 429:
-                time.sleep(int(e.headers.get("Retry-After", 10)) + 1); continue
+                wait = int(e.headers.get("Retry-After", 10) or 10)
+                print("429, Retry-After", wait, url[:90], flush=True)
+                if wait > 120:  # a long rate-limit penalty: give up on this call rather than hang the run
+                    return 429, body
+                time.sleep(wait + 1); continue
             if e.code in (400, 401, 403, 404):
                 return e.code, body
         except Exception as e:  # noqa: BLE001
             body = repr(e)[:200]
         time.sleep(3 * (i + 1))
     return None, body
+
+
+class RateLimited(Exception):
+    pass
 
 
 def token():
@@ -74,6 +82,8 @@ def search(tok, q):
         url = "https://api.spotify.com/v1/search?" + urllib.parse.urlencode(
             dict(q=q, type="playlist", limit=10, offset=10 * page, market="AU"))
         st, body = http(url, headers={"Authorization": f"Bearer {tok}"})
+        if st == 429:
+            raise RateLimited(q)
         if st != 200:
             print("search", st, q, page, body[:200], flush=True); break
         res = json.loads(body).get("playlists") or {}
@@ -101,7 +111,12 @@ def main(years):
     hits, seen = [], {}
     for y in years:
         for q in queries(y):
-            for p in search(tok, q):
+            try:
+                found = search(tok, q)
+            except RateLimited:
+                print("rate limited by Spotify: stopping the search, keeping what was found", flush=True)
+                break
+            for p in found:
                 tr = p.get("tracks") or p.get("items") or {}
                 row = dict(year=y, query=q, id=p.get("id"), name=p.get("name"), description=p.get("description"),
                            owner=owner_hash((p.get("owner") or {}).get("id")), n_tracks=tr.get("total"), snapshot_id=p.get("snapshot_id"))
