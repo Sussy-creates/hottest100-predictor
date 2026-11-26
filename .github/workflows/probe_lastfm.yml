@@ -1,0 +1,30 @@
+name: probe-lastfm
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - triggers/probe_lastfm.txt
+permissions:
+  contents: write
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      LASTFM_API_KEY: ${{ secrets.LASTFM_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python scripts/probe_lastfm.py
+      - name: Commit
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/probe/lastfm.json
+          git diff --cached --quiet && exit 0
+          git commit -m "probe: Last.fm"
+          for i in 1 2 3 4 5; do git pull --rebase --autostash && git push && exit 0; sleep 15; done
