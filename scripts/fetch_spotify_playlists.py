@@ -12,7 +12,7 @@ Each run writes a dated snapshot, so a playlist's contents can be taken as of vo
 Usage: python scripts/fetch_spotify_playlists.py [year ...]   (default: the live year)
 Past years' playlists can have been edited after their countdown, so they are only a rough check, not a backtest.
 """
-import base64, json, os, re, sys, time, urllib.error, urllib.parse, urllib.request
+import base64, hashlib, hmac, json, os, re, sys, time, urllib.error, urllib.parse, urllib.request
 from datetime import date
 from pathlib import Path
 
@@ -48,6 +48,13 @@ def token():
     if st != 200:
         sys.exit(f"token request failed: {st} {body}")
     return json.loads(body)["access_token"]
+
+
+def owner_hash(o):
+    """Playlist owners are private people and the repo is public: keep only a keyed hash (stable across runs)."""
+    if not o or o.startswith("triple.j") or o == "spotify":
+        return o
+    return hmac.new(os.environ["SPOTIFY_CLIENT_SECRET"].encode(), o.encode(), hashlib.sha256).hexdigest()[:16]
 
 
 def queries(y):
@@ -97,7 +104,7 @@ def main(years):
             for p in search(tok, q):
                 tr = p.get("tracks") or p.get("items") or {}
                 row = dict(year=y, query=q, id=p.get("id"), name=p.get("name"), description=p.get("description"),
-                           owner=(p.get("owner") or {}).get("id"), n_tracks=tr.get("total"), snapshot_id=p.get("snapshot_id"))
+                           owner=owner_hash((p.get("owner") or {}).get("id")), n_tracks=tr.get("total"), snapshot_id=p.get("snapshot_id"))
                 hits.append(row)
                 if relevant(row["name"] or "", y) and (row["n_tracks"] or 0) <= MAX_TRACKS:
                     seen.setdefault(row["id"], row)
