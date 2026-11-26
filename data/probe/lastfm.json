@@ -1,0 +1,28 @@
+{
+ "artist.getTopFans": {
+  "status": 400,
+  "keys": [
+   "error"
+  ],
+  "err": null
+ },
+ "track.getTopFans": {
+  "status": 400,
+  "keys": [
+   "error"
+  ],
+  "err": null
+ },
+ "listeners_page": {
+  "status": 406,
+  "users_on_page1": 0
+ },
+ "listeners_page2_users": 0,
+ "robots_txt": "User-Agent: Bingbot\nUser-Agent: Yandexbot\nUser-Agent: *\n\nDisallow: /music/+noredirect/\nDisallow: /de/music/+noredirect/\nDisallow: /es/music/+noredirect/\nDisallow: /fr/music/+noredirect/\nDisallow: /it/music/+noredirect/\nDisallow: /ja/music/+noredirect/\nDisallow: /pl/music/+noredirect/\nDisallow: /pt/music/+noredirect/\nDisallow: /ru/music/+noredirect/\nDisallow: /sv/music/+noredirect/\nDisallow: /tr/music/+noredirect/\nDisallow: /zh/music/+noredirect/\n\nDisallow: /search*\nDisallow: /de/search*\nDisallow: /es/search*\nDisallow: /fr/search*\nDisallow: /it/search*\nDisallow: /ja/search*\nDisallow: /pl/search*\nDisallow: /pt/search*\nDisallow: /ru/search*\nDisallow: /sv/search*\nDisallow: /tr/search*\nDisallow: /zh/search*\n\n# Old pages\nDisallow: /forum*\nDisallow: /de/forum*\nDisallow: /es/forum*\nDisallow: /fr/f",
+ "country_counts_of_25": {},
+ "registered_before_2016": 0,
+ "artist_listeners_total": {
+  "listeners": "391054",
+  "playcount": "14756708"
+ }
+}
