@@ -69,9 +69,10 @@ def search(tok, q):
         st, body = http(url, headers={"Authorization": f"Bearer {tok}"})
         if st != 200:
             print("search", st, q, page, body[:200], flush=True); break
-        items = [p for p in (json.loads(body).get("playlists") or {}).get("items") or [] if p]
-        out += items
-        if len(items) < 10:
+        res = json.loads(body).get("playlists") or {}
+        raw = res.get("items") or []
+        out += [p for p in raw if p]  # the API returns null for some removed playlists
+        if not res.get("next") or not raw:
             break
         time.sleep(0.3)
     return out
