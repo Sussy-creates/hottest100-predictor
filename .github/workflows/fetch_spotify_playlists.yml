@@ -1,0 +1,46 @@
+name: fetch-spotify-playlists
+
+# Daily snapshot of public "Hottest 100 votes / predictions" playlists (Spotify search + public embed track lists).
+on:
+  schedule:
+    - cron: "41 20 * 11,12,1 *"   # daily Nov-Jan, 20:41 UTC = early morning in Sydney
+  workflow_dispatch:
+    inputs:
+      years:
+        description: years to search (space separated; blank = live year)
+        default: ""
+  push:
+    branches: [main]
+    paths:
+      - triggers/fetch_spotify_playlists.txt
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fetch-spotify-playlists
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    env:
+      SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
+      SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python scripts/fetch_spotify_playlists.py ${{ inputs.years || '' }} $(cat triggers/fetch_spotify_playlists_years.txt 2>/dev/null)
+      - name: Commit
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/raw/spotify_playlists
+          git diff --cached --quiet && exit 0
+          git commit -m "data: Spotify vote playlists $(date -u +%Y-%m-%d)"
+          for i in 1 2 3 4 5; do git pull --rebase --autostash && git push && exit 0; sleep 15; done
+          exit 1
