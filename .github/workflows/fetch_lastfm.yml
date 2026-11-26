@@ -1,0 +1,50 @@
+name: fetch-lastfm
+
+# Last.fm panel of Australian listeners (usernames stay in the Actions cache) -> per-song play totals per year.
+on:
+  schedule:
+    - cron: "17 21 * 12,1 *"   # daily in December-January: refresh the live year only
+  workflow_dispatch:
+    inputs:
+      years:
+        description: years (space separated; blank = all 2015-2026)
+        default: ""
+  push:
+    branches: [main]
+    paths:
+      - triggers/fetch_lastfm.txt
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fetch-lastfm
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    env:
+      LASTFM_API_KEY: ${{ secrets.LASTFM_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/cache@v4
+        with:
+          path: data/cache/lastfm_panel.json
+          key: lastfm-panel-${{ github.run_id }}
+          restore-keys: lastfm-panel-
+      - run: python scripts/fetch_lastfm.py ${{ github.event_name == 'schedule' && '2026' || inputs.years || '' }}
+      - name: Commit
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/raw/lastfm
+          git diff --cached --quiet && exit 0
+          git commit -m "data: Last.fm panel totals $(date -u +%Y-%m-%d)"
+          for i in 1 2 3 4 5; do git pull --rebase --autostash && git push && exit 0; sleep 15; done
+          exit 1
